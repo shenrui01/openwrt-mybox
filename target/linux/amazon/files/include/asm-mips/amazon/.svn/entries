@@ -1,7 +1,7 @@
 10
 
 dir
-34253
+34270
 svn://svn.openwrt.org/openwrt/trunk/target/linux/amazon/files/include/asm-mips/amazon
 svn://svn.openwrt.org/openwrt
 
@@ -26,14 +26,14 @@ hauke
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
 
-amazon_mei_app.h
+serial.h
 file
 
 
 
 
 2012-11-13T03:43:52.488272Z
-38351bd2e0cd324badee99e7ced9bd14
+6ab9fb8a80b87efd5c0a464f4da3097e
 2007-07-23T22:10:11.386635Z
 8137
 blogic
@@ -58,7 +58,7 @@ blogic
 
 
 
-1644
+4712
 
 amazon_mei.h
 file
@@ -94,14 +94,14 @@ blogic
 
 6771
 
-serial.h
+amazon_mei_app.h
 file
 
 
 
 
 2012-11-13T03:43:52.488272Z
-6ab9fb8a80b87efd5c0a464f4da3097e
+38351bd2e0cd324badee99e7ced9bd14
 2007-07-23T22:10:11.386635Z
 8137
 blogic
@@ -126,7 +126,7 @@ blogic
 
 
 
-4712
+1644
 
 port.h
 file
@@ -196,40 +196,6 @@ hauke
 
 80969
 
-ifx_ssc_defines.h
-file
-
-
-
-
-2012-11-13T03:43:52.480271Z
-c9d7a1babecc9c9366d6756f334345e6
-2007-07-23T22:10:11.386635Z
-8137
-blogic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-25562
-
 irq.h
 file
 
@@ -263,6 +229,40 @@ blogic
 
 
 9394
+
+ifx_ssc_defines.h
+file
+
+
+
+
+2012-11-13T03:43:52.480271Z
+c9d7a1babecc9c9366d6756f334345e6
+2007-07-23T22:10:11.386635Z
+8137
+blogic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+25562
 
 ifx_peripheral_definitions.h
 file
@@ -332,40 +332,6 @@ blogic
 
 7621
 
-amazon_sw.h
-file
-
-
-
-
-2012-11-13T03:43:52.480271Z
-66ca0abbd52c3fd1f29d722a482d5593
-2009-11-28T22:09:18.214172Z
-18588
-hauke
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4043
-
 ifx_ssc.h
 file
 
@@ -399,6 +365,40 @@ blogic
 
 
 9184
+
+amazon_sw.h
+file
+
+
+
+
+2012-11-13T03:43:52.480271Z
+66ca0abbd52c3fd1f29d722a482d5593
+2009-11-28T22:09:18.214172Z
+18588
+hauke
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4043
 
 adm6996.h
 file

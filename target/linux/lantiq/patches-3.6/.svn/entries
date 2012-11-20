@@ -1,7 +1,7 @@
 10
 
 dir
-34253
+34270
 svn://svn.openwrt.org/openwrt/trunk/target/linux/lantiq/patches-3.6
 svn://svn.openwrt.org/openwrt
 
@@ -25,6 +25,142 @@ blogic
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
+
+0002-MIPS-lantiq-split-up-IRQ-IM-ranges.patch
+file
+
+
+
+
+2012-11-13T03:44:20.728272Z
+ef1fb265ee4a41e22587a5ad6c18ae78
+2012-11-02T20:07:26.599296Z
+34061
+blogic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6537
+
+0004-MIPS-lantiq-dont-register-irq_chip-for-the-irq-casca.patch
+file
+
+
+
+
+2012-11-13T03:44:20.728272Z
+dbb73c06b4f0b00111aad5ab81c666ac
+2012-11-02T20:07:26.599296Z
+34061
+blogic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+922
+
+0012-Document-devicetree-add-OF-documents-for-lantiq-xway.patch
+file
+
+
+
+
+2012-11-13T03:44:20.732272Z
+8debd0ec4b37bedb72399d75a80baadb
+2012-11-02T20:07:26.599296Z
+34061
+blogic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4192
+
+0010-OF-pinctrl-MIPS-lantiq-implement-lantiq-xway-pinctrl.patch
+file
+
+
+
+
+2012-11-13T03:44:20.732272Z
+a012682869205eb00f704e4c44d537c3
+2012-11-02T20:07:26.599296Z
+34061
+blogic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+47285
 
 0001-MIPS-lantiq-explicitly-enable-clkout-generation.patch
 file
@@ -570,40 +706,6 @@ blogic
 
 39411
 
-0105-MIPS-lantiq-xway-adds-reset-code-for-11G-PHYs.patch
-file
-
-
-
-
-2012-11-13T03:44:20.732272Z
-559ab99f8d14ed252a59003b37d21e94
-2012-11-02T20:07:26.599296Z
-34061
-blogic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-6596
-
 0201-lantiq-dtb-image-hack.patch
 file
 
@@ -637,6 +739,40 @@ blogic
 
 
 1435
+
+0105-MIPS-lantiq-xway-adds-reset-code-for-11G-PHYs.patch
+file
+
+
+
+
+2012-11-13T03:44:20.732272Z
+559ab99f8d14ed252a59003b37d21e94
+2012-11-02T20:07:26.599296Z
+34061
+blogic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6596
 
 0103-MIPS-lantiq-prom-code-invalidated-devicetree-memory.patch
 file
@@ -944,14 +1080,14 @@ blogic
 
 2255
 
-0015-GPIO-MIPS-lantiq-fix-overflow-inside-stp-xway-driver.patch
+0014-MIPS-lantiq-make-use-of-__gpio_to_irq.patch
 file
 
 
 
 
-2012-11-13T03:44:20.728272Z
-c757b14303cc27a0cb7973807b89a779
+2012-11-13T03:44:20.720272Z
+ad251c3c1832ee5baba9014817404b6d
 2012-11-02T20:07:26.599296Z
 34061
 blogic
@@ -976,7 +1112,7 @@ blogic
 
 
 
-1287
+1093
 
 0007-MIPS-lantiq-falcon-clocks-were-not-enabled-properly.patch
 file
@@ -1012,48 +1148,14 @@ blogic
 
 1107
 
-0014-MIPS-lantiq-make-use-of-__gpio_to_irq.patch
-file
-
-
-
-
-2012-11-13T03:44:20.720272Z
-ad251c3c1832ee5baba9014817404b6d
-2012-11-02T20:07:26.599296Z
-34061
-blogic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1093
-
-0002-MIPS-lantiq-split-up-IRQ-IM-ranges.patch
+0015-GPIO-MIPS-lantiq-fix-overflow-inside-stp-xway-driver.patch
 file
 
 
 
 
 2012-11-13T03:44:20.728272Z
-ef1fb265ee4a41e22587a5ad6c18ae78
+c757b14303cc27a0cb7973807b89a779
 2012-11-02T20:07:26.599296Z
 34061
 blogic
@@ -1078,107 +1180,5 @@ blogic
 
 
 
-6537
-
-0004-MIPS-lantiq-dont-register-irq_chip-for-the-irq-casca.patch
-file
-
-
-
-
-2012-11-13T03:44:20.728272Z
-dbb73c06b4f0b00111aad5ab81c666ac
-2012-11-02T20:07:26.599296Z
-34061
-blogic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-922
-
-0012-Document-devicetree-add-OF-documents-for-lantiq-xway.patch
-file
-
-
-
-
-2012-11-13T03:44:20.732272Z
-8debd0ec4b37bedb72399d75a80baadb
-2012-11-02T20:07:26.599296Z
-34061
-blogic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4192
-
-0010-OF-pinctrl-MIPS-lantiq-implement-lantiq-xway-pinctrl.patch
-file
-
-
-
-
-2012-11-13T03:44:20.732272Z
-a012682869205eb00f704e4c44d537c3
-2012-11-02T20:07:26.599296Z
-34061
-blogic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-47285
+1287
 

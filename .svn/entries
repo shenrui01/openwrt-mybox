@@ -1,15 +1,15 @@
 10
 
 dir
-34253
+34270
 svn://svn.openwrt.org/openwrt/trunk
 svn://svn.openwrt.org/openwrt
 
 
 
-2012-11-18T21:40:30.684674Z
-34253
-hauke
+2012-11-20T07:19:10.373455Z
+34270
+juhosg
 has-props
 
 
@@ -26,20 +26,20 @@ has-props
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
 
-package
+toolchain
 dir
 
-README
+LICENSE
 file
 
 
 
 
 2012-11-13T03:46:38.536266Z
-9aed21847eef0443005465c8016c2b20
-2012-01-21T01:15:24.529308Z
-29837
-mirko
+94d55d512a9ba36caa9b7df079bae19f
+2009-04-17T14:32:29.989894Z
+15245
+nico
 has-props
 
 
@@ -61,7 +61,22 @@ has-props
 
 
 
-1220
+17992
+
+include
+dir
+
+target
+dir
+
+scripts
+dir
+
+docs
+dir
+
+package
+dir
 
 feeds.conf.default
 file
@@ -97,6 +112,43 @@ mb
 
 567
 
+README
+file
+
+
+
+
+2012-11-13T03:46:38.536266Z
+9aed21847eef0443005465c8016c2b20
+2012-01-21T01:15:24.529308Z
+29837
+mirko
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1220
+
+tools
+dir
+
 rules.mk
 file
 
@@ -130,9 +182,6 @@ has-props
 
 
 9505
-
-tools
-dir
 
 .gitignore
 file
@@ -303,53 +352,4 @@ has-props
 
 
 3292
-
-toolchain
-dir
-
-LICENSE
-file
-
-
-
-
-2012-11-13T03:46:38.536266Z
-94d55d512a9ba36caa9b7df079bae19f
-2009-04-17T14:32:29.989894Z
-15245
-nico
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-17992
-
-include
-dir
-
-target
-dir
-
-scripts
-dir
-
-docs
-dir
 

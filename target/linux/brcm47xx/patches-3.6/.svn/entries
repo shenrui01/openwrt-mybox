@@ -1,7 +1,7 @@
 10
 
 dir
-34253
+34270
 svn://svn.openwrt.org/openwrt/trunk/target/linux/brcm47xx/patches-3.6
 svn://svn.openwrt.org/openwrt
 
@@ -25,584 +25,6 @@ hauke
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
-
-211-b44_timeout_spam.patch
-file
-
-
-
-
-2012-11-19T05:45:51.630390Z
-d1ffc55115dd3bcdc180e6a4fa7a5b9e
-2012-01-15T21:18:34.815609Z
-29756
-hauke
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-393
-
-160-kmap_coherent.patch
-file
-
-
-
-
-2012-11-19T05:45:51.630390Z
-5d64884a1cddd358de9a4205e6588a04
-2012-11-18T21:27:00.359060Z
-34252
-hauke
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2627
-
-194-MIPS-BCM47XX-read-sprom-without-prefix-if-no-ieee802.patch
-file
-
-
-
-
-2012-11-19T05:45:51.630390Z
-512febb242e16b4c2f7c96fca63486c6
-2012-10-25T14:33:47.308160Z
-33920
-hauke
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-310
-
-300-fork_cacheflush.patch
-file
-
-
-
-
-2012-11-19T05:45:51.630390Z
-d675b9806d1acf28271e0f4666599d30
-2010-06-08T16:58:06.826899Z
-21707
-acoul
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-553
-
-193-MIPS-BCM47xx-read-out-full-board-data.patch
-file
-
-
-
-
-2012-11-19T05:45:51.630390Z
-cd15bd35ff8b0ffd75a2fc225791c18f
-2012-09-30T11:43:13.645554Z
-33597
-hauke
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3447
-
-976-ssb_increase_pci_delay.patch
-file
-
-
-
-
-2012-11-19T05:45:51.630390Z
-42f89867d073dc99d190fa11bdbe41a1
-2012-02-12T16:45:27.661224Z
-30481
-hauke
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-421
-
-502-bcm47xx-rewrite-gpio-handling.patch
-file
-
-
-
-
-2012-11-19T05:45:51.630390Z
-040370202f02d6c5f07c9e41fc5b7a9e
-2012-11-18T21:27:00.359060Z
-34252
-hauke
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-12926
-
-061-ssb-register-parallel-flash-device.patch
-file
-
-
-
-
-2012-11-19T05:45:51.630390Z
-146d1b45c268ae40ac369e2d901984a8
-2012-10-25T14:33:47.308160Z
-33920
-hauke
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1985
-
-980-wnr834b_no_cardbus_invariant.patch
-file
-
-
-
-
-2012-11-19T05:45:51.630390Z
-85b402515d5aa092857dd872752f9a9d
-2012-10-25T14:33:47.308160Z
-33920
-hauke
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-411
-
-070-bcma-add-functions-to-write-to-serial-flash.patch
-file
-
-
-
-
-2012-11-19T05:45:51.630390Z
-ae7e819e2b96c0b996e3d5bd1d6b5d49
-2012-10-25T14:33:47.308160Z
-33920
-hauke
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-9256
-
-700-ssb-gigabit-ethernet-driver.patch
-file
-
-
-
-
-2012-11-19T05:45:51.626390Z
-77ddf148d3da669b74d66cba080174f9
-2012-11-18T21:27:00.359060Z
-34252
-hauke
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-13907
-
-080-MIPS-BCM47XX-rewrite-nvram-probing.patch
-file
-
-
-
-
-2012-11-19T05:45:51.626390Z
-b2db036f91aec5d99b4d2a8d3b140105
-2012-10-25T14:33:47.308160Z
-33920
-hauke
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4620
-
-310-no_highpage.patch
-file
-
-
-
-
-2012-11-19T05:45:51.626390Z
-dd6b710803e15ec31013d13f6069bc52
-2012-11-18T21:27:00.359060Z
-34252
-hauke
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1989
-
-195-MIPS-BCM47xx-sprom-read-values-without-prefix-as-fal.patch
-file
-
-
-
-
-2012-11-19T05:45:51.626390Z
-1acad8215d6cbc75ff736828abace3d8
-2012-10-25T14:33:47.308160Z
-33920
-hauke
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-47748
-
-052-mtd-add-serial-flash-driver.patch
-file
-
-
-
-
-2012-11-19T05:45:51.626390Z
-50a112f3a28608b617f257dc500f07ce
-2012-11-18T21:27:00.359060Z
-34252
-hauke
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-7905
-
-501-bcma-add-gpio-driver.patch
-file
-
-
-
-
-2012-11-19T05:45:51.626390Z
-4eb6e2ecf4d7f288258319b9c29d3061
-2012-10-25T14:33:47.308160Z
-33920
-hauke
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4431
-
-053-mtd-add-nand-flash-driver.patch
-file
-
-
-
-
-2012-11-19T05:45:51.626390Z
-56de96cd67ee6859ad7e8680d635aae0
-2012-11-18T21:27:00.359060Z
-34252
-hauke
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-18989
 
 060-ssb-add-serial-flash-driver.patch
 file
@@ -638,6 +60,40 @@ hauke
 
 15197
 
+053-mtd-add-nand-flash-driver.patch
+file
+
+
+
+
+2012-11-19T05:45:51.626390Z
+56de96cd67ee6859ad7e8680d635aae0
+2012-11-18T21:27:00.359060Z
+34252
+hauke
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+18989
+
 170-fix-74k-cpu.patch
 file
 
@@ -671,74 +127,6 @@ hauke
 
 
 299
-
-812-disable_wgt634u_crap.patch
-file
-
-
-
-
-2012-11-19T05:45:51.626390Z
-1b599f3181cc4490e825e27ee11d6aab
-2012-10-25T14:33:47.308160Z
-33920
-hauke
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4823
-
-192-MIPS-BCM47XX-improve-memory-size-detection.patch
-file
-
-
-
-
-2012-11-19T05:45:51.626390Z
-d6b10e650bc837ace6d846a77480657a
-2012-10-04T15:42:12.220132Z
-33619
-hauke
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1370
 
 940-bcm47xx-yenta.patch
 file
@@ -808,16 +196,16 @@ hauke
 
 2775
 
-920-cache-wround.patch
+194-MIPS-BCM47XX-read-sprom-without-prefix-if-no-ieee802.patch
 file
 
 
 
 
 2012-11-19T05:45:51.630390Z
-50641ade5a9cec567559098ae9edb1c9
-2012-11-18T21:27:00.359060Z
-34252
+512febb242e16b4c2f7c96fca63486c6
+2012-10-25T14:33:47.308160Z
+33920
 hauke
 
 
@@ -840,7 +228,7 @@ hauke
 
 
 
-3418
+310
 
 150-cpu_fixes.patch
 file
@@ -876,16 +264,16 @@ hauke
 
 12862
 
-186-USB-EHCI-bcma-fix-driver.patch
+500-ssb-add-function-to-return-number-of-gpio-lines.patch
 file
 
 
 
 
 2012-11-19T05:45:51.630390Z
-0e08ecd3c72ebaea79098aad7fc4eb18
-2012-11-18T21:40:30.684674Z
-34253
+35a24348eefd1ffb8e5efd8ce1430942
+2012-08-04T19:46:25.622889Z
+32992
 hauke
 
 
@@ -908,7 +296,7 @@ hauke
 
 
 
-292
+1243
 
 051-mtd-add-parallel-flash-driver.patch
 file
@@ -944,16 +332,16 @@ hauke
 
 6793
 
-500-ssb-add-function-to-return-number-of-gpio-lines.patch
+976-ssb_increase_pci_delay.patch
 file
 
 
 
 
 2012-11-19T05:45:51.630390Z
-35a24348eefd1ffb8e5efd8ce1430942
-2012-08-04T19:46:25.622889Z
-32992
+42f89867d073dc99d190fa11bdbe41a1
+2012-02-12T16:45:27.661224Z
+30481
 hauke
 
 
@@ -976,7 +364,7 @@ hauke
 
 
 
-1243
+421
 
 116-MIPS-BCM47xx-Remove-CFE-console.patch
 file
@@ -1012,14 +400,14 @@ hauke
 
 3763
 
-999-wl_exports.patch
+061-ssb-register-parallel-flash-device.patch
 file
 
 
 
 
 2012-11-19T05:45:51.630390Z
-eb5dbde894af7ef4088827472d93139d
+146d1b45c268ae40ac369e2d901984a8
 2012-10-25T14:33:47.308160Z
 33920
 hauke
@@ -1044,18 +432,18 @@ hauke
 
 
 
-628
+1985
 
-119-fix-boot.patch
+980-wnr834b_no_cardbus_invariant.patch
 file
 
 
 
 
 2012-11-19T05:45:51.630390Z
-0042aef862ef5387401dbd99e25380af
-2012-11-18T21:27:00.359060Z
-34252
+85b402515d5aa092857dd872752f9a9d
+2012-10-25T14:33:47.308160Z
+33920
 hauke
 
 
@@ -1078,7 +466,7 @@ hauke
 
 
 
-373
+411
 
 820-wgt634u-nvram-fix.patch
 file
@@ -1182,6 +570,40 @@ hauke
 
 6162
 
+080-MIPS-BCM47XX-rewrite-nvram-probing.patch
+file
+
+
+
+
+2012-11-19T05:45:51.626390Z
+b2db036f91aec5d99b4d2a8d3b140105
+2012-10-25T14:33:47.308160Z
+33920
+hauke
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4620
+
 610-pci_ide_fix.patch
 file
 
@@ -1215,6 +637,584 @@ acoul
 
 
 313
+
+280-activate_ssb_support_in_usb.patch
+file
+
+
+
+
+2012-11-19T05:45:51.630390Z
+e78945a971ebc0983fc47034c3278716
+2012-10-25T14:33:47.308160Z
+33920
+hauke
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+664
+
+072-bcma-register-parallel-flash-device.patch
+file
+
+
+
+
+2012-11-19T05:45:51.630390Z
+2683ad40e1bbeeae09a6213fd8c199a0
+2012-10-25T14:33:47.308160Z
+33920
+hauke
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1963
+
+195-MIPS-BCM47xx-sprom-read-values-without-prefix-as-fal.patch
+file
+
+
+
+
+2012-11-19T05:45:51.626390Z
+1acad8215d6cbc75ff736828abace3d8
+2012-10-25T14:33:47.308160Z
+33920
+hauke
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+47748
+
+210-b44_phy_fix.patch
+file
+
+
+
+
+2012-11-19T05:45:51.630390Z
+3bb3bea2d5dec4288ad5e05f7eca3dd7
+2012-11-18T21:27:00.359060Z
+34252
+hauke
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1408
+
+501-bcma-add-gpio-driver.patch
+file
+
+
+
+
+2012-11-19T05:45:51.626390Z
+4eb6e2ecf4d7f288258319b9c29d3061
+2012-10-25T14:33:47.308160Z
+33920
+hauke
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4431
+
+812-disable_wgt634u_crap.patch
+file
+
+
+
+
+2012-11-19T05:45:51.626390Z
+1b599f3181cc4490e825e27ee11d6aab
+2012-10-25T14:33:47.308160Z
+33920
+hauke
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4823
+
+160-kmap_coherent.patch
+file
+
+
+
+
+2012-11-19T05:45:51.630390Z
+5d64884a1cddd358de9a4205e6588a04
+2012-11-18T21:27:00.359060Z
+34252
+hauke
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2627
+
+192-MIPS-BCM47XX-improve-memory-size-detection.patch
+file
+
+
+
+
+2012-11-19T05:45:51.626390Z
+d6b10e650bc837ace6d846a77480657a
+2012-10-04T15:42:12.220132Z
+33619
+hauke
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1370
+
+300-fork_cacheflush.patch
+file
+
+
+
+
+2012-11-19T05:45:51.630390Z
+d675b9806d1acf28271e0f4666599d30
+2010-06-08T16:58:06.826899Z
+21707
+acoul
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+553
+
+193-MIPS-BCM47xx-read-out-full-board-data.patch
+file
+
+
+
+
+2012-11-19T05:45:51.630390Z
+cd15bd35ff8b0ffd75a2fc225791c18f
+2012-09-30T11:43:13.645554Z
+33597
+hauke
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3447
+
+920-cache-wround.patch
+file
+
+
+
+
+2012-11-19T05:45:51.630390Z
+50641ade5a9cec567559098ae9edb1c9
+2012-11-18T21:27:00.359060Z
+34252
+hauke
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3418
+
+186-USB-EHCI-bcma-fix-driver.patch
+file
+
+
+
+
+2012-11-19T05:45:51.630390Z
+0e08ecd3c72ebaea79098aad7fc4eb18
+2012-11-18T21:40:30.684674Z
+34253
+hauke
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+292
+
+502-bcm47xx-rewrite-gpio-handling.patch
+file
+
+
+
+
+2012-11-19T05:45:51.630390Z
+040370202f02d6c5f07c9e41fc5b7a9e
+2012-11-18T21:27:00.359060Z
+34252
+hauke
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+12926
+
+999-wl_exports.patch
+file
+
+
+
+
+2012-11-19T05:45:51.630390Z
+eb5dbde894af7ef4088827472d93139d
+2012-10-25T14:33:47.308160Z
+33920
+hauke
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+628
+
+119-fix-boot.patch
+file
+
+
+
+
+2012-11-19T05:45:51.630390Z
+0042aef862ef5387401dbd99e25380af
+2012-11-18T21:27:00.359060Z
+34252
+hauke
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+373
+
+070-bcma-add-functions-to-write-to-serial-flash.patch
+file
+
+
+
+
+2012-11-19T05:45:51.630390Z
+ae7e819e2b96c0b996e3d5bd1d6b5d49
+2012-10-25T14:33:47.308160Z
+33920
+hauke
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9256
+
+700-ssb-gigabit-ethernet-driver.patch
+file
+
+
+
+
+2012-11-19T05:45:51.626390Z
+77ddf148d3da669b74d66cba080174f9
+2012-11-18T21:27:00.359060Z
+34252
+hauke
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+13907
 
 400-arch-bcm47xx.patch
 file
@@ -1250,16 +1250,16 @@ hauke
 
 765
 
-280-activate_ssb_support_in_usb.patch
+310-no_highpage.patch
 file
 
 
 
 
-2012-11-19T05:45:51.630390Z
-e78945a971ebc0983fc47034c3278716
-2012-10-25T14:33:47.308160Z
-33920
+2012-11-19T05:45:51.626390Z
+dd6b710803e15ec31013d13f6069bc52
+2012-11-18T21:27:00.359060Z
+34252
 hauke
 
 
@@ -1282,7 +1282,7 @@ hauke
 
 
 
-664
+1989
 
 900-bcm47xx_wdt-noprescale.patch
 file
@@ -1352,40 +1352,6 @@ hauke
 
 883
 
-072-bcma-register-parallel-flash-device.patch
-file
-
-
-
-
-2012-11-19T05:45:51.630390Z
-2683ad40e1bbeeae09a6213fd8c199a0
-2012-10-25T14:33:47.308160Z
-33920
-hauke
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1963
-
 114-MIPS-BCM47xx-Setup-and-register-serial-early.patch
 file
 
@@ -1420,14 +1386,14 @@ hauke
 
 1851
 
-210-b44_phy_fix.patch
+052-mtd-add-serial-flash-driver.patch
 file
 
 
 
 
-2012-11-19T05:45:51.630390Z
-3bb3bea2d5dec4288ad5e05f7eca3dd7
+2012-11-19T05:45:51.626390Z
+50a112f3a28608b617f257dc500f07ce
 2012-11-18T21:27:00.359060Z
 34252
 hauke
@@ -1452,5 +1418,39 @@ hauke
 
 
 
-1408
+7905
+
+211-b44_timeout_spam.patch
+file
+
+
+
+
+2012-11-19T05:45:51.630390Z
+d1ffc55115dd3bcdc180e6a4fa7a5b9e
+2012-01-15T21:18:34.815609Z
+29756
+hauke
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+393
 

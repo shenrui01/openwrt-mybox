@@ -1,7 +1,7 @@
 10
 
 dir
-34253
+34270
 svn://svn.openwrt.org/openwrt/trunk/target/linux/generic/files/fs/yaffs2
 svn://svn.openwrt.org/openwrt
 
@@ -25,142 +25,6 @@ juhosg
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
-
-yaffs_nand.c
-file
-
-
-
-
-2012-11-13T03:42:31.496276Z
-89359930fe61e0d0c2665f2bdf778734
-2012-10-30T14:58:17.311058Z
-34013
-juhosg
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3185
-
-yaffs_list.h
-file
-
-
-
-
-2012-11-13T03:42:31.500276Z
-2be8b6a0572b801bef65cfe6db56bc08
-2012-10-30T14:58:17.311058Z
-34013
-juhosg
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3098
-
-yaffs_allocator.c
-file
-
-
-
-
-2012-11-13T03:42:31.500276Z
-5bb3999c9724c857db6093e18eda31ba
-2012-10-30T14:58:17.311058Z
-34013
-juhosg
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-8441
-
-yaffs_bitmap.h
-file
-
-
-
-
-2012-11-13T03:42:31.500276Z
-3da81ed077bf5489179be07feccc656b
-2012-10-30T14:58:17.311058Z
-34013
-juhosg
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-988
 
 yaffs_guts.c
 file
@@ -604,40 +468,6 @@ has-props
 
 13569
 
-yaffs_trace.h
-file
-
-
-
-
-2012-11-13T03:42:31.476276Z
-88c1a4aaac9541ba0ef1e1924422d4f8
-2012-10-30T14:58:17.311058Z
-34013
-juhosg
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1833
-
 yaffs_mtdif.c
 file
 
@@ -672,14 +502,14 @@ has-props
 
 1232
 
-yaffs_linux.h
+yaffs_trace.h
 file
 
 
 
 
 2012-11-13T03:42:31.476276Z
-23fcebf393fd804ab636408aa21bbb86
+88c1a4aaac9541ba0ef1e1924422d4f8
 2012-10-30T14:58:17.311058Z
 34013
 juhosg
@@ -704,7 +534,7 @@ has-props
 
 
 
-1369
+1833
 
 yaffs_tagsvalidity.c
 file
@@ -740,6 +570,40 @@ has-props
 
 740
 
+yaffs_linux.h
+file
+
+
+
+
+2012-11-13T03:42:31.476276Z
+23fcebf393fd804ab636408aa21bbb86
+2012-10-30T14:58:17.311058Z
+34013
+juhosg
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1369
+
 yaffs_nandemul2k.h
 file
 
@@ -774,40 +638,6 @@ has-props
 
 1387
 
-Kconfig
-file
-
-
-
-
-2012-11-13T03:42:31.476276Z
-c500d2259eceb8734145c4768b328acc
-2012-10-30T14:58:17.311058Z
-34013
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5264
-
 yaffs_tagscompat.h
 file
 
@@ -841,6 +671,40 @@ has-props
 
 
 1192
+
+Kconfig
+file
+
+
+
+
+2012-11-13T03:42:31.476276Z
+c500d2259eceb8734145c4768b328acc
+2012-10-30T14:58:17.311058Z
+34013
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5264
 
 yaffs_mtdif.h
 file
@@ -1725,4 +1589,140 @@ has-props
 
 
 916
+
+yaffs_nand.c
+file
+
+
+
+
+2012-11-13T03:42:31.496276Z
+89359930fe61e0d0c2665f2bdf778734
+2012-10-30T14:58:17.311058Z
+34013
+juhosg
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3185
+
+yaffs_list.h
+file
+
+
+
+
+2012-11-13T03:42:31.500276Z
+2be8b6a0572b801bef65cfe6db56bc08
+2012-10-30T14:58:17.311058Z
+34013
+juhosg
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3098
+
+yaffs_allocator.c
+file
+
+
+
+
+2012-11-13T03:42:31.500276Z
+5bb3999c9724c857db6093e18eda31ba
+2012-10-30T14:58:17.311058Z
+34013
+juhosg
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8441
+
+yaffs_bitmap.h
+file
+
+
+
+
+2012-11-13T03:42:31.500276Z
+3da81ed077bf5489179be07feccc656b
+2012-10-30T14:58:17.311058Z
+34013
+juhosg
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+988
 

@@ -1,7 +1,7 @@
 10
 
 dir
-34253
+34270
 svn://svn.openwrt.org/openwrt/trunk/package/busybox
 svn://svn.openwrt.org/openwrt
 
@@ -25,9 +25,6 @@ hcg
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
-
-config
-dir
 
 patches
 dir
@@ -136,4 +133,7 @@ has-props
 
 
 2008
+
+config
+dir
 

@@ -1,15 +1,15 @@
 10
 
 dir
-34253
+34270
 svn://svn.openwrt.org/openwrt/trunk/target/linux/brcm63xx/patches-3.6
 svn://svn.openwrt.org/openwrt
 
 
 
-2012-11-18T09:22:38.310888Z
-34230
-kaloz
+2012-11-19T12:38:26.274478Z
+34255
+jogo
 
 
 
@@ -26,218 +26,14 @@ kaloz
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
 
-410-NET-bcm63xx_enet-move-phy_-dis-connect-into-probe-re.patch
-file
-
-
-
-
-2012-11-13T03:42:58.836285Z
-a46f038a9403c3b587eb59520c1c3107
-2012-10-25T21:16:51.155834Z
-33936
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4856
-
-101-MTD-bcm63xxpart-remove-unused-variable.patch
-file
-
-
-
-
-2012-11-13T03:42:58.836285Z
-8803954e358661b3a8f443553405b7f9
-2012-10-25T21:16:51.155834Z
-33936
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1139
-
-104-MTD-bcm63xxpart-move-the-last-curpart-to-its-correct.patch
-file
-
-
-
-
-2012-11-13T03:42:58.836285Z
-29d5c29e6dcf1a84768b61450d129778
-2012-10-25T21:16:51.155834Z
-33936
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-892
-
-426-SPI-MIPS-BCM63XX-Add-HS-SPI-driver.patch
-file
-
-
-
-
-2012-11-13T03:42:58.836285Z
-3bb022a9b64abba28904fb9a4875d1b3
-2012-10-25T21:16:51.155834Z
-33936
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-12632
-
-416-bcm63xx_enet-reset-port-link-state-in-bcm_enetsw_ope.patch
-file
-
-
-
-
-2012-11-13T03:42:58.836285Z
-1b0032e1d25f42f7266d0549ff345ffc
-2012-10-25T21:16:51.155834Z
-33936
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1020
-
-304-boardid_fixup.patch
-file
-
-
-
-
-2012-11-13T03:42:58.836285Z
-8afe3708f499f1cc3a6fbf3abd5e19b8
-2012-11-06T15:21:46.466031Z
-34103
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1725
-
-527-board_dva-g3810bn-tl-1.patch
+519_board_CPVA502plus.patch
 file
 
 
 
 
 2012-11-13T03:42:58.840284Z
-d40a0fa1897584f47f8accbf796a396c
+82859a4ea3425e1b62dbf6889732ff10
 2012-10-25T21:16:51.155834Z
 33936
 florian
@@ -262,75 +58,7 @@ florian
 
 
 
-1431
-
-525-board_96348w3.patch
-file
-
-
-
-
-2012-11-13T03:42:58.840284Z
-c74338ce99d137d8116445a3b84f50b8
-2012-10-25T21:16:51.155834Z
-33936
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1251
-
-405-bcm963xx_real_rootfs_length.patch
-file
-
-
-
-
-2012-11-13T03:42:58.840284Z
-7cbbd2b0bfe8be22260d315e2b14dd70
-2012-11-06T15:21:46.466031Z
-34103
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-905
+1025
 
 403-MIPS-BCM63XX-register-ehci-device.patch
 file
@@ -366,17 +94,17 @@ jogo
 
 3850
 
-519_board_CPVA502plus.patch
+405-bcm963xx_real_rootfs_length.patch
 file
 
 
 
 
 2012-11-13T03:42:58.840284Z
-82859a4ea3425e1b62dbf6889732ff10
-2012-10-25T21:16:51.155834Z
-33936
-florian
+7cbbd2b0bfe8be22260d315e2b14dd70
+2012-11-06T15:21:46.466031Z
+34103
+jogo
 
 
 
@@ -398,7 +126,7 @@ florian
 
 
 
-1025
+905
 
 305-missing_ext_irq_bits.patch
 file
@@ -842,40 +570,6 @@ jogo
 
 3485
 
-260-move_bcm963xx_tag.patch
-file
-
-
-
-
-2012-11-18T12:02:09.757474Z
-2d63abd71763bbcd8289c417ecd5f09e
-2012-11-18T09:22:38.310888Z
-34230
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-7989
-
 437-MIPS-BCM63XX-pass-caldata-info-to-flash.patch
 file
 
@@ -977,6 +671,40 @@ florian
 
 
 1499
+
+301-led_count.patch
+file
+
+
+
+
+2012-11-13T03:42:58.844284Z
+715e868b0a2c23ead4a089ab29c499e4
+2012-10-25T21:16:51.155834Z
+33936
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1303
 
 532-board_96328a-1241N.patch
 file
@@ -1080,40 +808,6 @@ florian
 
 3340
 
-301-led_count.patch
-file
-
-
-
-
-2012-11-13T03:42:58.844284Z
-715e868b0a2c23ead4a089ab29c499e4
-2012-10-25T21:16:51.155834Z
-33936
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1303
-
 309-MIPS-BCM63XX-add-HSSPI-register-definitions.patch
 file
 
@@ -1216,40 +910,6 @@ florian
 
 1594
 
-522-MIPS-BCM63XX-add-96328avng-reference-board.patch
-file
-
-
-
-
-2012-11-13T03:42:58.848283Z
-386fd1ee9ec3296bcb4cce8733e2e1d3
-2012-10-25T21:16:51.155834Z
-33936
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1416
-
 435-BCM63XX-add-a-fixup-for-ath9k-devices.patch
 file
 
@@ -1283,6 +943,40 @@ florian
 
 
 6049
+
+522-MIPS-BCM63XX-add-96328avng-reference-board.patch
+file
+
+
+
+
+2012-11-13T03:42:58.848283Z
+386fd1ee9ec3296bcb4cce8733e2e1d3
+2012-10-25T21:16:51.155834Z
+33936
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1416
 
 436-MTD-bcm63xxpart-allow-passing-a-caldata-offset.patch
 file
@@ -1420,17 +1114,17 @@ florian
 
 1693
 
-529-board_fast2604.patch
+438-MIPS-BCM63XX-enable-USB-for-BCM6328.patch
 file
 
 
 
 
-2012-11-13T03:42:58.852283Z
-d3c68d3ab89a2e6b7a4d9aabc2768a18
-2012-10-25T21:16:51.155834Z
-33936
-florian
+2012-11-18T12:02:09.757474Z
+66aa7bc3cd7a66b2e7c85cb5fb379740
+2012-11-18T08:41:31.122102Z
+34227
+juhosg
 
 
 
@@ -1452,41 +1146,7 @@ florian
 
 
 
-1408
-
-515-board_DWV-S0_fixes.patch
-file
-
-
-
-
-2012-11-13T03:42:58.852283Z
-8554d1c0a0cc2b23e8148a5c96c7d90d
-2012-10-25T21:16:51.155834Z
-33936
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-448
+2208
 
 801-ssb_export_fallback_sprom.patch
 file
@@ -1522,17 +1182,17 @@ florian
 
 814
 
-438-MIPS-BCM63XX-enable-USB-for-BCM6328.patch
+515-board_DWV-S0_fixes.patch
 file
 
 
 
 
-2012-11-18T12:02:09.757474Z
-66aa7bc3cd7a66b2e7c85cb5fb379740
-2012-11-18T08:41:31.122102Z
-34227
-juhosg
+2012-11-13T03:42:58.852283Z
+8554d1c0a0cc2b23e8148a5c96c7d90d
+2012-10-25T21:16:51.155834Z
+33936
+florian
 
 
 
@@ -1554,7 +1214,41 @@ juhosg
 
 
 
-2208
+448
+
+529-board_fast2604.patch
+file
+
+
+
+
+2012-11-13T03:42:58.852283Z
+d3c68d3ab89a2e6b7a4d9aabc2768a18
+2012-10-25T21:16:51.155834Z
+33936
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1408
 
 425-MIPS-BCM63XX-add-HS-SPI-platform-device-and-register.patch
 file
@@ -1624,40 +1318,6 @@ florian
 
 745
 
-442-MIPS-BCM63XX-enable-enetsw-for-BCM6362.patch
-file
-
-
-
-
-2012-11-13T03:42:58.856282Z
-05bd9ea5d29724eafa08ac686f16b0a9
-2012-10-25T21:16:51.155834Z
-33936
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2601
-
 312-MIPS-BCM63XX-add-basic-BCM6362-support.patch
 file
 
@@ -1691,6 +1351,40 @@ jogo
 
 
 16964
+
+442-MIPS-BCM63XX-enable-enetsw-for-BCM6362.patch
+file
+
+
+
+
+2012-11-13T03:42:58.856282Z
+05bd9ea5d29724eafa08ac686f16b0a9
+2012-10-25T21:16:51.155834Z
+33936
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2601
 
 102-MTD-bcm63xxpart-merge-sparelen-calculation.patch
 file
@@ -1794,40 +1488,6 @@ jogo
 
 907
 
-528-board_nb6.patch
-file
-
-
-
-
-2012-11-13T03:42:58.860282Z
-e921c7903df4bafd17cb4348f5156d5c
-2012-10-25T21:16:51.155834Z
-33936
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3186
-
 433-MTD-m25p80-allow-passing-pp_data.patch
 file
 
@@ -1862,14 +1522,14 @@ florian
 
 1335
 
-530-board_963281T_TEF.patch
+528-board_nb6.patch
 file
 
 
 
 
 2012-11-13T03:42:58.860282Z
-795e2db336d052dea052f516bac11c12
+e921c7903df4bafd17cb4348f5156d5c
 2012-10-25T21:16:51.155834Z
 33936
 florian
@@ -1894,7 +1554,7 @@ florian
 
 
 
-2599
+3186
 
 313-MIPS-BCM63XX-enable-pcie-for-BCM6362.patch
 file
@@ -1930,14 +1590,14 @@ jogo
 
 3221
 
-802-rtl8367r_fix_RGMII_support.patch
+530-board_963281T_TEF.patch
 file
 
 
 
 
 2012-11-13T03:42:58.860282Z
-134548ac819b1d4073044e05109137ec
+795e2db336d052dea052f516bac11c12
 2012-10-25T21:16:51.155834Z
 33936
 florian
@@ -1962,41 +1622,7 @@ florian
 
 
 
-1033
-
-800-wl_exports.patch
-file
-
-
-
-
-2012-11-13T03:42:58.860282Z
-7f539f044774399dbd7f664486ec8343
-2012-10-25T21:16:51.155834Z
-33936
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-873
+2599
 
 501-board-NB4.patch
 file
@@ -2032,14 +1658,14 @@ florian
 
 12665
 
-105-MTD-bcm63xxpart-use-correct-printk-format-for-partit.patch
+800-wl_exports.patch
 file
 
 
 
 
 2012-11-13T03:42:58.860282Z
-99c5dfb501a3cff24f97c50b9e3e204c
+7f539f044774399dbd7f664486ec8343
 2012-10-25T21:16:51.155834Z
 33936
 florian
@@ -2064,7 +1690,41 @@ florian
 
 
 
-1005
+873
+
+802-rtl8367r_fix_RGMII_support.patch
+file
+
+
+
+
+2012-11-13T03:42:58.860282Z
+134548ac819b1d4073044e05109137ec
+2012-10-25T21:16:51.155834Z
+33936
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1033
 
 434-MIPS-BCM63XX-store-the-flash-type-in-global-variable.patch
 file
@@ -2099,6 +1759,40 @@ florian
 
 
 3722
+
+105-MTD-bcm63xxpart-use-correct-printk-format-for-partit.patch
+file
+
+
+
+
+2012-11-13T03:42:58.860282Z
+99c5dfb501a3cff24f97c50b9e3e204c
+2012-10-25T21:16:51.155834Z
+33936
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1005
 
 308-MIPS-BCM63XX-expose-the-HS-SPI-clock.patch
 file
@@ -3731,4 +3425,276 @@ florian
 
 
 1254
+
+410-NET-bcm63xx_enet-move-phy_-dis-connect-into-probe-re.patch
+file
+
+
+
+
+2012-11-13T03:42:58.836285Z
+a46f038a9403c3b587eb59520c1c3107
+2012-10-25T21:16:51.155834Z
+33936
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4856
+
+101-MTD-bcm63xxpart-remove-unused-variable.patch
+file
+
+
+
+
+2012-11-13T03:42:58.836285Z
+8803954e358661b3a8f443553405b7f9
+2012-10-25T21:16:51.155834Z
+33936
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1139
+
+426-SPI-MIPS-BCM63XX-Add-HS-SPI-driver.patch
+file
+
+
+
+
+2012-11-13T03:42:58.836285Z
+3bb022a9b64abba28904fb9a4875d1b3
+2012-10-25T21:16:51.155834Z
+33936
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+12632
+
+104-MTD-bcm63xxpart-move-the-last-curpart-to-its-correct.patch
+file
+
+
+
+
+2012-11-13T03:42:58.836285Z
+29d5c29e6dcf1a84768b61450d129778
+2012-10-25T21:16:51.155834Z
+33936
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+892
+
+304-boardid_fixup.patch
+file
+
+
+
+
+2012-11-13T03:42:58.836285Z
+8afe3708f499f1cc3a6fbf3abd5e19b8
+2012-11-06T15:21:46.466031Z
+34103
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1725
+
+416-bcm63xx_enet-reset-port-link-state-in-bcm_enetsw_ope.patch
+file
+
+
+
+
+2012-11-13T03:42:58.836285Z
+1b0032e1d25f42f7266d0549ff345ffc
+2012-10-25T21:16:51.155834Z
+33936
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1020
+
+525-board_96348w3.patch
+file
+
+
+
+
+2012-11-13T03:42:58.840284Z
+c74338ce99d137d8116445a3b84f50b8
+2012-10-25T21:16:51.155834Z
+33936
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1251
+
+527-board_dva-g3810bn-tl-1.patch
+file
+
+
+
+
+2012-11-13T03:42:58.840284Z
+d40a0fa1897584f47f8accbf796a396c
+2012-10-25T21:16:51.155834Z
+33936
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1431
 
