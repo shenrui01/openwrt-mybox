@@ -1,7 +1,7 @@
 10
 
 dir
-34274
+34280
 svn://svn.openwrt.org/openwrt/trunk/target/linux/adm5120/router_le/profiles
 svn://svn.openwrt.org/openwrt
 
@@ -25,74 +25,6 @@ juhosg
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
-
-Motorola.mk
-file
-
-
-
-
-2012-11-13T03:44:53.924269Z
-0fd771c7569eaa8704be43297983eef5
-2009-04-17T14:32:29.989894Z
-15245
-nico
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-369
-
-Osbridge.mk
-file
-
-
-
-
-2012-11-13T03:44:53.920269Z
-afca1c1a32abfdab379ae4022313459b
-2009-06-25T08:46:13.500776Z
-16555
-juhosg
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-349
 
 Infineon.mk
 file
@@ -263,4 +195,72 @@ has-props
 
 
 785
+
+Motorola.mk
+file
+
+
+
+
+2012-11-13T03:44:53.924269Z
+0fd771c7569eaa8704be43297983eef5
+2009-04-17T14:32:29.989894Z
+15245
+nico
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+369
+
+Osbridge.mk
+file
+
+
+
+
+2012-11-13T03:44:53.920269Z
+afca1c1a32abfdab379ae4022313459b
+2009-06-25T08:46:13.500776Z
+16555
+juhosg
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+349
 

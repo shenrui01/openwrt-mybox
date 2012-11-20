@@ -1,7 +1,7 @@
 10
 
 dir
-34274
+34280
 svn://svn.openwrt.org/openwrt/trunk/package/base-files/files/sbin
 svn://svn.openwrt.org/openwrt
 
@@ -25,6 +25,40 @@ jow
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
+
+sysupgrade
+file
+
+
+
+
+2012-11-13T03:45:34.960269Z
+1fc909c586121e6fe1f64e805da1778d
+2012-08-12T13:20:27.742091Z
+33147
+jow
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4632
 
 firstboot
 file
@@ -195,38 +229,4 @@ has-props
 
 
 517
-
-sysupgrade
-file
-
-
-
-
-2012-11-13T03:45:34.960269Z
-1fc909c586121e6fe1f64e805da1778d
-2012-08-12T13:20:27.742091Z
-33147
-jow
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4632
 

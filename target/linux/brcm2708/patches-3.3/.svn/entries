@@ -1,7 +1,7 @@
 10
 
 dir
-34274
+34280
 svn://svn.openwrt.org/openwrt/trunk/target/linux/brcm2708/patches-3.3
 svn://svn.openwrt.org/openwrt
 
@@ -25,40 +25,6 @@ florian
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
-
-0510-fix_divdi3.patch
-file
-
-
-
-
-2012-11-13T03:42:04.924277Z
-b14fb85ba45d4c71b4fbfd691b5d7bb3
-2012-07-24T20:39:17.686020Z
-32825
-blogic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-408
 
 0004-bcm2708-framebuffer-driver.patch
 file
@@ -331,4 +297,38 @@ blogic
 
 
 11141
+
+0510-fix_divdi3.patch
+file
+
+
+
+
+2012-11-13T03:42:04.924277Z
+b14fb85ba45d4c71b4fbfd691b5d7bb3
+2012-07-24T20:39:17.686020Z
+32825
+blogic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+408
 

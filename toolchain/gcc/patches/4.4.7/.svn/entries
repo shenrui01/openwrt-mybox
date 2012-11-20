@@ -1,7 +1,7 @@
 10
 
 dir
-34274
+34280
 svn://svn.openwrt.org/openwrt/trunk/toolchain/gcc/patches/4.4.7
 svn://svn.openwrt.org/openwrt
 
@@ -25,6 +25,108 @@ jow
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
+
+820-libgcc_pic.patch
+file
+
+
+
+
+2012-11-13T03:41:54.012277Z
+4d76e03bd88993dd27c64bf8de840322
+2009-10-20T06:48:29.715134Z
+18087
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1153
+
+993-arm_insn-opinit-RTX_CODE-fixup.patch
+file
+
+
+
+
+2012-11-13T03:41:54.012277Z
+9cbf3c5d6317796591c1b7848a592e1e
+2010-05-28T13:50:47.847179Z
+21600
+nico
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+580
+
+933-avr32_bug_7435.patch
+file
+
+
+
+
+2012-11-13T03:41:54.016277Z
+9e528bf2a655f52f56ed479f7ccfa5d7
+2011-07-01T13:39:50.074019Z
+27337
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1351
 
 934-avr32_bug_9675.patch
 file
@@ -162,40 +264,6 @@ kaloz
 
 8517
 
-305-libmudflap-susv3-legacy.patch
-file
-
-
-
-
-2012-11-13T03:41:54.016277Z
-a5c9ae79773846ff1d61488b491722c9
-2011-07-01T11:35:21.717263Z
-27332
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1405
-
 302-c99-snprintf.patch
 file
 
@@ -229,6 +297,40 @@ nico
 
 
 265
+
+305-libmudflap-susv3-legacy.patch
+file
+
+
+
+
+2012-11-13T03:41:54.016277Z
+a5c9ae79773846ff1d61488b491722c9
+2011-07-01T11:35:21.717263Z
+27332
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1405
 
 931-avr32_disable_shifted_data_opt.patch
 file
@@ -298,17 +400,17 @@ has-props
 
 303634
 
-999-coldfire.patch
+301-missing-execinfo_h.patch
 file
 
 
 
 
 2012-11-13T03:41:54.000277Z
-2eeb0820882059517230b399d1c4eb3b
-2011-07-01T13:39:50.074019Z
-27337
-kaloz
+ebfa923c5f3739ae7382c4f003441fb0
+2010-05-28T13:50:47.847179Z
+21600
+nico
 
 
 
@@ -330,7 +432,7 @@ kaloz
 
 
 
-301
+422
 
 920-specs_nonfatal_getenv.patch
 file
@@ -366,17 +468,17 @@ jow
 
 442
 
-301-missing-execinfo_h.patch
+999-coldfire.patch
 file
 
 
 
 
 2012-11-13T03:41:54.000277Z
-ebfa923c5f3739ae7382c4f003441fb0
-2010-05-28T13:50:47.847179Z
-21600
-nico
+2eeb0820882059517230b399d1c4eb3b
+2011-07-01T13:39:50.074019Z
+27337
+kaloz
 
 
 
@@ -398,7 +500,7 @@ nico
 
 
 
-422
+301
 
 100-uclibc-conf.patch
 file
@@ -433,106 +535,4 @@ nico
 
 
 1064
-
-820-libgcc_pic.patch
-file
-
-
-
-
-2012-11-13T03:41:54.012277Z
-4d76e03bd88993dd27c64bf8de840322
-2009-10-20T06:48:29.715134Z
-18087
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1153
-
-993-arm_insn-opinit-RTX_CODE-fixup.patch
-file
-
-
-
-
-2012-11-13T03:41:54.012277Z
-9cbf3c5d6317796591c1b7848a592e1e
-2010-05-28T13:50:47.847179Z
-21600
-nico
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-580
-
-933-avr32_bug_7435.patch
-file
-
-
-
-
-2012-11-13T03:41:54.016277Z
-9e528bf2a655f52f56ed479f7ccfa5d7
-2011-07-01T13:39:50.074019Z
-27337
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1351
 

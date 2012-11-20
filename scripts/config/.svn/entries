@@ -1,7 +1,7 @@
 10
 
 dir
-34274
+34280
 svn://svn.openwrt.org/openwrt/trunk/scripts/config
 svn://svn.openwrt.org/openwrt
 
@@ -25,108 +25,6 @@ has-props
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
-
-menu.c
-file
-
-
-
-
-2012-11-13T03:45:24.464267Z
-a7effcd388da46145c822998d173e6a9
-2007-06-12T13:23:43.719733Z
-7588
-nbd
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-10332
-
-symbol.c
-file
-
-
-
-
-2012-11-13T03:45:24.472268Z
-b16a3427d5898f38dd51f2495541adc5
-2011-11-16T17:27:36.282619Z
-29190
-mb
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-18188
-
-zconf.y
-file
-
-
-
-
-2012-11-13T03:45:24.472268Z
-11e8b0ad3055cac19745906a22931eb3
-2007-03-23T14:03:35.824535Z
-6647
-nbd
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-14528
 
 lex.backup
 file
@@ -196,40 +94,6 @@ has-props
 
 115
 
-zconf.hash.c_shipped
-file
-
-
-
-
-2012-11-13T03:45:24.448266Z
-387a85212e324e7b0cd63dd9a3377cf1
-2007-03-23T14:03:35.824535Z
-6647
-nbd
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-10099
-
 util.c
 file
 
@@ -264,16 +128,16 @@ has-props
 
 1617
 
-lkc.h
+zconf.hash.c_shipped
 file
 
 
 
 
 2012-11-13T03:45:24.448266Z
-e9f90aa85bf28804355fbb5e2f78e50f
-2011-10-28T14:09:12.991639Z
-28658
+387a85212e324e7b0cd63dd9a3377cf1
+2007-03-23T14:03:35.824535Z
+6647
 nbd
 has-props
 
@@ -296,7 +160,7 @@ has-props
 
 
 
-3597
+10099
 
 expr.c
 file
@@ -332,16 +196,16 @@ has-props
 
 26452
 
-confdata.c
+lkc.h
 file
 
 
 
 
-2012-11-13T03:45:24.452266Z
-c915ff1859d1ca04e6d2b70bb07bad8c
-2008-10-18T20:16:59.036706Z
-13008
+2012-11-13T03:45:24.448266Z
+e9f90aa85bf28804355fbb5e2f78e50f
+2011-10-28T14:09:12.991639Z
+28658
 nbd
 has-props
 
@@ -364,7 +228,7 @@ has-props
 
 
 
-11387
+3597
 
 kconfig_load.c
 file
@@ -400,8 +264,39 @@ has-props
 
 644
 
-lxdialog
-dir
+confdata.c
+file
+
+
+
+
+2012-11-13T03:45:24.452266Z
+c915ff1859d1ca04e6d2b70bb07bad8c
+2008-10-18T20:16:59.036706Z
+13008
+nbd
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11387
 
 lex.zconf.c_shipped
 file
@@ -436,6 +331,9 @@ has-props
 
 
 55554
+
+lxdialog
+dir
 
 expr.h
 file
@@ -742,4 +640,106 @@ has-props
 
 
 28236
+
+menu.c
+file
+
+
+
+
+2012-11-13T03:45:24.464267Z
+a7effcd388da46145c822998d173e6a9
+2007-06-12T13:23:43.719733Z
+7588
+nbd
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10332
+
+zconf.y
+file
+
+
+
+
+2012-11-13T03:45:24.472268Z
+11e8b0ad3055cac19745906a22931eb3
+2007-03-23T14:03:35.824535Z
+6647
+nbd
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+14528
+
+symbol.c
+file
+
+
+
+
+2012-11-13T03:45:24.472268Z
+b16a3427d5898f38dd51f2495541adc5
+2011-11-16T17:27:36.282619Z
+29190
+mb
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+18188
 

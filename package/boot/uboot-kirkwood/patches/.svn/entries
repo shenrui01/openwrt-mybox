@@ -1,7 +1,7 @@
 10
 
 dir
-34274
+34280
 svn://svn.openwrt.org/openwrt/trunk/package/boot/uboot-kirkwood/patches
 svn://svn.openwrt.org/openwrt
 
@@ -25,74 +25,6 @@ blogic
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
-
-100-iconnect.patch
-file
-
-
-
-
-2012-11-13T03:45:31.800269Z
-4d1b8cab219a63a88bd0e89a65d673c0
-2012-10-16T13:44:25.630275Z
-33781
-blogic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-826
-
-0002-kwboot.patch
-file
-
-
-
-
-2012-11-13T03:45:31.800269Z
-48d4e2977352b82a9f38f50d9aa8f64b
-2012-10-16T13:44:25.630275Z
-33781
-blogic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-16169
 
 0001-ib62x0.patch
 file
@@ -195,4 +127,72 @@ blogic
 
 
 475
+
+100-iconnect.patch
+file
+
+
+
+
+2012-11-13T03:45:31.800269Z
+4d1b8cab219a63a88bd0e89a65d673c0
+2012-10-16T13:44:25.630275Z
+33781
+blogic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+826
+
+0002-kwboot.patch
+file
+
+
+
+
+2012-11-13T03:45:31.800269Z
+48d4e2977352b82a9f38f50d9aa8f64b
+2012-10-16T13:44:25.630275Z
+33781
+blogic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+16169
 

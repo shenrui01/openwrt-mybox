@@ -1,7 +1,7 @@
 10
 
 dir
-34274
+34280
 svn://svn.openwrt.org/openwrt/trunk/target/linux/ar71xx/files/arch/mips/ath79
 svn://svn.openwrt.org/openwrt
 
@@ -26,14 +26,82 @@ juhosg
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
 
-mach-mzk-w300nh.c
+mach-tl-wr741nd-v4.c
 file
 
 
 
 
-2012-11-13T03:44:40.008271Z
-cf77263afa8cbbfa4cc2a03624c24964
+2012-11-13T03:44:40.056271Z
+fe52b4937b9af4e7682967e7d5cbb4f0
+2012-06-06T17:24:09.268914Z
+32092
+nbd
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3606
+
+mach-tl-wr841n-v8.c
+file
+
+
+
+
+2012-11-13T03:44:40.048271Z
+61b88fcf84113d7c86bef5f5ec7abbf5
+2012-10-17T18:27:47.256774Z
+33818
+juhosg
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3760
+
+mach-mzk-w04nu.c
+file
+
+
+
+
+2012-11-13T03:44:40.060271Z
+1ab94249b17cbe3500a7a4420a74174b
 2012-02-10T08:19:31.122468Z
 30405
 juhosg
@@ -58,7 +126,109 @@ has-props
 
 
 
-3165
+3257
+
+mach-wzr-hp-g450h.c
+file
+
+
+
+
+2012-11-13T03:44:40.048271Z
+5a8b3e2eca98466fff6b4c609cbf7b24
+2012-11-05T13:23:27.448617Z
+34087
+juhosg
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3984
+
+pci-ath9k-fixup.c
+file
+
+
+
+
+2012-11-13T03:44:40.008271Z
+40caab2994074927123074cf0d1a92b3
+2012-06-19T10:13:43.139168Z
+32455
+juhosg
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2848
+
+dev-nfc.c
+file
+
+
+
+
+2012-11-13T03:44:40.008271Z
+88a20c0ba0fe759853da0faa218c64da
+2012-09-13T07:26:25.058537Z
+33387
+juhosg
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2384
 
 mach-wrt400n.c
 file
@@ -94,16 +264,16 @@ has-props
 
 3935
 
-mach-tl-wdr4300.c
+mach-mzk-w300nh.c
 file
 
 
 
 
 2012-11-13T03:44:40.008271Z
-1ceff897ad601b2298809871f531f28a
-2012-11-05T13:23:27.448617Z
-34087
+cf77263afa8cbbfa4cc2a03624c24964
+2012-02-10T08:19:31.122468Z
+30405
 juhosg
 has-props
 
@@ -126,7 +296,7 @@ has-props
 
 
 
-4776
+3165
 
 mach-alfa-ap96.c
 file
@@ -162,16 +332,16 @@ has-props
 
 4185
 
-dev-nfc.h
+mach-tl-wdr4300.c
 file
 
 
 
 
-2012-11-13T03:44:40.012271Z
-711c7ff8062896be0132782c346c09e0
-2012-09-13T07:26:25.058537Z
-33387
+2012-11-13T03:44:40.008271Z
+1ceff897ad601b2298809871f531f28a
+2012-11-05T13:23:27.448617Z
+34087
 juhosg
 has-props
 
@@ -194,7 +364,7 @@ has-props
 
 
 
-964
+4776
 
 pci-ath9k-fixup.h
 file
@@ -229,6 +399,40 @@ has-props
 
 
 148
+
+dev-nfc.h
+file
+
+
+
+
+2012-11-13T03:44:40.012271Z
+711c7ff8062896be0132782c346c09e0
+2012-09-13T07:26:25.058537Z
+33387
+juhosg
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+964
 
 mach-tl-wr741nd.c
 file
@@ -1046,40 +1250,6 @@ has-props
 
 3548
 
-mach-wp543.c
-file
-
-
-
-
-2012-11-13T03:44:40.016271Z
-6e3bf3ceb829d2bf630b7cdd63f8f1dc
-2012-02-10T08:19:31.122468Z
-30405
-juhosg
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2619
-
 nvram.h
 file
 
@@ -1113,6 +1283,40 @@ has-props
 
 
 574
+
+mach-wp543.c
+file
+
+
+
+
+2012-11-13T03:44:40.016271Z
+6e3bf3ceb829d2bf630b7cdd63f8f1dc
+2012-02-10T08:19:31.122468Z
+30405
+juhosg
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2619
 
 mach-rw2458n.c
 file
@@ -1148,16 +1352,16 @@ has-props
 
 2243
 
-mach-tew-712br.c
+mach-tew-673gru.c
 file
 
 
 
 
-2012-11-13T03:44:40.020271Z
-a3cfdc38ea99654808f4b6c3d1cd100d
-2012-08-22T20:09:13.358014Z
-33231
+2012-11-13T03:44:40.044271Z
+61ed9d0980e6c3ed34833055a9ea174a
+2012-09-25T12:57:40.238982Z
+33539
 juhosg
 has-props
 
@@ -1180,7 +1384,7 @@ has-props
 
 
 
-4438
+5431
 
 mach-dir-825-b1.c
 file
@@ -1216,16 +1420,16 @@ has-props
 
 5248
 
-mach-tew-673gru.c
+mach-tew-712br.c
 file
 
 
 
 
-2012-11-13T03:44:40.044271Z
-61ed9d0980e6c3ed34833055a9ea174a
-2012-09-25T12:57:40.238982Z
-33539
+2012-11-13T03:44:40.020271Z
+a3cfdc38ea99654808f4b6c3d1cd100d
+2012-08-22T20:09:13.358014Z
+33231
 juhosg
 has-props
 
@@ -1248,7 +1452,7 @@ has-props
 
 
 
-5431
+4438
 
 mach-ja76pf.c
 file
@@ -1318,40 +1522,6 @@ has-props
 
 1523
 
-mach-tl-wr1043nd.c
-file
-
-
-
-
-2012-11-13T03:44:40.056271Z
-50771da39c06d825edfebcc9f41c2dd9
-2012-08-02T09:54:28.304642Z
-32944
-juhosg
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3705
-
 mach-rb750.c
 file
 
@@ -1385,6 +1555,40 @@ has-props
 
 
 8712
+
+mach-tl-wr1043nd.c
+file
+
+
+
+
+2012-11-13T03:44:40.056271Z
+50771da39c06d825edfebcc9f41c2dd9
+2012-08-02T09:54:28.304642Z
+32944
+juhosg
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3705
 
 routerboot.h
 file
@@ -1658,40 +1862,6 @@ has-props
 
 3163
 
-mach-jwap003.c
-file
-
-
-
-
-2012-11-13T03:44:40.064271Z
-43662e8467f8b18c7e4dd621294956fd
-2012-02-10T08:19:31.122468Z
-30405
-juhosg
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2279
-
 mach-wndr3700.c
 file
 
@@ -1725,6 +1895,40 @@ has-props
 
 
 4825
+
+mach-jwap003.c
+file
+
+
+
+
+2012-11-13T03:44:40.064271Z
+43662e8467f8b18c7e4dd621294956fd
+2012-02-10T08:19:31.122468Z
+30405
+juhosg
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2279
 
 mach-whr-hp-g300n.c
 file
@@ -1862,40 +2066,6 @@ has-props
 
 2268
 
-mach-wzr-hp-ag300h.c
-file
-
-
-
-
-2012-11-13T03:44:40.044271Z
-3d2379b3337f88d97f3710030a61389d
-2012-11-05T13:23:27.448617Z
-34087
-juhosg
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5492
-
 mach-rb4xx.c
 file
 
@@ -1929,6 +2099,40 @@ has-props
 
 
 11412
+
+mach-wzr-hp-ag300h.c
+file
+
+
+
+
+2012-11-13T03:44:40.044271Z
+3d2379b3337f88d97f3710030a61389d
+2012-11-05T13:23:27.448617Z
+34087
+juhosg
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5492
 
 dev-dsa.c
 file
@@ -2405,208 +2609,4 @@ has-props
 
 
 3561
-
-mach-tl-wr741nd-v4.c
-file
-
-
-
-
-2012-11-13T03:44:40.056271Z
-fe52b4937b9af4e7682967e7d5cbb4f0
-2012-06-06T17:24:09.268914Z
-32092
-nbd
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3606
-
-mach-tl-wr841n-v8.c
-file
-
-
-
-
-2012-11-13T03:44:40.048271Z
-61b88fcf84113d7c86bef5f5ec7abbf5
-2012-10-17T18:27:47.256774Z
-33818
-juhosg
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3760
-
-mach-mzk-w04nu.c
-file
-
-
-
-
-2012-11-13T03:44:40.060271Z
-1ab94249b17cbe3500a7a4420a74174b
-2012-02-10T08:19:31.122468Z
-30405
-juhosg
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3257
-
-mach-wzr-hp-g450h.c
-file
-
-
-
-
-2012-11-13T03:44:40.048271Z
-5a8b3e2eca98466fff6b4c609cbf7b24
-2012-11-05T13:23:27.448617Z
-34087
-juhosg
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3984
-
-pci-ath9k-fixup.c
-file
-
-
-
-
-2012-11-13T03:44:40.008271Z
-40caab2994074927123074cf0d1a92b3
-2012-06-19T10:13:43.139168Z
-32455
-juhosg
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2848
-
-dev-nfc.c
-file
-
-
-
-
-2012-11-13T03:44:40.008271Z
-88a20c0ba0fe759853da0faa218c64da
-2012-09-13T07:26:25.058537Z
-33387
-juhosg
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2384
 

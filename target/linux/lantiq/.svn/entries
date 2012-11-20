@@ -1,7 +1,7 @@
 10
 
 dir
-34274
+34280
 svn://svn.openwrt.org/openwrt/trunk/target/linux/lantiq
 svn://svn.openwrt.org/openwrt
 
@@ -29,16 +29,16 @@ juhosg
 svip_be
 dir
 
-xway
-dir
-
 patches-3.3
 dir
 
-ar9
+xway
 dir
 
 patches-3.6
+dir
+
+ar9
 dir
 
 danube
@@ -51,9 +51,6 @@ falcon
 dir
 
 files-3.3
-dir
-
-files-3.6
 dir
 
 config-3.3
@@ -89,6 +86,9 @@ blogic
 
 
 2939
+
+files-3.6
+dir
 
 ase
 dir

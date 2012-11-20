@@ -1,7 +1,7 @@
 10
 
 dir
-34274
+34280
 svn://svn.openwrt.org/openwrt/trunk/target/linux/adm5120/files/drivers/usb/host
 svn://svn.openwrt.org/openwrt
 
@@ -25,6 +25,74 @@ juhosg
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
+
+adm5120-q.c
+file
+
+
+
+
+2012-11-13T03:44:55.808270Z
+2ea4f4e124b69ad88509674ad72c7151
+2012-04-29T07:36:43.201180Z
+31511
+juhosg
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+26020
+
+adm5120.h
+file
+
+
+
+
+2012-11-13T03:44:55.804270Z
+a28252da7b1f28e96b1c87c1f8ec00ae
+2012-04-29T07:36:43.201180Z
+31511
+juhosg
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+22715
 
 adm5120-drv.c
 file
@@ -229,72 +297,4 @@ has-props
 
 
 4861
-
-adm5120-q.c
-file
-
-
-
-
-2012-11-13T03:44:55.808270Z
-2ea4f4e124b69ad88509674ad72c7151
-2012-04-29T07:36:43.201180Z
-31511
-juhosg
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-26020
-
-adm5120.h
-file
-
-
-
-
-2012-11-13T03:44:55.804270Z
-a28252da7b1f28e96b1c87c1f8ec00ae
-2012-04-29T07:36:43.201180Z
-31511
-juhosg
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-22715
 

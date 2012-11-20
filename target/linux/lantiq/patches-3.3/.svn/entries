@@ -1,7 +1,7 @@
 10
 
 dir
-34274
+34280
 svn://svn.openwrt.org/openwrt/trunk/target/linux/lantiq/patches-3.3
 svn://svn.openwrt.org/openwrt
 
@@ -60,14 +60,14 @@ blogic
 
 22383
 
-0016-falcon-VPE-softdog.patch
+0002-xway-support.patch
 file
 
 
 
 
 2012-11-13T03:44:19.032272Z
-d3523ca59c857cceed29280c230282d0
+be5a9fa01eedb2a7f7b893913c77faec
 2012-08-03T08:53:02.460175Z
 32953
 blogic
@@ -92,7 +92,7 @@ blogic
 
 
 
-5823
+45959
 
 0006-mtd-support.patch
 file
@@ -128,14 +128,14 @@ blogic
 
 3339
 
-0002-xway-support.patch
+0016-falcon-VPE-softdog.patch
 file
 
 
 
 
 2012-11-13T03:44:19.032272Z
-be5a9fa01eedb2a7f7b893913c77faec
+d3523ca59c857cceed29280c230282d0
 2012-08-03T08:53:02.460175Z
 32953
 blogic
@@ -160,7 +160,7 @@ blogic
 
 
 
-45959
+5823
 
 0018-cache-split.patch
 file
@@ -264,40 +264,6 @@ blogic
 
 3952
 
-0025-svip-cp1.patch
-file
-
-
-
-
-2012-11-13T03:44:19.024272Z
-5dda80a1a8da67a921833b65264062ea
-2012-08-03T08:53:02.460175Z
-32953
-blogic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2369
-
 0014-import-compat-headers.patch
 file
 
@@ -331,6 +297,40 @@ blogic
 
 
 4663050
+
+0025-svip-cp1.patch
+file
+
+
+
+
+2012-11-13T03:44:19.024272Z
+5dda80a1a8da67a921833b65264062ea
+2012-08-03T08:53:02.460175Z
+32953
+blogic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2369
 
 0007-usb-support.patch
 file
@@ -366,40 +366,6 @@ blogic
 
 2014
 
-0023-owrt-gpio-export.patch
-file
-
-
-
-
-2012-11-13T03:44:19.024272Z
-3f760151af27af2d5c83d9806aa7fb49
-2012-08-03T08:53:02.460175Z
-32953
-blogic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1696
-
 0010-watchdog-support.patch
 file
 
@@ -433,6 +399,40 @@ blogic
 
 
 1974
+
+0023-owrt-gpio-export.patch
+file
+
+
+
+
+2012-11-13T03:44:19.024272Z
+3f760151af27af2d5c83d9806aa7fb49
+2012-08-03T08:53:02.460175Z
+32953
+blogic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1696
 
 0020-owrt-atm.patch
 file
@@ -468,40 +468,6 @@ blogic
 
 2686
 
-0008-spi-support.patch
-file
-
-
-
-
-2012-11-13T03:44:19.024272Z
-3deb7f38a8b4f471d658d33a7a598456
-2012-08-03T08:53:02.460175Z
-32953
-blogic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2346
-
 0001-falcon-support.patch
 file
 
@@ -535,6 +501,40 @@ blogic
 
 
 800
+
+0008-spi-support.patch
+file
+
+
+
+
+2012-11-13T03:44:19.024272Z
+3deb7f38a8b4f471d658d33a7a598456
+2012-08-03T08:53:02.460175Z
+32953
+blogic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2346
 
 0019-owrt-mtd-split.patch
 file

@@ -1,7 +1,7 @@
 10
 
 dir
-34274
+34280
 svn://svn.openwrt.org/openwrt/trunk/target/linux/cns3xxx/patches-3.3
 svn://svn.openwrt.org/openwrt
 
@@ -26,14 +26,14 @@ luka
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
 
-030-pcie_clock.patch
+050-pcie_section_mismatch_fixes.patch
 file
 
 
 
 
 2012-11-13T03:43:10.204274Z
-285e1bb2bb4accc66a281236450fb241
+1482e3c8aec8dcff4fdac5082ee01f7e
 2012-11-12T09:18:00.492962Z
 34169
 kaloz
@@ -58,7 +58,41 @@ kaloz
 
 
 
-533
+567
+
+080-sata_support.patch
+file
+
+
+
+
+2012-11-13T03:43:10.204274Z
+9fc7fa42c99b31181911e53ddd4856f3
+2012-11-12T09:18:00.492962Z
+34169
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2804
 
 020-watchdog_support.patch
 file
@@ -93,6 +127,40 @@ kaloz
 
 
 1724
+
+030-pcie_clock.patch
+file
+
+
+
+
+2012-11-13T03:43:10.204274Z
+285e1bb2bb4accc66a281236450fb241
+2012-11-12T09:18:00.492962Z
+34169
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+533
 
 045-twd_base.patch
 file
@@ -264,14 +332,14 @@ luka
 
 2337
 
-305-laguna_sdhci_card_detect.patch
+065-pcie_early_init.patch
 file
 
 
 
 
 2012-11-13T03:43:10.208274Z
-dbe66c16af1529fb62bcfa7ca1251519
+8fa6235b098738078ec55496ac53e3c3
 2012-11-12T09:18:00.492962Z
 34169
 kaloz
@@ -296,7 +364,7 @@ kaloz
 
 
 
-604
+2198
 
 015-clkdev_support.patch
 file
@@ -332,14 +400,14 @@ kaloz
 
 1394
 
-065-pcie_early_init.patch
+305-laguna_sdhci_card_detect.patch
 file
 
 
 
 
 2012-11-13T03:43:10.208274Z
-8fa6235b098738078ec55496ac53e3c3
+dbe66c16af1529fb62bcfa7ca1251519
 2012-11-12T09:18:00.492962Z
 34169
 kaloz
@@ -364,7 +432,7 @@ kaloz
 
 
 
-2198
+604
 
 090-timers.patch
 file
@@ -434,40 +502,6 @@ kaloz
 
 4214
 
-010-move_virtual_io_space.patch
-file
-
-
-
-
-2012-11-13T03:43:10.204274Z
-2dccc1f6a1930e2b311ce3fc93259c28
-2012-11-12T09:18:00.492962Z
-34169
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-7330
-
 040-fiq_support.patch
 file
 
@@ -501,6 +535,40 @@ kaloz
 
 
 2806
+
+010-move_virtual_io_space.patch
+file
+
+
+
+
+2012-11-13T03:43:10.204274Z
+2dccc1f6a1930e2b311ce3fc93259c28
+2012-11-12T09:18:00.492962Z
+34169
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7330
 
 070-i2c_support.patch
 file
@@ -671,72 +739,4 @@ kaloz
 
 
 811
-
-050-pcie_section_mismatch_fixes.patch
-file
-
-
-
-
-2012-11-13T03:43:10.204274Z
-1482e3c8aec8dcff4fdac5082ee01f7e
-2012-11-12T09:18:00.492962Z
-34169
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-567
-
-080-sata_support.patch
-file
-
-
-
-
-2012-11-13T03:43:10.204274Z
-9fc7fa42c99b31181911e53ddd4856f3
-2012-11-12T09:18:00.492962Z
-34169
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2804
 

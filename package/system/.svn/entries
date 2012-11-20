@@ -1,7 +1,7 @@
 10
 
 dir
-34274
+34280
 svn://svn.openwrt.org/openwrt/trunk/package/system
 svn://svn.openwrt.org/openwrt
 
@@ -26,13 +26,16 @@ florian
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
 
+vsc73x5-ucode
+dir
+
 ltq-dsl
 dir
 
-wrt55agv2-spidevs
+i2c-gpio-custom
 dir
 
-i2c-gpio-custom
+wrt55agv2-spidevs
 dir
 
 rotary-gpio-custom
@@ -44,10 +47,10 @@ dir
 sierra-directip
 dir
 
-hostap-driver
+gpio-button-hotplug
 dir
 
-gpio-button-hotplug
+hostap-driver
 dir
 
 avila-wdt
@@ -59,13 +62,13 @@ dir
 ltq-dsl-fw
 dir
 
-ltq-tapi
+w1-gpio-custom
 dir
 
 button-hotplug
 dir
 
-w1-gpio-custom
+ltq-tapi
 dir
 
 ep80579-drivers
@@ -90,8 +93,5 @@ ar7-atm
 dir
 
 om-watchdog
-dir
-
-vsc73x5-ucode
 dir
 

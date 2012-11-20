@@ -1,7 +1,7 @@
 10
 
 dir
-34274
+34280
 svn://svn.openwrt.org/openwrt/trunk/package/network/utils
 svn://svn.openwrt.org/openwrt
 
@@ -25,42 +25,6 @@ jow
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
-
-resolveip
-dir
-
-iproute2
-dir
-
-comgt
-dir
-
-tcpdump
-dir
-
-ifenslave
-dir
-
-arptables
-dir
-
-iw
-dir
-
-conntrack-tools
-dir
-
-iftop
-dir
-
-ebtables
-dir
-
-maccalc
-dir
-
-ipset
-dir
 
 rssileds
 dir
@@ -87,5 +51,41 @@ iptables
 dir
 
 iperf
+dir
+
+resolveip
+dir
+
+comgt
+dir
+
+iproute2
+dir
+
+ifenslave
+dir
+
+tcpdump
+dir
+
+arptables
+dir
+
+iw
+dir
+
+conntrack-tools
+dir
+
+ebtables
+dir
+
+iftop
+dir
+
+maccalc
+dir
+
+ipset
 dir
 
