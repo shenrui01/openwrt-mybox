@@ -1,7 +1,7 @@
 10
 
 dir
-34270
+34274
 svn://svn.openwrt.org/openwrt/trunk/target/linux/lantiq/patches-3.6
 svn://svn.openwrt.org/openwrt
 
@@ -25,6 +25,108 @@ blogic
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
+
+0014-MIPS-lantiq-make-use-of-__gpio_to_irq.patch
+file
+
+
+
+
+2012-11-13T03:44:20.720272Z
+ad251c3c1832ee5baba9014817404b6d
+2012-11-02T20:07:26.599296Z
+34061
+blogic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1093
+
+0007-MIPS-lantiq-falcon-clocks-were-not-enabled-properly.patch
+file
+
+
+
+
+2012-11-13T03:44:20.720272Z
+88e0a645a3d520c7cbc5bedd1e2e1e2c
+2012-11-02T20:07:26.599296Z
+34061
+blogic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1107
+
+0015-GPIO-MIPS-lantiq-fix-overflow-inside-stp-xway-driver.patch
+file
+
+
+
+
+2012-11-13T03:44:20.728272Z
+c757b14303cc27a0cb7973807b89a779
+2012-11-02T20:07:26.599296Z
+34061
+blogic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1287
 
 0002-MIPS-lantiq-split-up-IRQ-IM-ranges.patch
 file
@@ -536,40 +638,6 @@ blogic
 
 6085
 
-0113-EASY80920-dts-file.patch
-file
-
-
-
-
-2012-11-13T03:44:20.720272Z
-967fdcb56dc362d6e64b2682b9f4f0db
-2012-11-02T20:07:26.599296Z
-34061
-blogic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-12218
-
 0301-owrt-atm.patch
 file
 
@@ -603,6 +671,40 @@ blogic
 
 
 2935
+
+0113-EASY80920-dts-file.patch
+file
+
+
+
+
+2012-11-13T03:44:20.720272Z
+967fdcb56dc362d6e64b2682b9f4f0db
+2012-11-02T20:07:26.599296Z
+34061
+blogic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+12218
 
 0008-MIPS-lantiq-enable-pci-clk-conditional-for-xrx200-So.patch
 file
@@ -706,40 +808,6 @@ blogic
 
 39411
 
-0201-lantiq-dtb-image-hack.patch
-file
-
-
-
-
-2012-11-13T03:44:20.732272Z
-ef13df2168f8f7e6410f186585f0d1bc
-2012-11-06T10:39:43.623718Z
-34100
-blogic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1435
-
 0105-MIPS-lantiq-xway-adds-reset-code-for-11G-PHYs.patch
 file
 
@@ -773,6 +841,40 @@ blogic
 
 
 6596
+
+0201-lantiq-dtb-image-hack.patch
+file
+
+
+
+
+2012-11-13T03:44:20.732272Z
+ef13df2168f8f7e6410f186585f0d1bc
+2012-11-06T10:39:43.623718Z
+34100
+blogic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1435
 
 0103-MIPS-lantiq-prom-code-invalidated-devicetree-memory.patch
 file
@@ -1079,106 +1181,4 @@ blogic
 
 
 2255
-
-0014-MIPS-lantiq-make-use-of-__gpio_to_irq.patch
-file
-
-
-
-
-2012-11-13T03:44:20.720272Z
-ad251c3c1832ee5baba9014817404b6d
-2012-11-02T20:07:26.599296Z
-34061
-blogic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1093
-
-0007-MIPS-lantiq-falcon-clocks-were-not-enabled-properly.patch
-file
-
-
-
-
-2012-11-13T03:44:20.720272Z
-88e0a645a3d520c7cbc5bedd1e2e1e2c
-2012-11-02T20:07:26.599296Z
-34061
-blogic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1107
-
-0015-GPIO-MIPS-lantiq-fix-overflow-inside-stp-xway-driver.patch
-file
-
-
-
-
-2012-11-13T03:44:20.728272Z
-c757b14303cc27a0cb7973807b89a779
-2012-11-02T20:07:26.599296Z
-34061
-blogic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1287
 

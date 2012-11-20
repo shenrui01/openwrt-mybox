@@ -1,15 +1,15 @@
 10
 
 dir
-34270
+34274
 svn://svn.openwrt.org/openwrt/trunk/target/linux/ar71xx/base-files/sbin
 svn://svn.openwrt.org/openwrt
 
 
 
-2011-04-21T12:38:25.724572Z
-26747
-acoul
+2012-11-20T12:17:44.604741Z
+34273
+juhosg
 
 
 
@@ -32,11 +32,11 @@ file
 
 
 
-2012-11-13T03:44:34.876271Z
-bd8c885d8c4101bc0def4131fa10e00f
-2011-04-21T12:38:25.724572Z
-26747
-acoul
+2012-11-20T13:22:44.966115Z
+6559da2793588dec7276050b71877514
+2012-11-20T12:17:44.604741Z
+34273
+juhosg
 has-props
 
 
@@ -58,5 +58,5 @@ has-props
 
 
 
-2286
+2291
 

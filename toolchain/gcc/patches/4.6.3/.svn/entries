@@ -1,7 +1,7 @@
 10
 
 dir
-34270
+34274
 svn://svn.openwrt.org/openwrt/trunk/toolchain/gcc/patches/4.6.3
 svn://svn.openwrt.org/openwrt
 
@@ -25,6 +25,40 @@ florian
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
+
+830-arm_unbreak_armv4t.patch
+file
+
+
+
+
+2012-11-13T03:41:48.672277Z
+1f2dca712b13052021623f785b7db32d
+2012-10-14T13:35:13.379252Z
+33762
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+473
 
 000-gcc-bug-54369.patch
 file
@@ -162,40 +196,6 @@ florian
 
 8651
 
-302-c99-snprintf.patch
-file
-
-
-
-
-2012-11-13T03:41:48.672277Z
-f95da1e0eae971eb4bc1cad6d14ba345
-2012-10-14T13:35:13.379252Z
-33762
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-260
-
 305-libmudflap-susv3-legacy.patch
 file
 
@@ -229,6 +229,40 @@ florian
 
 
 1405
+
+302-c99-snprintf.patch
+file
+
+
+
+
+2012-11-13T03:41:48.672277Z
+f95da1e0eae971eb4bc1cad6d14ba345
+2012-10-14T13:35:13.379252Z
+33762
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+260
 
 600-ubicom_support.patch
 file
@@ -264,14 +298,14 @@ florian
 
 303626
 
-301-missing-execinfo_h.patch
+999-coldfire.patch
 file
 
 
 
 
 2012-11-13T03:41:48.676277Z
-ebfa923c5f3739ae7382c4f003441fb0
+f58eb6012f0a6db1b2aa5ecba5f78a65
 2012-10-14T13:35:13.379252Z
 33762
 florian
@@ -296,7 +330,7 @@ florian
 
 
 
-422
+301
 
 920-specs_nonfatal_getenv.patch
 file
@@ -332,14 +366,14 @@ florian
 
 446
 
-999-coldfire.patch
+301-missing-execinfo_h.patch
 file
 
 
 
 
 2012-11-13T03:41:48.676277Z
-f58eb6012f0a6db1b2aa5ecba5f78a65
+ebfa923c5f3739ae7382c4f003441fb0
 2012-10-14T13:35:13.379252Z
 33762
 florian
@@ -364,7 +398,7 @@ florian
 
 
 
-301
+422
 
 002-siginfo_t.patch
 file
@@ -501,38 +535,4 @@ florian
 
 
 648
-
-830-arm_unbreak_armv4t.patch
-file
-
-
-
-
-2012-11-13T03:41:48.672277Z
-1f2dca712b13052021623f785b7db32d
-2012-10-14T13:35:13.379252Z
-33762
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-473
 

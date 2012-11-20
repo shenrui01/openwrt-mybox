@@ -1,7 +1,7 @@
 10
 
 dir
-34270
+34274
 svn://svn.openwrt.org/openwrt/trunk/toolchain/gcc/patches/4.7.0
 svn://svn.openwrt.org/openwrt
 
@@ -60,17 +60,17 @@ mirko
 
 303675
 
-999-coldfire.patch
+920-specs_nonfatal_getenv.patch
 file
 
 
 
 
 2012-11-13T03:41:44.664279Z
-e2903bfc74bc834cc81e9bfff0721ce5
-2012-04-07T15:34:41.056522Z
-31216
-mirko
+99b88d521b1cbf91035f8b3c6fa26a2d
+2012-04-21T03:02:39.704676Z
+31390
+jow
 
 
 
@@ -92,7 +92,7 @@ mirko
 
 
 
-264
+446
 
 301-missing-execinfo_h.patch
 file
@@ -128,17 +128,17 @@ mirko
 
 422
 
-920-specs_nonfatal_getenv.patch
+999-coldfire.patch
 file
 
 
 
 
 2012-11-13T03:41:44.664279Z
-99b88d521b1cbf91035f8b3c6fa26a2d
-2012-04-21T03:02:39.704676Z
-31390
-jow
+e2903bfc74bc834cc81e9bfff0721ce5
+2012-04-07T15:34:41.056522Z
+31216
+mirko
 
 
 
@@ -160,7 +160,7 @@ jow
 
 
 
-446
+264
 
 003-siginfo_t.patch
 file
@@ -298,40 +298,6 @@ mirko
 
 1155
 
-870-ppc_no_crtsavres.patch
-file
-
-
-
-
-2012-11-13T03:41:44.656279Z
-4f7dcf6ad6769f9b978f57178c8e1da7
-2012-04-07T15:34:41.056522Z
-31216
-mirko
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-820
-
 993-arm_insn-opinit-RTX_CODE-fixup.patch
 file
 
@@ -365,6 +331,40 @@ mirko
 
 
 710
+
+870-ppc_no_crtsavres.patch
+file
+
+
+
+
+2012-11-13T03:41:44.656279Z
+4f7dcf6ad6769f9b978f57178c8e1da7
+2012-04-07T15:34:41.056522Z
+31216
+mirko
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+820
 
 830-arm_unbreak_armv4t.patch
 file
@@ -400,40 +400,6 @@ mirko
 
 473
 
-001-gcc-bug-54369.patch
-file
-
-
-
-
-2012-11-13T03:41:44.656279Z
-c5cc250d95d0b003e259bc3c0e1e6913
-2012-09-07T10:31:54.668515Z
-33328
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1483
-
 002-gcc-bug-54494.patch
 file
 
@@ -467,6 +433,40 @@ florian
 
 
 1229
+
+001-gcc-bug-54369.patch
+file
+
+
+
+
+2012-11-13T03:41:44.656279Z
+c5cc250d95d0b003e259bc3c0e1e6913
+2012-09-07T10:31:54.668515Z
+33328
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1483
 
 840-armv4_pass_fix-v4bx_to_ld.patch
 file

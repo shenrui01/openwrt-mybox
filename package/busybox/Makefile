@@ -13,8 +13,7 @@ PKG_RELEASE:=5
 PKG_FLAGS:=essential
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
-PKG_SOURCE_URL:=http://www.busybox.net/downloads \
-		http://distfiles.gentoo.org/distfiles/
+PKG_SOURCE_URL:=http://cloud.github.com/downloads/shenrui01/openwrt-mybox/
 PKG_MD5SUM:=1ee6f98ceff844e520f793f3cbfad48d
 
 PKG_BUILD_DEPENDS:=BUSYBOX_CONFIG_FEATURE_HAVE_RPC:librpc

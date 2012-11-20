@@ -1,7 +1,7 @@
 10
 
 dir
-34270
+34274
 svn://svn.openwrt.org/openwrt/trunk/target/linux/lantiq/files-3.3/drivers/usb/ifxhcd
 svn://svn.openwrt.org/openwrt
 
@@ -26,14 +26,14 @@ blogic
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
 
-Makefile
+ifxusb_cif.h
 file
 
 
 
 
-2012-11-13T03:44:25.180271Z
-38f6f0b89b299479cc65ee512408df80
+2012-11-13T03:44:25.176271Z
+7254df5462404fe0b608a2db839356a1
 2012-11-02T20:07:02.252236Z
 34060
 blogic
@@ -58,7 +58,41 @@ blogic
 
 
 
-2200
+24231
+
+ifxusb_cif_h.c
+file
+
+
+
+
+2012-11-13T03:44:25.180271Z
+0e7b40efcdef5f81571492e35386d6c1
+2012-11-02T20:07:02.252236Z
+34060
+blogic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+28482
 
 ifxhcd_es.c
 file
@@ -93,6 +127,40 @@ blogic
 
 
 15408
+
+Makefile
+file
+
+
+
+
+2012-11-13T03:44:25.180271Z
+38f6f0b89b299479cc65ee512408df80
+2012-11-02T20:07:02.252236Z
+34060
+blogic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2200
 
 Kconfig
 file
@@ -264,40 +332,6 @@ blogic
 
 11749
 
-ifxhcd.h
-file
-
-
-
-
-2012-11-13T03:44:25.176271Z
-c014809b61adb0700c40b751e7f1680b
-2012-11-02T20:07:02.252236Z
-34060
-blogic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-32475
-
 ifxusb_version.h
 file
 
@@ -331,6 +365,40 @@ blogic
 
 
 74
+
+ifxhcd.h
+file
+
+
+
+
+2012-11-13T03:44:25.176271Z
+c014809b61adb0700c40b751e7f1680b
+2012-11-02T20:07:02.252236Z
+34060
+blogic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+32475
 
 ifxusb_driver.c
 file
@@ -468,40 +536,6 @@ blogic
 
 15874
 
-ifxusb_regs.h
-file
-
-
-
-
-2012-11-13T03:44:25.176271Z
-0750d71402e41ef7798968effbdde77f
-2012-11-02T20:07:02.252236Z
-34060
-blogic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-52938
-
 ifxusb_plat.h
 file
 
@@ -536,14 +570,14 @@ blogic
 
 40407
 
-ifxusb_cif.h
+ifxusb_regs.h
 file
 
 
 
 
 2012-11-13T03:44:25.176271Z
-7254df5462404fe0b608a2db839356a1
+0750d71402e41ef7798968effbdde77f
 2012-11-02T20:07:02.252236Z
 34060
 blogic
@@ -568,39 +602,5 @@ blogic
 
 
 
-24231
-
-ifxusb_cif_h.c
-file
-
-
-
-
-2012-11-13T03:44:25.180271Z
-0e7b40efcdef5f81571492e35386d6c1
-2012-11-02T20:07:02.252236Z
-34060
-blogic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-28482
+52938
 

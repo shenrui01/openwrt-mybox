@@ -1,7 +1,7 @@
 10
 
 dir
-34270
+34274
 svn://svn.openwrt.org/openwrt/trunk/target/linux/coldfire/patches
 svn://svn.openwrt.org/openwrt
 
@@ -25,40 +25,6 @@ kaloz
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
-
-004-MCF54418-support-in-Linux-2.6.38.patch
-file
-
-
-
-
-2012-11-13T03:44:14.252272Z
-43045ddd9c653556fa01978d187b6f05
-2012-05-01T07:00:17.595841Z
-31546
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-232043
 
 031-Add-watchdog-driver-support-for-MCF5445x-and-MCF547x.patch
 file
@@ -502,40 +468,6 @@ kaloz
 
 83221
 
-032-Change-some-jffs2-warning-to-debug-info.patch
-file
-
-
-
-
-2012-11-13T03:44:14.268272Z
-c82a2bc62efac2231195b04c22d1fb66
-2012-05-01T07:00:17.595841Z
-31546
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1213
-
 003-MCF547x-and-MCF548x-support-in-Linux-2.6.38.patch
 file
 
@@ -569,6 +501,40 @@ kaloz
 
 
 243545
+
+032-Change-some-jffs2-warning-to-debug-info.patch
+file
+
+
+
+
+2012-11-13T03:44:14.268272Z
+c82a2bc62efac2231195b04c22d1fb66
+2012-05-01T07:00:17.595841Z
+31546
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1213
 
 030-Add-SPI-device-configuration-for-FXS-and-FXO-on-MCF5.patch
 file
@@ -604,40 +570,6 @@ kaloz
 
 1236
 
-010-Add-SRAM-char-device-driver-support-for-MCF5445x.patch
-file
-
-
-
-
-2012-11-13T03:44:14.216273Z
-1c777772165aaff1c52c69fb7d673bb2
-2012-05-01T07:00:17.595841Z
-31546
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5279
-
 200-fec_select_phylib.patch
 file
 
@@ -671,6 +603,40 @@ kaloz
 
 
 338
+
+010-Add-SRAM-char-device-driver-support-for-MCF5445x.patch
+file
+
+
+
+
+2012-11-13T03:44:14.216273Z
+1c777772165aaff1c52c69fb7d673bb2
+2012-05-01T07:00:17.595841Z
+31546
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5279
 
 018-Add-SSD1289-TFT-LCD-framebuffer-driver-on-TWR-MCF544.patch
 file
@@ -706,40 +672,6 @@ kaloz
 
 26659
 
-051-Update-SD-MMC-over-SPI-driver-for-MCF54451-and-MCF54.patch
-file
-
-
-
-
-2012-11-13T03:44:14.216273Z
-6c6ccd52cc7f18f8ea20e8d028cee0aa
-2012-05-01T07:00:17.595841Z
-31546
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3114
-
 005-Add-serial-driver-and-irda-driver-support-for-MCF544.patch
 file
 
@@ -774,14 +706,14 @@ kaloz
 
 6166
 
-102-kernel-2.6.38-Fix-SD-MMC-SDIO-over-SPI-driver-bug-when-reinserting.patch
+051-Update-SD-MMC-over-SPI-driver-for-MCF54451-and-MCF54.patch
 file
 
 
 
 
 2012-11-13T03:44:14.216273Z
-1c9605f8fa874b904f99a83cf3510685
+6c6ccd52cc7f18f8ea20e8d028cee0aa
 2012-05-01T07:00:17.595841Z
 31546
 kaloz
@@ -806,7 +738,7 @@ kaloz
 
 
 
-1036
+3114
 
 012-Add-vDSO-support-for-Coldfire-platform.patch
 file
@@ -841,6 +773,40 @@ kaloz
 
 
 13055
+
+102-kernel-2.6.38-Fix-SD-MMC-SDIO-over-SPI-driver-bug-when-reinserting.patch
+file
+
+
+
+
+2012-11-13T03:44:14.216273Z
+1c9605f8fa874b904f99a83cf3510685
+2012-05-01T07:00:17.595841Z
+31546
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1036
 
 008-Add-DSPI-driver-support-for-MCF5445x-MCF5441x.patch
 file
@@ -910,14 +876,14 @@ kaloz
 
 2621
 
-103-kernel-2.6.38-Fix-i2c-driver-could-not-work-as-module.patch
+022-Redefine-I-O-read-and-write-functions.patch
 file
 
 
 
 
 2012-11-13T03:44:14.220273Z
-d1044c058be151fb286876d80563a5ad
+d527eb2e721a44a4d46e775509dee6e5
 2012-05-01T07:00:17.595841Z
 31546
 kaloz
@@ -942,7 +908,7 @@ kaloz
 
 
 
-920
+1010
 
 007-Add-eDMA-support-for-MCF5445x.patch
 file
@@ -978,14 +944,14 @@ kaloz
 
 48362
 
-022-Redefine-I-O-read-and-write-functions.patch
+103-kernel-2.6.38-Fix-i2c-driver-could-not-work-as-module.patch
 file
 
 
 
 
 2012-11-13T03:44:14.220273Z
-d527eb2e721a44a4d46e775509dee6e5
+d1044c058be151fb286876d80563a5ad
 2012-05-01T07:00:17.595841Z
 31546
 kaloz
@@ -1010,41 +976,7 @@ kaloz
 
 
 
-1010
-
-034-Enable-the-NFC-driver-for-soft_ecc.patch
-file
-
-
-
-
-2012-11-13T03:44:14.224273Z
-88ba02f5741944cc1bf164bca23666dd
-2012-05-01T07:00:17.595841Z
-31546
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1557
+920
 
 052-Update-the-default-configurations-for-ColdFire-V4-bo.patch
 file
@@ -1079,6 +1011,40 @@ kaloz
 
 
 188089
+
+034-Enable-the-NFC-driver-for-soft_ecc.patch
+file
+
+
+
+
+2012-11-13T03:44:14.224273Z
+88ba02f5741944cc1bf164bca23666dd
+2012-05-01T07:00:17.595841Z
+31546
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1557
 
 044-Fix-Max3353-otg-toggle-bug.patch
 file
@@ -1929,4 +1895,38 @@ kaloz
 
 
 644
+
+004-MCF54418-support-in-Linux-2.6.38.patch
+file
+
+
+
+
+2012-11-13T03:44:14.252272Z
+43045ddd9c653556fa01978d187b6f05
+2012-05-01T07:00:17.595841Z
+31546
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+232043
 
