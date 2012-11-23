@@ -1,7 +1,7 @@
 10
 
 dir
-34296
+34303
 svn://svn.openwrt.org/openwrt/trunk/target/linux/cns3xxx/patches-3.3
 svn://svn.openwrt.org/openwrt
 
@@ -26,14 +26,14 @@ luka
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
 
-065-pcie_early_init.patch
+300-laguna_support.patch
 file
 
 
 
 
 2012-11-13T03:43:10.208274Z
-8fa6235b098738078ec55496ac53e3c3
+854614fef22a8869b096d0476ef10e38
 2012-11-12T09:18:00.492962Z
 34169
 kaloz
@@ -58,7 +58,75 @@ kaloz
 
 
 
-2198
+1512
+
+095-gpio_support.patch
+file
+
+
+
+
+2012-11-13T03:43:10.208274Z
+1356eaa4c8e0f07529af7cfe8d79b2ba
+2012-11-12T19:27:30.928231Z
+34174
+luka
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2337
+
+305-laguna_sdhci_card_detect.patch
+file
+
+
+
+
+2012-11-13T03:43:10.208274Z
+dbe66c16af1529fb62bcfa7ca1251519
+2012-11-12T09:18:00.492962Z
+34169
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+604
 
 015-clkdev_support.patch
 file
@@ -94,14 +162,14 @@ kaloz
 
 1394
 
-305-laguna_sdhci_card_detect.patch
+065-pcie_early_init.patch
 file
 
 
 
 
 2012-11-13T03:43:10.208274Z
-dbe66c16af1529fb62bcfa7ca1251519
+8fa6235b098738078ec55496ac53e3c3
 2012-11-12T09:18:00.492962Z
 34169
 kaloz
@@ -126,7 +194,7 @@ kaloz
 
 
 
-604
+2198
 
 090-timers.patch
 file
@@ -196,40 +264,6 @@ kaloz
 
 4214
 
-040-fiq_support.patch
-file
-
-
-
-
-2012-11-13T03:43:10.204274Z
-13d6781894be173212954284eef768ce
-2012-11-12T09:18:00.492962Z
-34169
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2806
-
 010-move_virtual_io_space.patch
 file
 
@@ -263,6 +297,40 @@ kaloz
 
 
 7330
+
+040-fiq_support.patch
+file
+
+
+
+
+2012-11-13T03:43:10.204274Z
+13d6781894be173212954284eef768ce
+2012-11-12T09:18:00.492962Z
+34169
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2806
 
 070-i2c_support.patch
 file
@@ -434,40 +502,6 @@ kaloz
 
 811
 
-050-pcie_section_mismatch_fixes.patch
-file
-
-
-
-
-2012-11-13T03:43:10.204274Z
-1482e3c8aec8dcff4fdac5082ee01f7e
-2012-11-12T09:18:00.492962Z
-34169
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-567
-
 080-sata_support.patch
 file
 
@@ -501,6 +535,40 @@ kaloz
 
 
 2804
+
+050-pcie_section_mismatch_fixes.patch
+file
+
+
+
+
+2012-11-13T03:43:10.204274Z
+1482e3c8aec8dcff4fdac5082ee01f7e
+2012-11-12T09:18:00.492962Z
+34169
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+567
 
 020-watchdog_support.patch
 file
@@ -671,72 +739,4 @@ luka
 
 
 1690
-
-300-laguna_support.patch
-file
-
-
-
-
-2012-11-13T03:43:10.208274Z
-854614fef22a8869b096d0476ef10e38
-2012-11-12T09:18:00.492962Z
-34169
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1512
-
-095-gpio_support.patch
-file
-
-
-
-
-2012-11-13T03:43:10.208274Z
-1356eaa4c8e0f07529af7cfe8d79b2ba
-2012-11-12T19:27:30.928231Z
-34174
-luka
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2337
 

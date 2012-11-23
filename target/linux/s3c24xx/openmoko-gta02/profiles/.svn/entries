@@ -1,7 +1,7 @@
 10
 
 dir
-34296
+34303
 svn://svn.openwrt.org/openwrt/trunk/target/linux/s3c24xx/openmoko-gta02/profiles
 svn://svn.openwrt.org/openwrt
 
@@ -25,40 +25,6 @@ blogic
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
-
-100-gta02-minimal.mk
-file
-
-
-
-
-2012-11-13T03:43:09.784274Z
-e4626116a443b5cc90c41e05f5739a12
-2010-10-23T15:57:24.290028Z
-23592
-mirko
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-414
 
 101-gta02-full.mk
 file
@@ -93,4 +59,38 @@ has-props
 
 
 521
+
+100-gta02-minimal.mk
+file
+
+
+
+
+2012-11-13T03:43:09.784274Z
+e4626116a443b5cc90c41e05f5739a12
+2010-10-23T15:57:24.290028Z
+23592
+mirko
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+414
 

@@ -1,7 +1,7 @@
 10
 
 dir
-34296
+34303
 svn://svn.openwrt.org/openwrt/trunk/target/linux/ixp4xx/patches-3.3
 svn://svn.openwrt.org/openwrt
 
@@ -25,6 +25,176 @@ kaloz
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
+
+170-ixdpg425_mac_plat_info.patch
+file
+
+
+
+
+2012-11-13T03:41:59.956277Z
+22624187fdc58e0b3a308ac94e801ff9
+2012-04-13T13:38:49.590779Z
+31275
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1028
+
+120-compex_support.patch
+file
+
+
+
+
+2012-11-13T03:41:59.960277Z
+f3233041a1c9332ee38f0f94655d7fd9
+2012-11-07T07:51:24.614470Z
+34104
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5275
+
+203-npe_driver_mask_phy_features.patch
+file
+
+
+
+
+2012-11-13T03:41:59.960277Z
+5ff1863d2315007c47e2fe2fca59dcc1
+2012-04-13T13:38:49.590779Z
+31275
+nbd
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+403
+
+311-gtwx5717_mac_plat_info.patch
+file
+
+
+
+
+2012-11-13T03:41:59.960277Z
+2954aa9b60ff4ab7d2b9fc2a30474232
+2012-04-13T13:38:49.590779Z
+31275
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1024
+
+000-adjust_virtual_addresses.patch
+file
+
+
+
+
+2012-11-13T03:41:59.960277Z
+5081944bb518a951b9d75957a7f4d079
+2012-11-11T21:03:52.768435Z
+34164
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2380
 
 207-npe_driver_multiphy_support.patch
 file
@@ -60,40 +230,6 @@ has-props
 
 3727
 
-090-increase_entropy_pools.patch
-file
-
-
-
-
-2012-11-13T03:41:59.948277Z
-f2d60a6560687072f6ad7c5b1d245ea1
-2012-11-05T11:38:23.195518Z
-34083
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-321
-
 116-sidewinder_fis_location.patch
 file
 
@@ -127,6 +263,40 @@ nbd
 
 
 871
+
+115-sidewinder_support.patch
+file
+
+
+
+
+2012-11-13T03:41:59.964277Z
+1f69f46b8c4398240b6561df8d0e6b22
+2012-10-09T15:38:55.380906Z
+33672
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7458
 
 160-delayed_uart_io.patch
 file
@@ -298,40 +468,6 @@ blogic
 
 31743
 
-310-gtwx5717_spi_bus.patch
-file
-
-
-
-
-2012-11-13T03:41:59.948277Z
-77fb2d869afed51d0de7cb97ab81faca
-2012-04-13T13:38:49.590779Z
-31275
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1340
-
 131-wrt300nv2_mac_plat_info.patch
 file
 
@@ -400,40 +536,6 @@ nbd
 
 429
 
-295-latch_led_driver.patch
-file
-
-
-
-
-2012-11-13T03:41:59.952277Z
-68a877fe5f31b4906d34dc531060380b
-2012-04-13T13:38:49.590779Z
-31275
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4968
-
 105-wg302v1_support.patch
 file
 
@@ -468,17 +570,17 @@ nbd
 
 6773
 
-402-ixp4xx_gpiolib.patch
+520-tw2662_support.patch
 file
 
 
 
 
-2012-11-13T03:41:59.952277Z
-d800a53c9e852d37516a51a2e44d18e0
-2012-04-13T13:38:49.590779Z
-31275
-nbd
+2012-11-13T03:41:59.968277Z
+06a9bd45fe64a143bdf0ea42b8ca0235
+2012-11-05T11:38:23.195518Z
+34083
+kaloz
 
 
 
@@ -500,7 +602,41 @@ nbd
 
 
 
-3105
+9402
+
+180-tw5334_support.patch
+file
+
+
+
+
+2012-11-13T03:41:59.968277Z
+d2937ddcee048e181309fe829f25aeda
+2012-11-05T11:38:23.195518Z
+34083
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7950
 
 132-wrt300nv2_mac_fix.patch
 file
@@ -570,40 +706,6 @@ kaloz
 
 5477
 
-110-pronghorn_series_support.patch
-file
-
-
-
-
-2012-11-13T03:41:59.956277Z
-9a80d9c3f7598f7167bf11ba728ea43c
-2012-10-09T15:38:55.380906Z
-33672
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-10454
-
 500-usr8200_support.patch
 file
 
@@ -637,74 +739,6 @@ kaloz
 
 
 8992
-
-312-ixp4xx_pata_optimization.patch
-file
-
-
-
-
-2012-11-13T03:41:59.956277Z
-e3c28a1de8181d01bbf8f3d0d57a62b2
-2012-04-13T13:38:49.590779Z
-31275
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3434
-
-900-ixp4xx-crypto-include-module.h.patch
-file
-
-
-
-
-2012-11-13T03:41:59.956277Z
-64a2856611935f1638641365121c3a81
-2012-05-12T10:49:23.747533Z
-31679
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-290
 
 130-wrt300nv2_support.patch
 file
@@ -740,119 +774,17 @@ kaloz
 
 6359
 
-170-ixdpg425_mac_plat_info.patch
-file
-
-
-
-
-2012-11-13T03:41:59.956277Z
-22624187fdc58e0b3a308ac94e801ff9
-2012-04-13T13:38:49.590779Z
-31275
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1028
-
-120-compex_support.patch
-file
-
-
-
-
-2012-11-13T03:41:59.960277Z
-f3233041a1c9332ee38f0f94655d7fd9
-2012-11-07T07:51:24.614470Z
-34104
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5275
-
-203-npe_driver_mask_phy_features.patch
-file
-
-
-
-
-2012-11-13T03:41:59.960277Z
-5ff1863d2315007c47e2fe2fca59dcc1
-2012-04-13T13:38:49.590779Z
-31275
-nbd
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-403
-
-300-avila_support.patch
+111-pronghorn_swap_uarts.patch
 file
 
 
 
 
 2012-11-13T03:41:59.948277Z
-0799cd810876d0ca8fb9770255890556
-2012-11-05T11:38:23.195518Z
-34083
-kaloz
+f0b64587a977f6dcb0fd554b868c8bfc
+2012-04-13T13:38:49.590779Z
+31275
+nbd
 
 
 
@@ -874,7 +806,7 @@ kaloz
 
 
 
-17723
+1403
 
 162-wg302v1_mem_fixup.patch
 file
@@ -910,16 +842,16 @@ nbd
 
 1111
 
-000-adjust_virtual_addresses.patch
+300-avila_support.patch
 file
 
 
 
 
-2012-11-13T03:41:59.960277Z
-5081944bb518a951b9d75957a7f4d079
-2012-11-11T21:03:52.768435Z
-34164
+2012-11-13T03:41:59.948277Z
+0799cd810876d0ca8fb9770255890556
+2012-11-05T11:38:23.195518Z
+34083
 kaloz
 
 
@@ -942,19 +874,19 @@ kaloz
 
 
 
-2380
+17723
 
-311-gtwx5717_mac_plat_info.patch
+090-increase_entropy_pools.patch
 file
 
 
 
 
-2012-11-13T03:41:59.960277Z
-2954aa9b60ff4ab7d2b9fc2a30474232
-2012-04-13T13:38:49.590779Z
-31275
-nbd
+2012-11-13T03:41:59.948277Z
+f2d60a6560687072f6ad7c5b1d245ea1
+2012-11-05T11:38:23.195518Z
+34083
+kaloz
 
 
 
@@ -976,41 +908,7 @@ nbd
 
 
 
-1024
-
-115-sidewinder_support.patch
-file
-
-
-
-
-2012-11-13T03:41:59.964277Z
-1f69f46b8c4398240b6561df8d0e6b22
-2012-10-09T15:38:55.380906Z
-33672
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-7458
+321
 
 206-npe_driver_add_update_link_function.patch
 file
@@ -1114,17 +1012,17 @@ nbd
 
 9695
 
-520-tw2662_support.patch
+310-gtwx5717_spi_bus.patch
 file
 
 
 
 
-2012-11-13T03:41:59.968277Z
-06a9bd45fe64a143bdf0ea42b8ca0235
-2012-11-05T11:38:23.195518Z
-34083
-kaloz
+2012-11-13T03:41:59.948277Z
+77fb2d869afed51d0de7cb97ab81faca
+2012-04-13T13:38:49.590779Z
+31275
+nbd
 
 
 
@@ -1146,19 +1044,19 @@ kaloz
 
 
 
-9402
+1340
 
-180-tw5334_support.patch
+295-latch_led_driver.patch
 file
 
 
 
 
-2012-11-13T03:41:59.968277Z
-d2937ddcee048e181309fe829f25aeda
-2012-11-05T11:38:23.195518Z
-34083
-kaloz
+2012-11-13T03:41:59.952277Z
+68a877fe5f31b4906d34dc531060380b
+2012-04-13T13:38:49.590779Z
+31275
+nbd
 
 
 
@@ -1180,7 +1078,41 @@ kaloz
 
 
 
-7950
+4968
+
+402-ixp4xx_gpiolib.patch
+file
+
+
+
+
+2012-11-13T03:41:59.952277Z
+d800a53c9e852d37516a51a2e44d18e0
+2012-04-13T13:38:49.590779Z
+31275
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3105
 
 100-wg302v2_gateway7001_mac_plat_info.patch
 file
@@ -1284,6 +1216,40 @@ kaloz
 
 13408
 
+110-pronghorn_series_support.patch
+file
+
+
+
+
+2012-11-13T03:41:59.956277Z
+9a80d9c3f7598f7167bf11ba728ea43c
+2012-10-09T15:38:55.380906Z
+33672
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10454
+
 600-skb_avoid_dmabounce.patch
 file
 
@@ -1318,14 +1284,48 @@ juhosg
 
 548
 
-111-pronghorn_swap_uarts.patch
+900-ixp4xx-crypto-include-module.h.patch
 file
 
 
 
 
-2012-11-13T03:41:59.948277Z
-f0b64587a977f6dcb0fd554b868c8bfc
+2012-11-13T03:41:59.956277Z
+64a2856611935f1638641365121c3a81
+2012-05-12T10:49:23.747533Z
+31679
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+290
+
+312-ixp4xx_pata_optimization.patch
+file
+
+
+
+
+2012-11-13T03:41:59.956277Z
+e3c28a1de8181d01bbf8f3d0d57a62b2
 2012-04-13T13:38:49.590779Z
 31275
 nbd
@@ -1350,5 +1350,5 @@ nbd
 
 
 
-1403
+3434
 

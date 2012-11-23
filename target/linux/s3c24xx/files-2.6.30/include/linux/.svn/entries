@@ -1,7 +1,7 @@
 10
 
 dir
-34296
+34303
 svn://svn.openwrt.org/openwrt/trunk/target/linux/s3c24xx/files-2.6.30/include/linux
 svn://svn.openwrt.org/openwrt
 
@@ -25,6 +25,9 @@ lars
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
+
+mfd
+dir
 
 gta02-vibrator.h
 file
@@ -232,7 +235,4 @@ lars
 
 
 3913
-
-mfd
-dir
 

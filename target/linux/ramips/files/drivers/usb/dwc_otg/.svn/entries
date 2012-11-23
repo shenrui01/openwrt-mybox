@@ -1,7 +1,7 @@
 10
 
 dir
-34296
+34303
 svn://svn.openwrt.org/openwrt/trunk/target/linux/ramips/files/drivers/usb/dwc_otg
 svn://svn.openwrt.org/openwrt
 
@@ -25,40 +25,6 @@ blogic
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
-
-dwc_otg_hcd.c
-file
-
-
-
-
-2012-11-13T03:44:47.772265Z
-8d126bb16d02797bec95b1c1343e8f01
-2012-07-24T20:38:55.082045Z
-32823
-blogic
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-86934
 
 dwc_otg_driver.h
 file
@@ -94,40 +60,6 @@ has-props
 
 3103
 
-dwc_otg_hcd_queue.c
-file
-
-
-
-
-2012-11-13T03:44:47.776265Z
-c7c7be960fd39d153b191821cffba7b9
-2011-08-15T14:11:55.443169Z
-27997
-juhosg
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-20040
-
 dwc_otg_pcd_intr.c
 file
 
@@ -162,14 +94,14 @@ has-props
 
 102176
 
-dwc_otg_cil_intr.c
+dwc_otg_hcd_queue.c
 file
 
 
 
 
-2012-11-13T03:44:47.780265Z
-541a0419c5eea1225d08ee3dab3779ee
+2012-11-13T03:44:47.776265Z
+c7c7be960fd39d153b191821cffba7b9
 2011-08-15T14:11:55.443169Z
 27997
 juhosg
@@ -194,7 +126,7 @@ has-props
 
 
 
-26732
+20040
 
 dwc_otg_hcd.h
 file
@@ -230,6 +162,40 @@ has-props
 
 21906
 
+dwc_otg_cil_intr.c
+file
+
+
+
+
+2012-11-13T03:44:47.780265Z
+541a0419c5eea1225d08ee3dab3779ee
+2011-08-15T14:11:55.443169Z
+27997
+juhosg
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+26732
+
 dwc_otg_regs.h
 file
 
@@ -264,40 +230,6 @@ has-props
 
 56084
 
-dummy_audio.c
-file
-
-
-
-
-2012-11-13T03:44:47.788266Z
-61f6e903aebc8103d16c9b591955c1a4
-2011-08-15T14:11:55.443169Z
-27997
-juhosg
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-42133
-
 dwc_otg_pcd.c
 file
 
@@ -331,6 +263,40 @@ has-props
 
 
 66598
+
+dummy_audio.c
+file
+
+
+
+
+2012-11-13T03:44:47.788266Z
+61f6e903aebc8103d16c9b591955c1a4
+2011-08-15T14:11:55.443169Z
+27997
+juhosg
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+42133
 
 dwc_otg_cil.c
 file
@@ -640,4 +606,38 @@ has-props
 
 
 46712
+
+dwc_otg_hcd.c
+file
+
+
+
+
+2012-11-13T03:44:47.772265Z
+8d126bb16d02797bec95b1c1343e8f01
+2012-07-24T20:38:55.082045Z
+32823
+blogic
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+86934
 

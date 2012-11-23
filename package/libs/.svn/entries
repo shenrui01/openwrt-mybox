@@ -1,7 +1,7 @@
 10
 
 dir
-34296
+34303
 svn://svn.openwrt.org/openwrt/trunk/package/libs
 svn://svn.openwrt.org/openwrt
 
@@ -26,43 +26,58 @@ nbd
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
 
-libevent2
+openssl
 dir
 
-cyassl
+gettext
+dir
+
+gettext-full
+dir
+
+uclibc++
+dir
+
+sysfsutils
+dir
+
+libevent2
 dir
 
 ocf-crypto-headers
 dir
 
-libbsd
+cyassl
 dir
 
-zlib
+libbsd
 dir
 
 libnl
 dir
 
-libnetfilter-conntrack
+zlib
 dir
 
-libubox
+libnetfilter-conntrack
 dir
 
 libtool
 dir
 
-libiconv
+libubox
 dir
 
 libiconv-full
 dir
 
-libpcap
+libiconv
 dir
 
 libreadline
+dir
+
+libpcap
 dir
 
 librpc
@@ -84,20 +99,5 @@ ncurses
 dir
 
 popt
-dir
-
-openssl
-dir
-
-gettext
-dir
-
-gettext-full
-dir
-
-uclibc++
-dir
-
-sysfsutils
 dir
 

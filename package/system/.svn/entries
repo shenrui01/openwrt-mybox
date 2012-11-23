@@ -1,7 +1,7 @@
 10
 
 dir
-34296
+34303
 svn://svn.openwrt.org/openwrt/trunk/package/system
 svn://svn.openwrt.org/openwrt
 
@@ -26,33 +26,6 @@ florian
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
 
-ixp4xx-microcode
-dir
-
-brcm2708-gpu-fw
-dir
-
-rtc-rv5c386a
-dir
-
-ar7-atm
-dir
-
-om-watchdog
-dir
-
-vsc73x5-ucode
-dir
-
-ltq-dsl
-dir
-
-i2c-gpio-custom
-dir
-
-wrt55agv2-spidevs
-dir
-
 rotary-gpio-custom
 dir
 
@@ -62,10 +35,10 @@ dir
 sierra-directip
 dir
 
-gpio-button-hotplug
+hostap-driver
 dir
 
-hostap-driver
+gpio-button-hotplug
 dir
 
 avila-wdt
@@ -93,5 +66,32 @@ ltq-vmmc
 dir
 
 spi-ks8995
+dir
+
+ixp4xx-microcode
+dir
+
+rtc-rv5c386a
+dir
+
+brcm2708-gpu-fw
+dir
+
+ar7-atm
+dir
+
+om-watchdog
+dir
+
+vsc73x5-ucode
+dir
+
+ltq-dsl
+dir
+
+wrt55agv2-spidevs
+dir
+
+i2c-gpio-custom
 dir
 

@@ -1,15 +1,15 @@
 10
 
 dir
-34296
+34303
 svn://svn.openwrt.org/openwrt/trunk/package/boot/uboot-kirkwood
 svn://svn.openwrt.org/openwrt
 
 
 
-2012-10-16T13:44:25.630275Z
-33781
-blogic
+2012-11-22T21:16:04.130323Z
+34303
+luka
 
 
 
@@ -26,9 +26,6 @@ blogic
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
 
-files
-dir
-
 patches
 dir
 
@@ -38,11 +35,11 @@ file
 
 
 
-2012-11-13T03:45:32.180269Z
-01dd9102ee16261ff309e7b086a9ffad
-2012-10-16T13:44:25.630275Z
-33781
-blogic
+2012-11-23T02:26:46.575394Z
+a8fda6997ee7d2c0864dc184b10b9e1d
+2012-11-22T21:16:04.130323Z
+34303
+luka
 
 
 
@@ -64,5 +61,8 @@ blogic
 
 
 
-2488
+2452
+
+files
+dir
 

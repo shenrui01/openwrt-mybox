@@ -1,7 +1,7 @@
 10
 
 dir
-34296
+34303
 svn://svn.openwrt.org/openwrt/trunk/package/network/services/hostapd/patches
 svn://svn.openwrt.org/openwrt
 
@@ -26,152 +26,16 @@ florian
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
 
-400-noscan.patch
-file
-
-
-
-
-2012-11-13T03:45:50.844268Z
-1795bf9db55ae63d30ff6b510a36554a
-2012-09-13T12:38:51.674444Z
-33392
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-973
-
-480-terminate_on_setup_failure.patch
-file
-
-
-
-
-2012-11-13T03:45:50.844268Z
-88f4f63fde117d2cc4ae89220ece3939
-2012-09-13T12:38:51.674444Z
-33392
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2093
-
-100-pending_work.patch
-file
-
-
-
-
-2012-11-22T00:16:31.051575Z
-7b3b51a859f87e4243e6033c24bd27a4
-2012-11-21T20:27:06.485186Z
-34295
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4626
-
-530-wps_single_auth_enc_type.patch
-file
-
-
-
-
-2012-11-13T03:45:50.844268Z
-4214dcd4bba9c194505e545899e89693
-2012-09-13T12:38:51.674444Z
-33392
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-838
-
-452-ctrl_iface_reload.patch
+001-CVE-2012-4445.patch
 file
 
 
 
 
 2012-11-13T03:45:50.848268Z
-12d874fd15f0244af11023eadc83ed20
-2012-09-13T12:38:51.674444Z
-33392
+802d7b0af22099efe8a622eb6c7bff6a
+2012-10-17T18:16:56.491827Z
+33815
 nbd
 
 
@@ -194,41 +58,7 @@ nbd
 
 
 
-2548
-
-440-optional_rfkill.patch
-file
-
-
-
-
-2012-11-13T03:45:50.848268Z
-e380f125172a8f9162551a74010e0919
-2012-09-13T12:38:51.674444Z
-33392
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-6615
+542
 
 450-reload_freq_change.patch
 file
@@ -264,40 +94,6 @@ nbd
 
 673
 
-590-hostapd_cli_ifdef.patch
-file
-
-
-
-
-2012-11-13T03:45:50.852268Z
-a192a0fc24951197f3ba0aff9b8e1efe
-2012-09-13T12:39:14.306119Z
-33393
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1928
-
 580-fix_bss_addr.patch
 file
 
@@ -332,210 +128,6 @@ florian
 
 375
 
-420-timestamp_check.patch
-file
-
-
-
-
-2012-11-13T03:45:50.852268Z
-fd1a0035891785a99b43e4c5e0862e23
-2012-03-27T10:42:47.716426Z
-31080
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-319
-
-560-indicate-features.patch
-file
-
-
-
-
-2012-11-13T03:45:50.852268Z
-0d5a1285efcf6d39ef12312eb6b1bae9
-2012-09-13T12:38:51.674444Z
-33392
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1841
-
-610-max_num_sta_probe.patch
-file
-
-
-
-
-2012-11-13T03:45:50.856268Z
-46c7868ebb723b537195c19e0aeaea95
-2012-09-14T14:08:39.117032Z
-33401
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-438
-
-300-nl80211_multicall_fixes.patch
-file
-
-
-
-
-2012-11-13T03:45:50.856268Z
-115986523b1374f40caa7f2e148349cc
-2012-09-13T12:38:51.674444Z
-33392
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1927
-
-520-fix_wps_pin_crash.patch
-file
-
-
-
-
-2012-11-13T03:45:50.856268Z
-18e4faf1906bcbd141b5fe17e243b354
-2012-09-13T12:38:51.674444Z
-33392
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-245
-
-470-wpa_ie_cap_workaround.patch
-file
-
-
-
-
-2012-11-13T03:45:50.840268Z
-12eb53b44096ffffa68cffc59ec54f8a
-2012-09-13T12:38:51.674444Z
-33392
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1449
-
 510-bring_down_interface.patch
 file
 
@@ -569,6 +161,40 @@ nbd
 
 
 604
+
+540-dynamic_20_40_mhz.patch
+file
+
+
+
+
+2012-11-13T03:45:50.844268Z
+b789df95793fde93cb181940bdb65a67
+2012-09-13T12:38:51.674444Z
+33392
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5547
 
 453-ap_sta_support.patch
 file
@@ -740,74 +366,6 @@ florian
 
 4182
 
-410-multicall.patch
-file
-
-
-
-
-2012-11-13T03:45:50.848268Z
-48f650ae8d88a9fd9ccba94a05c50e92
-2012-10-25T14:31:17.301511Z
-33919
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-6765
-
-320-madwifi_key_fixes.patch
-file
-
-
-
-
-2012-11-13T03:45:50.848268Z
-df1de63c44720c6d7669485e7eadf206
-2012-09-13T12:38:51.674444Z
-33392
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1101
-
 602-driver_nl80211-use-new-parameters-during-ibss-join.patch
 file
 
@@ -842,16 +400,16 @@ nbd
 
 1833
 
-001-CVE-2012-4445.patch
+452-ctrl_iface_reload.patch
 file
 
 
 
 
 2012-11-13T03:45:50.848268Z
-802d7b0af22099efe8a622eb6c7bff6a
-2012-10-17T18:16:56.491827Z
-33815
+12d874fd15f0244af11023eadc83ed20
+2012-09-13T12:38:51.674444Z
+33392
 nbd
 
 
@@ -874,7 +432,75 @@ nbd
 
 
 
-542
+2548
+
+440-optional_rfkill.patch
+file
+
+
+
+
+2012-11-13T03:45:50.848268Z
+e380f125172a8f9162551a74010e0919
+2012-09-13T12:38:51.674444Z
+33392
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6615
+
+590-hostapd_cli_ifdef.patch
+file
+
+
+
+
+2012-11-13T03:45:50.852268Z
+a192a0fc24951197f3ba0aff9b8e1efe
+2012-09-13T12:39:14.306119Z
+33393
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1928
 
 430-rescan_immediately.patch
 file
@@ -910,6 +536,74 @@ nbd
 
 338
 
+420-timestamp_check.patch
+file
+
+
+
+
+2012-11-13T03:45:50.852268Z
+fd1a0035891785a99b43e4c5e0862e23
+2012-03-27T10:42:47.716426Z
+31080
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+319
+
+560-indicate-features.patch
+file
+
+
+
+
+2012-11-13T03:45:50.852268Z
+0d5a1285efcf6d39ef12312eb6b1bae9
+2012-09-13T12:38:51.674444Z
+33392
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1841
+
 604-wpa_s-support-htmode-param.patch
 file
 
@@ -944,16 +638,16 @@ nbd
 
 4009
 
-601-wpa_supplicant-add-new-config-params-to-be-used-with.patch
+610-max_num_sta_probe.patch
 file
 
 
 
 
 2012-11-13T03:45:50.856268Z
-ba8e3023d64d502fd5793cf155afdeb6
-2012-09-13T12:38:51.674444Z
-33392
+46c7868ebb723b537195c19e0aeaea95
+2012-09-14T14:08:39.117032Z
+33401
 nbd
 
 
@@ -976,7 +670,7 @@ nbd
 
 
 
-5394
+438
 
 310-multicall_bridge_fix.patch
 file
@@ -1012,6 +706,142 @@ nbd
 
 1396
 
+601-wpa_supplicant-add-new-config-params-to-be-used-with.patch
+file
+
+
+
+
+2012-11-13T03:45:50.856268Z
+ba8e3023d64d502fd5793cf155afdeb6
+2012-09-13T12:38:51.674444Z
+33392
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5394
+
+300-nl80211_multicall_fixes.patch
+file
+
+
+
+
+2012-11-13T03:45:50.856268Z
+115986523b1374f40caa7f2e148349cc
+2012-09-13T12:38:51.674444Z
+33392
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1927
+
+520-fix_wps_pin_crash.patch
+file
+
+
+
+
+2012-11-13T03:45:50.856268Z
+18e4faf1906bcbd141b5fe17e243b354
+2012-09-13T12:38:51.674444Z
+33392
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+245
+
+470-wpa_ie_cap_workaround.patch
+file
+
+
+
+
+2012-11-13T03:45:50.840268Z
+12eb53b44096ffffa68cffc59ec54f8a
+2012-09-13T12:38:51.674444Z
+33392
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1449
+
 460-disable_ctrl_iface_mib.patch
 file
 
@@ -1046,14 +876,14 @@ nbd
 
 4978
 
-540-dynamic_20_40_mhz.patch
+400-noscan.patch
 file
 
 
 
 
 2012-11-13T03:45:50.844268Z
-b789df95793fde93cb181940bdb65a67
+1795bf9db55ae63d30ff6b510a36554a
 2012-09-13T12:38:51.674444Z
 33392
 nbd
@@ -1078,5 +908,175 @@ nbd
 
 
 
-5547
+973
+
+480-terminate_on_setup_failure.patch
+file
+
+
+
+
+2012-11-13T03:45:50.844268Z
+88f4f63fde117d2cc4ae89220ece3939
+2012-09-13T12:38:51.674444Z
+33392
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2093
+
+100-pending_work.patch
+file
+
+
+
+
+2012-11-22T00:16:31.051575Z
+7b3b51a859f87e4243e6033c24bd27a4
+2012-11-21T20:27:06.485186Z
+34295
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4626
+
+530-wps_single_auth_enc_type.patch
+file
+
+
+
+
+2012-11-13T03:45:50.844268Z
+4214dcd4bba9c194505e545899e89693
+2012-09-13T12:38:51.674444Z
+33392
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+838
+
+320-madwifi_key_fixes.patch
+file
+
+
+
+
+2012-11-13T03:45:50.848268Z
+df1de63c44720c6d7669485e7eadf206
+2012-09-13T12:38:51.674444Z
+33392
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1101
+
+410-multicall.patch
+file
+
+
+
+
+2012-11-13T03:45:50.848268Z
+48f650ae8d88a9fd9ccba94a05c50e92
+2012-10-25T14:31:17.301511Z
+33919
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6765
 

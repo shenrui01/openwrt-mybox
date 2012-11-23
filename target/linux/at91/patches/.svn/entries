@@ -1,7 +1,7 @@
 10
 
 dir
-34296
+34303
 svn://svn.openwrt.org/openwrt/trunk/target/linux/at91/patches
 svn://svn.openwrt.org/openwrt
 
@@ -25,6 +25,40 @@ jogo
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
+
+805-free_some_portc_pins.patch
+file
+
+
+
+
+2012-11-13T03:45:02.320270Z
+514863ffa56599b81888185ba794d8c1
+2012-04-24T09:25:38.707581Z
+31460
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+476
 
 700-tqma9263-support.patch
 file
@@ -127,38 +161,4 @@ jogo
 
 
 1383
-
-805-free_some_portc_pins.patch
-file
-
-
-
-
-2012-11-13T03:45:02.320270Z
-514863ffa56599b81888185ba794d8c1
-2012-04-24T09:25:38.707581Z
-31460
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-476
 

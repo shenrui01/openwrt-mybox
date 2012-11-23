@@ -1,7 +1,7 @@
 10
 
 dir
-34296
+34303
 svn://svn.openwrt.org/openwrt/trunk/target/linux/au1000
 svn://svn.openwrt.org/openwrt
 
@@ -25,83 +25,6 @@ florian
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
-
-base-files
-dir
-
-au1500
-dir
-
-patches-3.6
-dir
-
-Makefile
-file
-
-
-
-
-2012-11-13T03:42:06.612277Z
-c1a0fa6b65e7b8575813250ec5b1c900
-2012-11-11T19:26:54.806599Z
-34157
-florian
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-865
-
-modules.mk
-file
-
-
-
-
-2012-11-13T03:42:06.612277Z
-15ab96d211a7cf2934d3e01fedf7d3e4
-2010-07-12T14:06:13.191582Z
-22145
-claudio
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-438
 
 au1550
 dir
@@ -179,4 +102,81 @@ florian
 
 
 3903
+
+base-files
+dir
+
+au1500
+dir
+
+patches-3.6
+dir
+
+Makefile
+file
+
+
+
+
+2012-11-13T03:42:06.612277Z
+c1a0fa6b65e7b8575813250ec5b1c900
+2012-11-11T19:26:54.806599Z
+34157
+florian
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+865
+
+modules.mk
+file
+
+
+
+
+2012-11-13T03:42:06.612277Z
+15ab96d211a7cf2934d3e01fedf7d3e4
+2010-07-12T14:06:13.191582Z
+22145
+claudio
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+438
 

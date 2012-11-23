@@ -1,7 +1,7 @@
 10
 
 dir
-34296
+34303
 svn://svn.openwrt.org/openwrt/trunk/target/linux/adm8668/patches-3.3
 svn://svn.openwrt.org/openwrt
 
@@ -25,6 +25,40 @@ juhosg
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
+
+002-adm8668_uart.patch
+file
+
+
+
+
+2012-11-13T03:44:50.248270Z
+75e74a81adc546cfc501248494197b59
+2012-04-25T18:53:49.744010Z
+31480
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1153
 
 001-adm8668_arch.patch
 file
@@ -93,38 +127,4 @@ juhosg
 
 
 725
-
-002-adm8668_uart.patch
-file
-
-
-
-
-2012-11-13T03:44:50.248270Z
-75e74a81adc546cfc501248494197b59
-2012-04-25T18:53:49.744010Z
-31480
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1153
 

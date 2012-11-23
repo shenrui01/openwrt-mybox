@@ -1,14 +1,14 @@
 10
 
 dir
-34296
+34303
 svn://svn.openwrt.org/openwrt/trunk/target/linux
 svn://svn.openwrt.org/openwrt
 
 
 
-2012-11-21T17:38:11.702804Z
-34288
+2012-11-22T10:33:03.123466Z
+34297
 juhosg
 
 
@@ -26,97 +26,64 @@ juhosg
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
 
-ps3
-dir
-
-atheros
-dir
-
-mpc52xx
-dir
-
-mcs814x
-dir
-
-gemini
-dir
-
-generic
-dir
-
-at91
-dir
-
-ppc40x
-dir
-
-s3c24xx
-dir
-
-cns3xxx
-dir
-
-omap4
-dir
-
-omap24xx
-dir
-
-ppc44x
-dir
-
 etrax
 dir
 
-iop32x
+ubicom32
+dir
+
+omap35xx
+dir
+
+amazon
 dir
 
 orion
 dir
 
-octeon
+coldfire
+dir
+
+xburst
 dir
 
 pxa
 dir
 
-kirkwood
+lantiq
 dir
 
 ar7
 dir
 
-leon
+ar71xx
 dir
 
-rb532
-dir
-
-avr32
+ramips
 dir
 
 adm8668
 dir
 
-goldfish
+avr32
+dir
+
+rb532
+dir
+
+sibyte
 dir
 
 imx21
 dir
 
-cobalt
-dir
-
-brcm2708
-dir
-
-ixp4xx
+ep93xx
 dir
 
 cns21xx
 dir
 
-au1000
+gemini
 dir
 
 sparc
@@ -129,6 +96,72 @@ mpc83xx
 dir
 
 mpc85xx
+dir
+
+at91
+dir
+
+ppc40x
+dir
+
+omap24xx
+dir
+
+ppc44x
+dir
+
+iop32x
+dir
+
+x86
+dir
+
+octeon
+dir
+
+kirkwood
+dir
+
+leon
+dir
+
+pxcab
+dir
+
+uml
+dir
+
+malta
+dir
+
+goldfish
+dir
+
+ixp4xx
+dir
+
+brcm2708
+dir
+
+cobalt
+dir
+
+ps3
+dir
+
+atheros
+dir
+
+au1000
+dir
+
+mpc52xx
+dir
+
+mcs814x
+dir
+
+generic
 dir
 
 brcm63xx
@@ -168,51 +201,18 @@ has-props
 
 373
 
+s3c24xx
+dir
+
+cns3xxx
+dir
+
 realview
 dir
 
 brcm47xx
 dir
 
-ubicom32
-dir
-
-omap35xx
-dir
-
-x86
-dir
-
-amazon
-dir
-
-coldfire
-dir
-
-xburst
-dir
-
-lantiq
-dir
-
-ar71xx
-dir
-
-ramips
-dir
-
-pxcab
-dir
-
-uml
-dir
-
-malta
-dir
-
-sibyte
-dir
-
-ep93xx
+omap4
 dir
 

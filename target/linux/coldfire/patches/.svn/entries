@@ -1,7 +1,7 @@
 10
 
 dir
-34296
+34303
 svn://svn.openwrt.org/openwrt/trunk/target/linux/coldfire/patches
 svn://svn.openwrt.org/openwrt
 
@@ -25,6 +25,448 @@ kaloz
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
+
+038-Add-PCI-Framebuffer-support-for-Silicon-Motion-s-Lyn.patch
+file
+
+
+
+
+2012-11-13T03:44:14.260272Z
+0d044a0b595955c17a18e865fb456579
+2012-05-01T07:00:17.595841Z
+31546
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+37578
+
+100-kernel-2.6.38-Fix-FEC-driver-bugs-for-MCF547x-MCF548x.patch
+file
+
+
+
+
+2012-11-13T03:44:14.236272Z
+e65e6a46e5b080aa0b0c19e41665f8cf
+2012-05-01T07:00:17.595841Z
+31546
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5996
+
+013-Add-MCD-DMA-driver-for-MCF547x-MCF548x.patch
+file
+
+
+
+
+2012-11-13T03:44:14.264272Z
+1423cb0ec5d5f1259c6e26a0b531e958
+2012-05-01T07:00:17.595841Z
+31546
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+144878
+
+006-Add-FEC-driver-support-for-MCF5445x-MCF5441x-MCF547x.patch
+file
+
+
+
+
+2012-11-13T03:44:14.268272Z
+6f4a638a2a9954dbbb9d10a558b6b6f4
+2012-05-01T07:00:17.595841Z
+31546
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+83221
+
+020-Add-dual-FEC-1588-timer-support.patch
+file
+
+
+
+
+2012-11-13T03:44:14.236272Z
+9a33c732ec1a0afa8afd80930c8eb291
+2012-05-01T07:00:17.595841Z
+31546
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+33274
+
+030-Add-SPI-device-configuration-for-FXS-and-FXO-on-MCF5.patch
+file
+
+
+
+
+2012-11-13T03:44:14.216273Z
+596189bf57a91927e78193791f7c1a4c
+2012-05-01T07:00:17.595841Z
+31546
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1236
+
+010-Add-SRAM-char-device-driver-support-for-MCF5445x.patch
+file
+
+
+
+
+2012-11-13T03:44:14.216273Z
+1c777772165aaff1c52c69fb7d673bb2
+2012-05-01T07:00:17.595841Z
+31546
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5279
+
+018-Add-SSD1289-TFT-LCD-framebuffer-driver-on-TWR-MCF544.patch
+file
+
+
+
+
+2012-11-13T03:44:14.216273Z
+fbb705175fdb649686cd69c7dc1283c5
+2012-05-01T07:00:17.595841Z
+31546
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+26659
+
+040-Add-USB-support-for-MCF5445x-and-MCF54418.patch
+file
+
+
+
+
+2012-11-13T03:44:14.240272Z
+9e86b70de132f2383fa999b2c2f78f61
+2012-05-01T07:00:17.595841Z
+31546
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+200193
+
+051-Update-SD-MMC-over-SPI-driver-for-MCF54451-and-MCF54.patch
+file
+
+
+
+
+2012-11-13T03:44:14.216273Z
+6c6ccd52cc7f18f8ea20e8d028cee0aa
+2012-05-01T07:00:17.595841Z
+31546
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3114
+
+005-Add-serial-driver-and-irda-driver-support-for-MCF544.patch
+file
+
+
+
+
+2012-11-13T03:44:14.216273Z
+73d4deebed5b565acd24644372680c84
+2012-05-01T07:00:17.595841Z
+31546
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6166
+
+102-kernel-2.6.38-Fix-SD-MMC-SDIO-over-SPI-driver-bug-when-reinserting.patch
+file
+
+
+
+
+2012-11-13T03:44:14.216273Z
+1c9605f8fa874b904f99a83cf3510685
+2012-05-01T07:00:17.595841Z
+31546
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1036
+
+012-Add-vDSO-support-for-Coldfire-platform.patch
+file
+
+
+
+
+2012-11-13T03:44:14.220273Z
+a43b96f7326140f1b19c37c4d20b6b3b
+2012-05-01T07:00:17.595841Z
+31546
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+13055
 
 029-Add-eSDHC-driver-for-MCF5441x.patch
 file
@@ -604,40 +1046,6 @@ kaloz
 
 1071
 
-027-Add-RTC-driver-support-on-MCF5441x-platform.patch
-file
-
-
-
-
-2012-11-13T03:44:14.264272Z
-d1cf79edcea30678ed8010541730b131
-2012-05-01T07:00:17.595841Z
-31546
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-18745
-
 042-Fix-NEED_MULTIPLE_NODES-unmet-direct-dependencies-wa.patch
 file
 
@@ -672,14 +1080,14 @@ kaloz
 
 736
 
-003-MCF547x-and-MCF548x-support-in-Linux-2.6.38.patch
+027-Add-RTC-driver-support-on-MCF5441x-platform.patch
 file
 
 
 
 
-2012-11-13T03:44:14.272272Z
-f6ee86f6c96b0ed5435b02a16f369f0d
+2012-11-13T03:44:14.264272Z
+d1cf79edcea30678ed8010541730b131
 2012-05-01T07:00:17.595841Z
 31546
 kaloz
@@ -704,7 +1112,41 @@ kaloz
 
 
 
-243545
+18745
+
+011-Add-CAU-driver-for-MCF5445x-and-MCF5441x.patch
+file
+
+
+
+
+2012-11-13T03:44:14.236272Z
+0a67c4d7cceded592a378a50ad8a6d14
+2012-05-01T07:00:17.595841Z
+31546
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+78632
 
 032-Change-some-jffs2-warning-to-debug-info.patch
 file
@@ -740,14 +1182,14 @@ kaloz
 
 1213
 
-011-Add-CAU-driver-for-MCF5445x-and-MCF5441x.patch
+003-MCF547x-and-MCF548x-support-in-Linux-2.6.38.patch
 file
 
 
 
 
-2012-11-13T03:44:14.236272Z
-0a67c4d7cceded592a378a50ad8a6d14
+2012-11-13T03:44:14.272272Z
+f6ee86f6c96b0ed5435b02a16f369f0d
 2012-05-01T07:00:17.595841Z
 31546
 kaloz
@@ -772,7 +1214,7 @@ kaloz
 
 
 
-78632
+243545
 
 200-fec_select_phylib.patch
 file
@@ -842,40 +1284,6 @@ kaloz
 
 52423
 
-033-Fix-structure-fsl_ssd1289_data-definition-bug-for-SS.patch
-file
-
-
-
-
-2012-11-13T03:44:14.240272Z
-f969cf557f0dec1440eadde7dd328b9a
-2012-05-01T07:00:17.595841Z
-31546
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1357
-
 008-Add-DSPI-driver-support-for-MCF5445x-MCF5441x.patch
 file
 
@@ -910,14 +1318,14 @@ kaloz
 
 41915
 
-101-kernel-2.6.38-Fix-LCD-framebuffer-driver-data-swap-bug-for-MCF5441.patch
+033-Fix-structure-fsl_ssd1289_data-definition-bug-for-SS.patch
 file
 
 
 
 
 2012-11-13T03:44:14.240272Z
-85c4e7144333273fca1d9a5be2694d97
+f969cf557f0dec1440eadde7dd328b9a
 2012-05-01T07:00:17.595841Z
 31546
 kaloz
@@ -942,7 +1350,7 @@ kaloz
 
 
 
-1637
+1357
 
 017-Add-cpu-dma-sync-function-for-coldfire-platform.patch
 file
@@ -978,14 +1386,14 @@ kaloz
 
 2621
 
-103-kernel-2.6.38-Fix-i2c-driver-could-not-work-as-module.patch
+101-kernel-2.6.38-Fix-LCD-framebuffer-driver-data-swap-bug-for-MCF5441.patch
 file
 
 
 
 
-2012-11-13T03:44:14.220273Z
-d1044c058be151fb286876d80563a5ad
+2012-11-13T03:44:14.240272Z
+85c4e7144333273fca1d9a5be2694d97
 2012-05-01T07:00:17.595841Z
 31546
 kaloz
@@ -1010,7 +1418,41 @@ kaloz
 
 
 
-920
+1637
+
+022-Redefine-I-O-read-and-write-functions.patch
+file
+
+
+
+
+2012-11-13T03:44:14.220273Z
+d527eb2e721a44a4d46e775509dee6e5
+2012-05-01T07:00:17.595841Z
+31546
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1010
 
 007-Add-eDMA-support-for-MCF5445x.patch
 file
@@ -1046,14 +1488,14 @@ kaloz
 
 48362
 
-022-Redefine-I-O-read-and-write-functions.patch
+103-kernel-2.6.38-Fix-i2c-driver-could-not-work-as-module.patch
 file
 
 
 
 
 2012-11-13T03:44:14.220273Z
-d527eb2e721a44a4d46e775509dee6e5
+d1044c058be151fb286876d80563a5ad
 2012-05-01T07:00:17.595841Z
 31546
 kaloz
@@ -1078,7 +1520,7 @@ kaloz
 
 
 
-1010
+920
 
 028-Add-SD-MMC-SDIO-over-SPI-support-for-MCF54451-and-MC.patch
 file
@@ -1487,446 +1929,4 @@ kaloz
 
 
 176488
-
-038-Add-PCI-Framebuffer-support-for-Silicon-Motion-s-Lyn.patch
-file
-
-
-
-
-2012-11-13T03:44:14.260272Z
-0d044a0b595955c17a18e865fb456579
-2012-05-01T07:00:17.595841Z
-31546
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-37578
-
-100-kernel-2.6.38-Fix-FEC-driver-bugs-for-MCF547x-MCF548x.patch
-file
-
-
-
-
-2012-11-13T03:44:14.236272Z
-e65e6a46e5b080aa0b0c19e41665f8cf
-2012-05-01T07:00:17.595841Z
-31546
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5996
-
-013-Add-MCD-DMA-driver-for-MCF547x-MCF548x.patch
-file
-
-
-
-
-2012-11-13T03:44:14.264272Z
-1423cb0ec5d5f1259c6e26a0b531e958
-2012-05-01T07:00:17.595841Z
-31546
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-144878
-
-006-Add-FEC-driver-support-for-MCF5445x-MCF5441x-MCF547x.patch
-file
-
-
-
-
-2012-11-13T03:44:14.268272Z
-6f4a638a2a9954dbbb9d10a558b6b6f4
-2012-05-01T07:00:17.595841Z
-31546
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-83221
-
-020-Add-dual-FEC-1588-timer-support.patch
-file
-
-
-
-
-2012-11-13T03:44:14.236272Z
-9a33c732ec1a0afa8afd80930c8eb291
-2012-05-01T07:00:17.595841Z
-31546
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-33274
-
-030-Add-SPI-device-configuration-for-FXS-and-FXO-on-MCF5.patch
-file
-
-
-
-
-2012-11-13T03:44:14.216273Z
-596189bf57a91927e78193791f7c1a4c
-2012-05-01T07:00:17.595841Z
-31546
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1236
-
-010-Add-SRAM-char-device-driver-support-for-MCF5445x.patch
-file
-
-
-
-
-2012-11-13T03:44:14.216273Z
-1c777772165aaff1c52c69fb7d673bb2
-2012-05-01T07:00:17.595841Z
-31546
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5279
-
-018-Add-SSD1289-TFT-LCD-framebuffer-driver-on-TWR-MCF544.patch
-file
-
-
-
-
-2012-11-13T03:44:14.216273Z
-fbb705175fdb649686cd69c7dc1283c5
-2012-05-01T07:00:17.595841Z
-31546
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-26659
-
-040-Add-USB-support-for-MCF5445x-and-MCF54418.patch
-file
-
-
-
-
-2012-11-13T03:44:14.240272Z
-9e86b70de132f2383fa999b2c2f78f61
-2012-05-01T07:00:17.595841Z
-31546
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-200193
-
-051-Update-SD-MMC-over-SPI-driver-for-MCF54451-and-MCF54.patch
-file
-
-
-
-
-2012-11-13T03:44:14.216273Z
-6c6ccd52cc7f18f8ea20e8d028cee0aa
-2012-05-01T07:00:17.595841Z
-31546
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3114
-
-005-Add-serial-driver-and-irda-driver-support-for-MCF544.patch
-file
-
-
-
-
-2012-11-13T03:44:14.216273Z
-73d4deebed5b565acd24644372680c84
-2012-05-01T07:00:17.595841Z
-31546
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-6166
-
-102-kernel-2.6.38-Fix-SD-MMC-SDIO-over-SPI-driver-bug-when-reinserting.patch
-file
-
-
-
-
-2012-11-13T03:44:14.216273Z
-1c9605f8fa874b904f99a83cf3510685
-2012-05-01T07:00:17.595841Z
-31546
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1036
-
-012-Add-vDSO-support-for-Coldfire-platform.patch
-file
-
-
-
-
-2012-11-13T03:44:14.220273Z
-a43b96f7326140f1b19c37c4d20b6b3b
-2012-05-01T07:00:17.595841Z
-31546
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-13055
 
