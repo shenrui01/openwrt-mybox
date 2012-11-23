@@ -1,7 +1,7 @@
 10
 
 dir
-34280
+34296
 svn://svn.openwrt.org/openwrt/trunk/package/network/utils
 svn://svn.openwrt.org/openwrt
 
@@ -26,13 +26,25 @@ jow
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
 
+conntrack-tools
+dir
+
+iftop
+dir
+
+ebtables
+dir
+
+maccalc
+dir
+
+ipset
+dir
+
 rssileds
 dir
 
 iputils
-dir
-
-dante
 dir
 
 iwinfo
@@ -41,13 +53,16 @@ dir
 wireless-tools
 dir
 
+dante
+dir
+
 owipcalc
 dir
 
-iwcap
+iptables
 dir
 
-iptables
+iwcap
 dir
 
 iperf
@@ -72,20 +87,5 @@ arptables
 dir
 
 iw
-dir
-
-conntrack-tools
-dir
-
-ebtables
-dir
-
-iftop
-dir
-
-maccalc
-dir
-
-ipset
 dir
 

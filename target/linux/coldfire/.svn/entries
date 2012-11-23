@@ -1,7 +1,7 @@
 10
 
 dir
-34280
+34296
 svn://svn.openwrt.org/openwrt/trunk/target/linux/coldfire
 svn://svn.openwrt.org/openwrt
 
@@ -25,43 +25,6 @@ juhosg
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
-
-patches
-dir
-
-config-default
-file
-
-
-
-
-2012-11-13T03:44:14.284272Z
-18c0e25fb567d11a8a3bdd2ac669c328
-2012-10-29T10:11:05.857052Z
-33987
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3006
 
 Makefile
 file
@@ -99,4 +62,41 @@ kaloz
 
 image
 dir
+
+patches
+dir
+
+config-default
+file
+
+
+
+
+2012-11-13T03:44:14.284272Z
+18c0e25fb567d11a8a3bdd2ac669c328
+2012-10-29T10:11:05.857052Z
+33987
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3006
 

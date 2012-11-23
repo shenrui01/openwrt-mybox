@@ -1,7 +1,7 @@
 10
 
 dir
-34280
+34296
 svn://svn.openwrt.org/openwrt/trunk/toolchain/gcc/patches/4.5-linaro
 svn://svn.openwrt.org/openwrt
 
@@ -25,6 +25,40 @@ jow
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
+
+820-libgcc_pic.patch
+file
+
+
+
+
+2012-11-13T03:41:47.552277Z
+9d5ec61bdbea327023c9810059fc4fa3
+2011-01-28T12:34:32.804697Z
+25195
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1153
 
 993-arm_insn-opinit-RTX_CODE-fixup.patch
 file
@@ -535,38 +569,4 @@ kaloz
 
 
 1064
-
-820-libgcc_pic.patch
-file
-
-
-
-
-2012-11-13T03:41:47.552277Z
-9d5ec61bdbea327023c9810059fc4fa3
-2011-01-28T12:34:32.804697Z
-25195
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1153
 

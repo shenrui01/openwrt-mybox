@@ -1,7 +1,7 @@
 10
 
 dir
-34280
+34296
 svn://svn.openwrt.org/openwrt/trunk/target/linux/ubicom32/files/arch/ubicom32
 svn://svn.openwrt.org/openwrt
 
@@ -25,6 +25,58 @@ kaloz
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
+
+mach-common
+dir
+
+mach-ip5k
+dir
+
+oprofile
+dir
+
+crypto
+dir
+
+kernel
+dir
+
+mach-ip7k
+dir
+
+Kconfig
+file
+
+
+
+
+2012-11-13T03:43:38.136275Z
+7edb6b8f78b733a4434a59a1fd7b3588
+2010-02-22T13:54:47.420209Z
+19815
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9243
 
 include
 dir
@@ -102,56 +154,4 @@ kaloz
 
 
 2991
-
-mach-common
-dir
-
-mach-ip5k
-dir
-
-oprofile
-dir
-
-crypto
-dir
-
-kernel
-dir
-
-mach-ip7k
-dir
-
-Kconfig
-file
-
-
-
-
-2012-11-13T03:43:38.136275Z
-7edb6b8f78b733a4434a59a1fd7b3588
-2010-02-22T13:54:47.420209Z
-19815
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-9243
 

@@ -1,7 +1,7 @@
 10
 
 dir
-34280
+34296
 svn://svn.openwrt.org/openwrt/trunk/target/linux/adm5120/base-files/lib/preinit
 svn://svn.openwrt.org/openwrt
 
@@ -25,40 +25,6 @@ cshore
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
-
-05_set_preinit_iface_adm5120
-file
-
-
-
-
-2012-11-13T03:44:57.044270Z
-86bfa6b89fb3dad0ea771086e8327654
-2010-05-30T03:20:27.510741Z
-21632
-cshore
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-98
 
 05_reset_button_adm5120
 file
@@ -127,4 +93,38 @@ cshore
 
 
 86
+
+05_set_preinit_iface_adm5120
+file
+
+
+
+
+2012-11-13T03:44:57.044270Z
+86bfa6b89fb3dad0ea771086e8327654
+2010-05-30T03:20:27.510741Z
+21632
+cshore
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+98
 

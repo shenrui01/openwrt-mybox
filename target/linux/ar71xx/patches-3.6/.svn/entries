@@ -1,7 +1,7 @@
 10
 
 dir
-34280
+34296
 svn://svn.openwrt.org/openwrt/trunk/target/linux/ar71xx/patches-3.6
 svn://svn.openwrt.org/openwrt
 
@@ -25,6 +25,108 @@ juhosg
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
+
+614-MIPS-ath79-MR600-support.patch
+file
+
+
+
+
+2012-11-18T12:01:45.393474Z
+27a74cf1f8e5e601a2b2cc966b28e084
+2012-11-18T09:32:33.060959Z
+34231
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1440
+
+203-spi-ath79-use-gpio_request_one.patch
+file
+
+
+
+
+2012-11-13T03:44:37.852271Z
+002dfec70004ae0f2e5176b898ff8531
+2012-10-28T19:52:02.891487Z
+33983
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1504
+
+470-MIPS-ath79-swizzle-pci-address-for-ar71xx.patch
+file
+
+
+
+
+2012-11-13T03:44:37.868271Z
+9f2b4c224e5953eaab99b94016170340
+2012-10-28T19:52:02.891487Z
+33983
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3255
 
 434-spi-ap83_spi_controller.patch
 file
@@ -162,40 +264,6 @@ juhosg
 
 2500
 
-435-spi-vsc7385_driver.patch
-file
-
-
-
-
-2012-11-13T03:44:37.856271Z
-b3c994d5ca19d0645a36ee65661245ba
-2012-10-28T19:52:02.891487Z
-33983
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-776
-
 204-spi-ath79-avoid-multiple-initialization-of-the-SPI-c.patch
 file
 
@@ -229,6 +297,40 @@ juhosg
 
 
 3057
+
+435-spi-vsc7385_driver.patch
+file
+
+
+
+
+2012-11-13T03:44:37.856271Z
+b3c994d5ca19d0645a36ee65661245ba
+2012-10-28T19:52:02.891487Z
+33983
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+776
 
 210-MIPS-ath79-simplify-misc-irq-handling.patch
 file
@@ -264,40 +366,6 @@ juhosg
 
 1852
 
-507-MIPS-ath79-prom-add-myloader-support.patch
-file
-
-
-
-
-2012-11-13T03:44:37.840271Z
-37b68645d0dc8c71803b78bbb4a074c7
-2012-10-28T19:52:02.891487Z
-33983
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1248
-
 440-leds-wndr3700-usb-led-driver.patch
 file
 
@@ -332,14 +400,14 @@ juhosg
 
 941
 
-521-MIPS-ath79-enable-UART-for-early_serial.patch
+507-MIPS-ath79-prom-add-myloader-support.patch
 file
 
 
 
 
-2012-11-13T03:44:37.844271Z
-c0b6ed343192028dfc31860fd93929d4
+2012-11-13T03:44:37.840271Z
+37b68645d0dc8c71803b78bbb4a074c7
 2012-10-28T19:52:02.891487Z
 33983
 juhosg
@@ -364,7 +432,41 @@ juhosg
 
 
 
-1247
+1248
+
+422-dsa-trailer-tag-validation-fix.patch
+file
+
+
+
+
+2012-11-13T03:44:37.856271Z
+856cd408513d6ea518c4a6718d03d9b4
+2012-10-28T19:52:02.891487Z
+33983
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+390
 
 621-MIPS-ath79-add-ath79_wmac_disable_25ghz-helpers.patch
 file
@@ -400,14 +502,14 @@ juhosg
 
 738
 
-422-dsa-trailer-tag-validation-fix.patch
+521-MIPS-ath79-enable-UART-for-early_serial.patch
 file
 
 
 
 
-2012-11-13T03:44:37.856271Z
-856cd408513d6ea518c4a6718d03d9b4
+2012-11-13T03:44:37.844271Z
+c0b6ed343192028dfc31860fd93929d4
 2012-10-28T19:52:02.891487Z
 33983
 juhosg
@@ -432,7 +534,7 @@ juhosg
 
 
 
-390
+1247
 
 407-mtd-m25p80-allow-to-pass-probe-types-via-platform-data.patch
 file
@@ -604,40 +706,6 @@ juhosg
 
 7964
 
-510-MIPS-ath79-init-gpio-pin-of-wmac-device.patch
-file
-
-
-
-
-2012-11-13T03:44:37.848271Z
-685e825cc39a20277d7d493eec396729
-2012-10-28T19:52:02.891487Z
-33983
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-334
-
 151-MIPS-pci-ar724x-use-per-controller-IRQ-base.patch
 file
 
@@ -671,6 +739,40 @@ juhosg
 
 
 3207
+
+510-MIPS-ath79-init-gpio-pin-of-wmac-device.patch
+file
+
+
+
+
+2012-11-13T03:44:37.848271Z
+685e825cc39a20277d7d493eec396729
+2012-10-28T19:52:02.891487Z
+33983
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+334
 
 409-mtd-rb4xx_nand_driver.patch
 file
@@ -706,40 +808,6 @@ juhosg
 
 809
 
-609-MIPS-ath79-ap136-fixes.patch
-file
-
-
-
-
-2012-11-13T03:44:37.868271Z
-214e757d277f914a92bb5bdf21a7985d
-2012-10-28T19:52:02.891487Z
-33983
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4879
-
 002-MIPS-ath79-add-USB-platform-setup-code-for-AR934X.patch
 file
 
@@ -773,6 +841,40 @@ juhosg
 
 
 2522
+
+609-MIPS-ath79-ap136-fixes.patch
+file
+
+
+
+
+2012-11-13T03:44:37.868271Z
+214e757d277f914a92bb5bdf21a7985d
+2012-10-28T19:52:02.891487Z
+33983
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4879
 
 463-spi-ath79-add-fast-flash-read.patch
 file
@@ -842,40 +944,6 @@ juhosg
 
 24716
 
-413-mtd-ar934x-nand-driver.patch
-file
-
-
-
-
-2012-11-13T03:44:37.868271Z
-d29d2fd5bb45e54bb69f4e2198c63d94
-2012-10-28T19:52:02.891487Z
-33983
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-773
-
 430-drivers-link-spi-before-mtd.patch
 file
 
@@ -909,6 +977,40 @@ juhosg
 
 
 335
+
+413-mtd-ar934x-nand-driver.patch
+file
+
+
+
+
+2012-11-13T03:44:37.868271Z
+d29d2fd5bb45e54bb69f4e2198c63d94
+2012-10-28T19:52:02.891487Z
+33983
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+773
 
 615-MIPS-ath79-RB435G-support.patch
 file
@@ -944,40 +1046,6 @@ juhosg
 
 502
 
-605-MIPS-ath79-db120-fixes.patch
-file
-
-
-
-
-2012-11-13T03:44:37.868271Z
-e26593a3498b926de8bec21a83148329
-2012-10-28T19:52:02.891487Z
-33983
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5827
-
 604-MIPS-ath79-ap81-fixes.patch
 file
 
@@ -1011,6 +1079,40 @@ juhosg
 
 
 3150
+
+605-MIPS-ath79-db120-fixes.patch
+file
+
+
+
+
+2012-11-13T03:44:37.868271Z
+e26593a3498b926de8bec21a83148329
+2012-10-28T19:52:02.891487Z
+33983
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5827
 
 503-MIPS-ath79-add-flash-acquire-release.patch
 file
@@ -1114,40 +1216,6 @@ juhosg
 
 1096
 
-205-spi-ath79-add-shutdown-handler.patch
-file
-
-
-
-
-2012-11-13T03:44:37.872271Z
-7c197ec79171eb0d0d83315cfcf78422
-2012-10-28T19:52:02.891487Z
-33983
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1255
-
 163-MIPS-ath79-add-IRQ-handling-code-for-the-QCA955X-SoC.patch
 file
 
@@ -1181,6 +1249,40 @@ juhosg
 
 
 7113
+
+205-spi-ath79-add-shutdown-handler.patch
+file
+
+
+
+
+2012-11-13T03:44:37.872271Z
+7c197ec79171eb0d0d83315cfcf78422
+2012-10-28T19:52:02.891487Z
+33983
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1255
 
 165-MIPS-ath79-add-QCA955X-specific-glue-to-ath79_device.patch
 file
@@ -1250,40 +1352,6 @@ juhosg
 
 1054
 
-603-MIPS-ath79-ap121-fixes.patch
-file
-
-
-
-
-2012-11-13T03:44:37.796267Z
-63c23c06ddb5187b35fda36666e4e580
-2012-10-28T19:52:02.891487Z
-33983
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4657
-
 211-ar933x_uart-improve-serial-clock-calculation.patch
 file
 
@@ -1318,14 +1386,14 @@ juhosg
 
 5156
 
-412-mtd-m25p80-zero-partition-parser-data.patch
+603-MIPS-ath79-ap121-fixes.patch
 file
 
 
 
 
-2012-11-13T03:44:37.840271Z
-89f9c5f6d6f67b263e147f146ce874b8
+2012-11-13T03:44:37.796267Z
+63c23c06ddb5187b35fda36666e4e580
 2012-10-28T19:52:02.891487Z
 33983
 juhosg
@@ -1350,7 +1418,7 @@ juhosg
 
 
 
-358
+4657
 
 164-MIPS-ath79-add-GPIO-setup-code-for-the-QCA955X-SoCs.patch
 file
@@ -1385,6 +1453,40 @@ juhosg
 
 
 1357
+
+412-mtd-m25p80-zero-partition-parser-data.patch
+file
+
+
+
+
+2012-11-13T03:44:37.840271Z
+89f9c5f6d6f67b263e147f146ce874b8
+2012-10-28T19:52:02.891487Z
+33983
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+358
 
 405-mtd-tp-link-partition-parser.patch
 file
@@ -1624,40 +1726,6 @@ juhosg
 
 1073
 
-310-lib-add-rle-decompression.patch
-file
-
-
-
-
-2012-11-13T03:44:37.840271Z
-4ddb8d2a3fa4984aa3cc340f3a3b6a91
-2012-10-28T19:52:02.891487Z
-33983
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2311
-
 212-MIPS-ath79-fix-GPIO-function-selection-for-AR934x-So.patch
 file
 
@@ -1692,6 +1760,40 @@ juhosg
 
 3078
 
+310-lib-add-rle-decompression.patch
+file
+
+
+
+
+2012-11-13T03:44:37.840271Z
+4ddb8d2a3fa4984aa3cc340f3a3b6a91
+2012-10-28T19:52:02.891487Z
+33983
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2311
+
 146-MIPS-ath79-register-platform-devices-for-the-PCI-con.patch
 file
 
@@ -1725,74 +1827,6 @@ juhosg
 
 
 3209
-
-601-MIPS-ath79-add-more-register-defines.patch
-file
-
-
-
-
-2012-11-20T18:13:43.143765Z
-4e6a28724f3424553d412b84a430f797
-2012-11-20T14:27:17.046016Z
-34275
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-10408
-
-169-MIPS-ath79-allow-to-specify-bus-number-in-PCI-IRQ-ma.patch
-file
-
-
-
-
-2012-11-13T03:44:37.856271Z
-aff5ce14338f435dd23de329dda5c0aa
-2012-10-28T19:52:02.891487Z
-33983
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-940
 
 404-mtd-wrt160nl-trx-parser.patch
 file
@@ -1861,6 +1895,74 @@ juhosg
 
 
 6120
+
+169-MIPS-ath79-allow-to-specify-bus-number-in-PCI-IRQ-ma.patch
+file
+
+
+
+
+2012-11-13T03:44:37.856271Z
+aff5ce14338f435dd23de329dda5c0aa
+2012-10-28T19:52:02.891487Z
+33983
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+940
+
+601-MIPS-ath79-add-more-register-defines.patch
+file
+
+
+
+
+2012-11-20T18:13:43.143765Z
+4e6a28724f3424553d412b84a430f797
+2012-11-20T14:27:17.046016Z
+34275
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10408
 
 171-MIPS-ath79-add-support-for-the-Qualcomm-Atheros-AP13.patch
 file
@@ -2134,14 +2236,14 @@ juhosg
 
 773
 
-420-net-ar71xx_mac_driver.patch
+508-MIPS-ath79-prom-image-command-line-hack.patch
 file
 
 
 
 
-2012-11-13T03:44:37.848271Z
-347b8101962159049e4dc171e8d1327e
+2012-11-13T03:44:37.796267Z
+e3c98df384c0968f42ceb45a7a50c261
 2012-10-28T19:52:02.891487Z
 33983
 juhosg
@@ -2166,7 +2268,7 @@ juhosg
 
 
 
-836
+1083
 
 142-MIPS-pci-ar71xx-fix-AR71XX_PCI_MEM_SIZE.patch
 file
@@ -2202,14 +2304,14 @@ juhosg
 
 680
 
-508-MIPS-ath79-prom-image-command-line-hack.patch
+420-net-ar71xx_mac_driver.patch
 file
 
 
 
 
-2012-11-13T03:44:37.796267Z
-e3c98df384c0968f42ceb45a7a50c261
+2012-11-13T03:44:37.848271Z
+347b8101962159049e4dc171e8d1327e
 2012-10-28T19:52:02.891487Z
 33983
 juhosg
@@ -2234,7 +2336,7 @@ juhosg
 
 
 
-1083
+836
 
 001-MIPS-ath79-use-a-helper-function-for-USB-resource-in.patch
 file
@@ -2406,6 +2508,40 @@ juhosg
 
 4196
 
+a05-ar934x_nfc-add-buffer-verification.patch
+file
+
+
+
+
+2012-11-20T18:13:43.155765Z
+acd8ce0f37d02f6e704fc90146f56b86
+2012-11-20T16:29:42.589228Z
+34278
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+776
+
 168-MIPS-ath79-add-WMAC-registration-code-for-the-QCA955.patch
 file
 
@@ -2473,40 +2609,6 @@ juhosg
 
 
 2740
-
-a05-ar934x_nfc-add-buffer-verification.patch
-file
-
-
-
-
-2012-11-20T18:13:43.155765Z
-acd8ce0f37d02f6e704fc90146f56b86
-2012-11-20T16:29:42.589228Z
-34278
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-776
 
 202-spi-ath79-remove-superfluous-chip-select-code.patch
 file
@@ -2644,40 +2746,6 @@ juhosg
 
 796
 
-520-MIPS-ath79-enable-UART-function.patch
-file
-
-
-
-
-2012-11-13T03:44:37.836270Z
-3003778e2a5910d61b464852c784515b
-2012-10-28T19:52:02.891487Z
-33983
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-621
-
 408-mtd-redboot_partition_scan.patch
 file
 
@@ -2711,6 +2779,40 @@ juhosg
 
 
 1233
+
+520-MIPS-ath79-enable-UART-function.patch
+file
+
+
+
+
+2012-11-13T03:44:37.836270Z
+3003778e2a5910d61b464852c784515b
+2012-10-28T19:52:02.891487Z
+33983
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+621
 
 502-MIPS-ath79-export-ath79_gpio_base.patch
 file
@@ -3052,40 +3154,6 @@ juhosg
 
 645
 
-431-spi-add-various-flags.patch
-file
-
-
-
-
-2012-11-13T03:44:37.860271Z
-e6a496b3018b332f2c4790923546a2f2
-2012-10-28T19:52:02.891487Z
-33983
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-511
-
 461-spi-add-type-field-to-spi_transfer.patch
 file
 
@@ -3120,14 +3188,14 @@ juhosg
 
 571
 
-504-MIPS-ath79-add-ath79_device_reset_get.patch
+431-spi-add-various-flags.patch
 file
 
 
 
 
 2012-11-13T03:44:37.860271Z
-240962d0e45fea0a8d6f4f1707cc18f3
+e6a496b3018b332f2c4790923546a2f2
 2012-10-28T19:52:02.891487Z
 33983
 juhosg
@@ -3152,7 +3220,7 @@ juhosg
 
 
 
-1236
+511
 
 902-unaligned_access_hacks.patch
 file
@@ -3188,6 +3256,40 @@ juhosg
 
 2508
 
+504-MIPS-ath79-add-ath79_device_reset_get.patch
+file
+
+
+
+
+2012-11-13T03:44:37.860271Z
+240962d0e45fea0a8d6f4f1707cc18f3
+2012-10-28T19:52:02.891487Z
+33983
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1236
+
 450-gpio-nxp-74hc153-gpio-chip-driver.patch
 file
 
@@ -3222,40 +3324,6 @@ juhosg
 
 429
 
-150-MIPS-pci-ar724x-remove-static-PCI-resources.patch
-file
-
-
-
-
-2012-11-13T03:44:37.840271Z
-d8dc8647601f48b31c6554aa177ff938
-2012-10-28T19:52:02.891487Z
-33983
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3833
-
 154-MIPS-pci-ar71xx-remove-static-PCI-controller-resourc.patch
 file
 
@@ -3289,6 +3357,40 @@ juhosg
 
 
 2097
+
+150-MIPS-pci-ar724x-remove-static-PCI-resources.patch
+file
+
+
+
+
+2012-11-13T03:44:37.840271Z
+d8dc8647601f48b31c6554aa177ff938
+2012-10-28T19:52:02.891487Z
+33983
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3833
 
 505-MIPS-ath79-add-ath79_gpio_function_select.patch
 file
@@ -3358,40 +3460,6 @@ juhosg
 
 729
 
-433-spi-rb4xx-cpld-driver.patch
-file
-
-
-
-
-2012-11-13T03:44:37.864271Z
-24799e77fa887200ed588b9502f6f2c4
-2012-10-28T19:52:02.891487Z
-33983
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-901
-
 149-MIPS-pci-ar724x-use-dynamically-allocated-PCI-contro.patch
 file
 
@@ -3425,6 +3493,40 @@ juhosg
 
 
 8434
+
+433-spi-rb4xx-cpld-driver.patch
+file
+
+
+
+
+2012-11-13T03:44:37.864271Z
+24799e77fa887200ed588b9502f6f2c4
+2012-10-28T19:52:02.891487Z
+33983
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+901
 
 620-MIPS-ath79-OTP-support.patch
 file
@@ -3493,106 +3595,4 @@ juhosg
 
 
 2026
-
-203-spi-ath79-use-gpio_request_one.patch
-file
-
-
-
-
-2012-11-13T03:44:37.852271Z
-002dfec70004ae0f2e5176b898ff8531
-2012-10-28T19:52:02.891487Z
-33983
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1504
-
-614-MIPS-ath79-MR600-support.patch
-file
-
-
-
-
-2012-11-18T12:01:45.393474Z
-27a74cf1f8e5e601a2b2cc966b28e084
-2012-11-18T09:32:33.060959Z
-34231
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1440
-
-470-MIPS-ath79-swizzle-pci-address-for-ar71xx.patch
-file
-
-
-
-
-2012-11-13T03:44:37.868271Z
-9f2b4c224e5953eaab99b94016170340
-2012-10-28T19:52:02.891487Z
-33983
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3255
 

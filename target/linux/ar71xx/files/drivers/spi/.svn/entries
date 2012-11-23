@@ -1,7 +1,7 @@
 10
 
 dir
-34280
+34296
 svn://svn.openwrt.org/openwrt/trunk/target/linux/ar71xx/files/drivers/spi
 svn://svn.openwrt.org/openwrt
 
@@ -25,40 +25,6 @@ juhosg
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
-
-spi-ap83.c
-file
-
-
-
-
-2012-11-13T03:44:40.720271Z
-c76a991e34549e538e52a740b1b4754e
-2012-02-10T08:19:33.228675Z
-30406
-juhosg
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-6635
 
 spi-vsc7385.c
 file
@@ -161,4 +127,38 @@ has-props
 
 
 11841
+
+spi-ap83.c
+file
+
+
+
+
+2012-11-13T03:44:40.720271Z
+c76a991e34549e538e52a740b1b4754e
+2012-02-10T08:19:33.228675Z
+30406
+juhosg
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6635
 

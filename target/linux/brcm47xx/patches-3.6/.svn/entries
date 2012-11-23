@@ -1,7 +1,7 @@
 10
 
 dir
-34280
+34296
 svn://svn.openwrt.org/openwrt/trunk/target/linux/brcm47xx/patches-3.6
 svn://svn.openwrt.org/openwrt
 
@@ -25,142 +25,6 @@ hauke
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
-
-210-b44_phy_fix.patch
-file
-
-
-
-
-2012-11-19T05:45:51.630390Z
-3bb3bea2d5dec4288ad5e05f7eca3dd7
-2012-11-18T21:27:00.359060Z
-34252
-hauke
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1408
-
-195-MIPS-BCM47xx-sprom-read-values-without-prefix-as-fal.patch
-file
-
-
-
-
-2012-11-19T05:45:51.626390Z
-1acad8215d6cbc75ff736828abace3d8
-2012-10-25T14:33:47.308160Z
-33920
-hauke
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-47748
-
-501-bcma-add-gpio-driver.patch
-file
-
-
-
-
-2012-11-19T05:45:51.626390Z
-4eb6e2ecf4d7f288258319b9c29d3061
-2012-10-25T14:33:47.308160Z
-33920
-hauke
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4431
-
-160-kmap_coherent.patch
-file
-
-
-
-
-2012-11-19T05:45:51.630390Z
-5d64884a1cddd358de9a4205e6588a04
-2012-11-18T21:27:00.359060Z
-34252
-hauke
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2627
 
 812-disable_wgt634u_crap.patch
 file
@@ -195,6 +59,40 @@ hauke
 
 
 4823
+
+160-kmap_coherent.patch
+file
+
+
+
+
+2012-11-19T05:45:51.630390Z
+5d64884a1cddd358de9a4205e6588a04
+2012-11-18T21:27:00.359060Z
+34252
+hauke
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2627
 
 192-MIPS-BCM47XX-improve-memory-size-detection.patch
 file
@@ -570,40 +468,6 @@ hauke
 
 765
 
-310-no_highpage.patch
-file
-
-
-
-
-2012-11-19T05:45:51.626390Z
-dd6b710803e15ec31013d13f6069bc52
-2012-11-18T21:27:00.359060Z
-34252
-hauke
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1989
-
 900-bcm47xx_wdt-noprescale.patch
 file
 
@@ -638,16 +502,16 @@ hauke
 
 2763
 
-114-MIPS-BCM47xx-Setup-and-register-serial-early.patch
+310-no_highpage.patch
 file
 
 
 
 
-2012-11-19T05:45:51.630390Z
-e7a83c887fe8443b4140e69d132a3cd6
-2012-10-25T14:33:47.308160Z
-33920
+2012-11-19T05:45:51.626390Z
+dd6b710803e15ec31013d13f6069bc52
+2012-11-18T21:27:00.359060Z
+34252
 hauke
 
 
@@ -670,7 +534,7 @@ hauke
 
 
 
-1851
+1989
 
 191-MIPS-BCM47XX-ignore-last-memory-page.patch
 file
@@ -705,6 +569,40 @@ hauke
 
 
 883
+
+114-MIPS-BCM47xx-Setup-and-register-serial-early.patch
+file
+
+
+
+
+2012-11-19T05:45:51.630390Z
+e7a83c887fe8443b4140e69d132a3cd6
+2012-10-25T14:33:47.308160Z
+33920
+hauke
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1851
 
 052-mtd-add-serial-flash-driver.patch
 file
@@ -774,40 +672,6 @@ hauke
 
 393
 
-060-ssb-add-serial-flash-driver.patch
-file
-
-
-
-
-2012-11-19T05:45:51.626390Z
-5f0c76137ea5a2cb2d6a76dafc4ae5f9
-2012-10-25T14:33:47.308160Z
-33920
-hauke
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-15197
-
 053-mtd-add-nand-flash-driver.patch
 file
 
@@ -841,6 +705,40 @@ hauke
 
 
 18989
+
+060-ssb-add-serial-flash-driver.patch
+file
+
+
+
+
+2012-11-19T05:45:51.626390Z
+5f0c76137ea5a2cb2d6a76dafc4ae5f9
+2012-10-25T14:33:47.308160Z
+33920
+hauke
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+15197
 
 170-fix-74k-cpu.patch
 file
@@ -910,40 +808,6 @@ acoul
 
 1599
 
-194-MIPS-BCM47XX-read-sprom-without-prefix-if-no-ieee802.patch
-file
-
-
-
-
-2012-11-19T05:45:51.630390Z
-512febb242e16b4c2f7c96fca63486c6
-2012-10-25T14:33:47.308160Z
-33920
-hauke
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-310
-
 240-bcma-pcie-config-access.patch
 file
 
@@ -977,6 +841,40 @@ hauke
 
 
 2775
+
+194-MIPS-BCM47XX-read-sprom-without-prefix-if-no-ieee802.patch
+file
+
+
+
+
+2012-11-19T05:45:51.630390Z
+512febb242e16b4c2f7c96fca63486c6
+2012-10-25T14:33:47.308160Z
+33920
+hauke
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+310
 
 150-cpu_fixes.patch
 file
@@ -1012,40 +910,6 @@ hauke
 
 12862
 
-500-ssb-add-function-to-return-number-of-gpio-lines.patch
-file
-
-
-
-
-2012-11-19T05:45:51.630390Z
-35a24348eefd1ffb8e5efd8ce1430942
-2012-08-04T19:46:25.622889Z
-32992
-hauke
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1243
-
 051-mtd-add-parallel-flash-driver.patch
 file
 
@@ -1079,6 +943,40 @@ hauke
 
 
 6793
+
+500-ssb-add-function-to-return-number-of-gpio-lines.patch
+file
+
+
+
+
+2012-11-19T05:45:51.630390Z
+35a24348eefd1ffb8e5efd8ce1430942
+2012-08-04T19:46:25.622889Z
+32992
+hauke
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1243
 
 976-ssb_increase_pci_delay.patch
 file
@@ -1148,16 +1046,16 @@ hauke
 
 3763
 
-980-wnr834b_no_cardbus_invariant.patch
+820-wgt634u-nvram-fix.patch
 file
 
 
 
 
 2012-11-19T05:45:51.630390Z
-85b402515d5aa092857dd872752f9a9d
-2012-10-25T14:33:47.308160Z
-33920
+fb14460038794a91ef2bbee1f4e32527
+2012-11-12T21:32:33.343893Z
+34175
 hauke
 
 
@@ -1180,7 +1078,7 @@ hauke
 
 
 
-411
+7810
 
 061-ssb-register-parallel-flash-device.patch
 file
@@ -1216,48 +1114,14 @@ hauke
 
 1985
 
-820-wgt634u-nvram-fix.patch
+980-wnr834b_no_cardbus_invariant.patch
 file
 
 
 
 
 2012-11-19T05:45:51.630390Z
-fb14460038794a91ef2bbee1f4e32527
-2012-11-12T21:32:33.343893Z
-34175
-hauke
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-7810
-
-071-bcma-add-functions-to-write-to-nand-flash.patch
-file
-
-
-
-
-2012-11-19T05:45:51.630390Z
-8b8308a2f822f253e39417022545db37
+85b402515d5aa092857dd872752f9a9d
 2012-10-25T14:33:47.308160Z
 33920
 hauke
@@ -1282,7 +1146,7 @@ hauke
 
 
 
-6162
+411
 
 050-mtd-add-bcm47xx-part-parser.patch
 file
@@ -1317,6 +1181,40 @@ hauke
 
 
 17073
+
+071-bcma-add-functions-to-write-to-nand-flash.patch
+file
+
+
+
+
+2012-11-19T05:45:51.630390Z
+8b8308a2f822f253e39417022545db37
+2012-10-25T14:33:47.308160Z
+33920
+hauke
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6162
 
 080-MIPS-BCM47XX-rewrite-nvram-probing.patch
 file
@@ -1453,4 +1351,106 @@ hauke
 
 
 1963
+
+195-MIPS-BCM47xx-sprom-read-values-without-prefix-as-fal.patch
+file
+
+
+
+
+2012-11-19T05:45:51.626390Z
+1acad8215d6cbc75ff736828abace3d8
+2012-10-25T14:33:47.308160Z
+33920
+hauke
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+47748
+
+210-b44_phy_fix.patch
+file
+
+
+
+
+2012-11-19T05:45:51.630390Z
+3bb3bea2d5dec4288ad5e05f7eca3dd7
+2012-11-18T21:27:00.359060Z
+34252
+hauke
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1408
+
+501-bcma-add-gpio-driver.patch
+file
+
+
+
+
+2012-11-19T05:45:51.626390Z
+4eb6e2ecf4d7f288258319b9c29d3061
+2012-10-25T14:33:47.308160Z
+33920
+hauke
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4431
 

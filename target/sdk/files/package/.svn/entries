@@ -1,7 +1,7 @@
 10
 
 dir
-34280
+34296
 svn://svn.openwrt.org/openwrt/trunk/target/sdk/files/package
 svn://svn.openwrt.org/openwrt
 
@@ -25,40 +25,6 @@ nbd
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
-
-depend.mk
-file
-
-
-
-
-2012-11-13T03:45:19.540246Z
-d3909575a6ed21416c221bd26027de2d
-2007-03-04T04:57:01.931545Z
-6502
-pavlov
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-265
 
 rules.mk
 file
@@ -93,4 +59,38 @@ has-props
 
 
 2511
+
+depend.mk
+file
+
+
+
+
+2012-11-13T03:45:19.540246Z
+d3909575a6ed21416c221bd26027de2d
+2007-03-04T04:57:01.931545Z
+6502
+pavlov
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+265
 

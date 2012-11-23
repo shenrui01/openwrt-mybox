@@ -1,7 +1,7 @@
 10
 
 dir
-34280
+34296
 svn://svn.openwrt.org/openwrt/trunk/package/busybox/config
 svn://svn.openwrt.org/openwrt
 
@@ -56,16 +56,10 @@ dir
 shell
 dir
 
-coreutils
-dir
-
 editors
 dir
 
-e2fsprogs
-dir
-
-util-linux
+coreutils
 dir
 
 Config.in
@@ -102,6 +96,12 @@ has-props
 
 27483
 
+util-linux
+dir
+
+e2fsprogs
+dir
+
 libbb
 dir
 
@@ -111,15 +111,15 @@ dir
 printutils
 dir
 
-networking
-dir
-
 selinux
 dir
 
-loginutils
+networking
 dir
 
 archival
+dir
+
+loginutils
 dir
 

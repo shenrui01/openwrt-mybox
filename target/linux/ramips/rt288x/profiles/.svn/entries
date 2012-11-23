@@ -1,7 +1,7 @@
 10
 
 dir
-34280
+34296
 svn://svn.openwrt.org/openwrt/trunk/target/linux/ramips/rt288x/profiles
 svn://svn.openwrt.org/openwrt
 
@@ -25,40 +25,6 @@ juhosg
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
-
-asus.mk
-file
-
-
-
-
-2012-11-13T03:44:49.016271Z
-a9d384a87a5fcd3a9ba674900fc94a47
-2011-12-01T22:48:55.841713Z
-29391
-juhosg
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-378
 
 00-default.mk
 file
@@ -127,4 +93,38 @@ has-props
 
 
 397
+
+asus.mk
+file
+
+
+
+
+2012-11-13T03:44:49.016271Z
+a9d384a87a5fcd3a9ba674900fc94a47
+2011-12-01T22:48:55.841713Z
+29391
+juhosg
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+378
 

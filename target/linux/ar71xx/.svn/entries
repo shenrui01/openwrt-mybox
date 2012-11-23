@@ -1,7 +1,7 @@
 10
 
 dir
-34280
+34296
 svn://svn.openwrt.org/openwrt/trunk/target/linux/ar71xx
 svn://svn.openwrt.org/openwrt
 
@@ -25,6 +25,77 @@ juhosg
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
+
+config-3.3
+file
+
+
+
+
+2012-11-20T11:05:34.408468Z
+6dd83b073d5b3b165992948edfa6c8f1
+2012-11-20T07:19:06.109373Z
+34267
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6336
+
+patches-3.3
+dir
+
+config-3.6
+file
+
+
+
+
+2012-11-18T12:01:45.773474Z
+748c0b8aad904f106c98676beac8eb11
+2012-11-18T09:32:33.060959Z
+34231
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6616
 
 base-files
 dir
@@ -145,75 +216,4 @@ dir
 
 image
 dir
-
-config-3.3
-file
-
-
-
-
-2012-11-20T11:05:34.408468Z
-6dd83b073d5b3b165992948edfa6c8f1
-2012-11-20T07:19:06.109373Z
-34267
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-6336
-
-patches-3.3
-dir
-
-config-3.6
-file
-
-
-
-
-2012-11-18T12:01:45.773474Z
-748c0b8aad904f106c98676beac8eb11
-2012-11-18T09:32:33.060959Z
-34231
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-6616
 

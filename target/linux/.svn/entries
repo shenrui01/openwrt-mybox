@@ -1,14 +1,14 @@
 10
 
 dir
-34280
+34296
 svn://svn.openwrt.org/openwrt/trunk/target/linux
 svn://svn.openwrt.org/openwrt
 
 
 
-2012-11-20T17:45:24.654026Z
-34280
+2012-11-21T17:38:11.702804Z
+34288
 juhosg
 
 
@@ -26,31 +26,22 @@ juhosg
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
 
-sibyte
+ps3
 dir
 
-imx21
+atheros
 dir
 
-ep93xx
+mpc52xx
 dir
 
-cns21xx
-dir
-
-sparc
+mcs814x
 dir
 
 gemini
 dir
 
-adm5120
-dir
-
-mpc83xx
-dir
-
-mpc85xx
+generic
 dir
 
 at91
@@ -59,37 +50,58 @@ dir
 ppc40x
 dir
 
+s3c24xx
+dir
+
+cns3xxx
+dir
+
+omap4
+dir
+
 omap24xx
 dir
 
 ppc44x
 dir
 
+etrax
+dir
+
 iop32x
 dir
 
-x86
+orion
 dir
 
 octeon
 dir
 
+pxa
+dir
+
 kirkwood
+dir
+
+ar7
 dir
 
 leon
 dir
 
-uml
+rb532
 dir
 
-pxcab
+avr32
 dir
 
-malta
+adm8668
 dir
 
 goldfish
+dir
+
+imx21
 dir
 
 cobalt
@@ -101,25 +113,25 @@ dir
 ixp4xx
 dir
 
-atheros
-dir
-
-ps3
+cns21xx
 dir
 
 au1000
 dir
 
-mpc52xx
+sparc
 dir
 
-mcs814x
+adm5120
+dir
+
+mpc83xx
+dir
+
+mpc85xx
 dir
 
 brcm63xx
-dir
-
-generic
 dir
 
 Makefile
@@ -156,34 +168,22 @@ has-props
 
 373
 
-brcm47xx
-dir
-
 realview
 dir
 
-s3c24xx
-dir
-
-cns3xxx
-dir
-
-omap4
+brcm47xx
 dir
 
 ubicom32
 dir
 
-etrax
-dir
-
 omap35xx
 dir
 
-amazon
+x86
 dir
 
-orion
+amazon
 dir
 
 coldfire
@@ -195,24 +195,24 @@ dir
 lantiq
 dir
 
-pxa
-dir
-
-ar7
-dir
-
 ar71xx
 dir
 
 ramips
 dir
 
-rb532
+pxcab
 dir
 
-avr32
+uml
 dir
 
-adm8668
+malta
+dir
+
+sibyte
+dir
+
+ep93xx
 dir
 
