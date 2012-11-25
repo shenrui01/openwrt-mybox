@@ -1,14 +1,14 @@
 10
 
 dir
-34303
+34325
 svn://svn.openwrt.org/openwrt/trunk/toolchain/gcc/patches/4.7-linaro
 svn://svn.openwrt.org/openwrt
 
 
 
-2012-10-13T19:19:41.282965Z
-33759
+2012-11-23T20:02:29.961566Z
+34314
 florian
 
 
@@ -60,40 +60,6 @@ mirko
 
 754
 
-100-uclibc-conf.patch
-file
-
-
-
-
-2012-11-13T03:41:55.604277Z
-e6ea2d0d851d327fc1353bf988e39bbf
-2012-04-21T09:58:31.645842Z
-31392
-mirko
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1064
-
 810-arm-softfloat-libgcc.patch
 file
 
@@ -127,74 +93,6 @@ mirko
 
 
 848
-
-820-libgcc_pic.patch
-file
-
-
-
-
-2012-11-13T03:41:55.608277Z
-f4902e57648db820dbdf24ed217b3572
-2012-04-21T09:58:31.645842Z
-31392
-mirko
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1155
-
-870-ppc_no_crtsavres.patch
-file
-
-
-
-
-2012-11-13T03:41:55.608277Z
-4f7dcf6ad6769f9b978f57178c8e1da7
-2012-04-21T09:58:31.645842Z
-31392
-mirko
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-820
 
 910-mbsd_multi.patch
 file
@@ -230,14 +128,14 @@ mirko
 
 8652
 
-993-arm_insn-opinit-RTX_CODE-fixup.patch
+305-libmudflap-susv3-legacy.patch
 file
 
 
 
 
-2012-11-13T03:41:55.608277Z
-62ed44b4332387148f4c842c4ac7a89a
+2012-11-13T03:41:55.612277Z
+c054c68e7a3778fdbc360528c74259a2
 2012-04-21T09:58:31.645842Z
 31392
 mirko
@@ -262,7 +160,7 @@ mirko
 
 
 
-710
+1405
 
 302-c99-snprintf.patch
 file
@@ -298,74 +196,6 @@ mirko
 
 260
 
-305-libmudflap-susv3-legacy.patch
-file
-
-
-
-
-2012-11-13T03:41:55.612277Z
-c054c68e7a3778fdbc360528c74259a2
-2012-04-21T09:58:31.645842Z
-31392
-mirko
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1405
-
-830-arm_unbreak_armv4t.patch
-file
-
-
-
-
-2012-11-13T03:41:55.612277Z
-1f2dca712b13052021623f785b7db32d
-2012-04-21T09:58:31.645842Z
-31392
-mirko
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-473
-
 600-ubicom_support.patch
 file
 
@@ -400,14 +230,48 @@ mirko
 
 303675
 
-301-missing-execinfo_h.patch
+200-musl.patch
+file
+
+
+
+
+2012-11-25T00:45:31.101287Z
+778f3cf68e2f4d3b42b9edc32dba8f17
+2012-11-23T20:02:29.961566Z
+34314
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11499
+
+999-coldfire.patch
 file
 
 
 
 
 2012-11-13T03:41:55.616277Z
-ebfa923c5f3739ae7382c4f003441fb0
+e2903bfc74bc834cc81e9bfff0721ce5
 2012-04-21T09:58:31.645842Z
 31392
 mirko
@@ -432,7 +296,7 @@ mirko
 
 
 
-422
+264
 
 920-specs_nonfatal_getenv.patch
 file
@@ -468,14 +332,14 @@ mirko
 
 446
 
-999-coldfire.patch
+301-missing-execinfo_h.patch
 file
 
 
 
 
 2012-11-13T03:41:55.616277Z
-e2903bfc74bc834cc81e9bfff0721ce5
+ebfa923c5f3739ae7382c4f003441fb0
 2012-04-21T09:58:31.645842Z
 31392
 mirko
@@ -500,5 +364,175 @@ mirko
 
 
 
-264
+422
+
+100-uclibc-conf.patch
+file
+
+
+
+
+2012-11-13T03:41:55.604277Z
+e6ea2d0d851d327fc1353bf988e39bbf
+2012-04-21T09:58:31.645842Z
+31392
+mirko
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1064
+
+820-libgcc_pic.patch
+file
+
+
+
+
+2012-11-13T03:41:55.608277Z
+f4902e57648db820dbdf24ed217b3572
+2012-04-21T09:58:31.645842Z
+31392
+mirko
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1155
+
+993-arm_insn-opinit-RTX_CODE-fixup.patch
+file
+
+
+
+
+2012-11-13T03:41:55.608277Z
+62ed44b4332387148f4c842c4ac7a89a
+2012-04-21T09:58:31.645842Z
+31392
+mirko
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+710
+
+870-ppc_no_crtsavres.patch
+file
+
+
+
+
+2012-11-13T03:41:55.608277Z
+4f7dcf6ad6769f9b978f57178c8e1da7
+2012-04-21T09:58:31.645842Z
+31392
+mirko
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+820
+
+830-arm_unbreak_armv4t.patch
+file
+
+
+
+
+2012-11-13T03:41:55.612277Z
+1f2dca712b13052021623f785b7db32d
+2012-04-21T09:58:31.645842Z
+31392
+mirko
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+473
 

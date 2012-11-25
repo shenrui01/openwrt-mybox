@@ -1,7 +1,7 @@
 10
 
 dir
-34303
+34325
 svn://svn.openwrt.org/openwrt/trunk/toolchain/gcc/patches/4.5-linaro
 svn://svn.openwrt.org/openwrt
 
@@ -25,6 +25,176 @@ jow
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
+
+810-arm-softfloat-libgcc.patch
+file
+
+
+
+
+2012-11-13T03:41:47.544277Z
+f82f4fdbf2dc667800ab12c7cfbefd85
+2011-02-02T20:06:12.571878Z
+25325
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+901
+
+910-mbsd_multi.patch
+file
+
+
+
+
+2012-11-13T03:41:47.544277Z
+99d327bd7e0b314cc86a789ed7fe39a8
+2011-06-07T00:13:56.912698Z
+27118
+mirko
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8064
+
+305-libmudflap-susv3-legacy.patch
+file
+
+
+
+
+2012-11-13T03:41:47.544277Z
+a5c9ae79773846ff1d61488b491722c9
+2011-01-28T12:34:32.804697Z
+25195
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1405
+
+995-fa526.patch
+file
+
+
+
+
+2012-11-13T03:41:47.548277Z
+ed5fee53a684f52526c4907c979aa12f
+2011-07-01T08:10:12.691795Z
+27326
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10658
+
+302-c99-snprintf.patch
+file
+
+
+
+
+2012-11-13T03:41:47.544277Z
+c913e2f73ab9f60b5e83b511262882a5
+2011-01-28T12:34:32.804697Z
+25195
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+265
 
 600-ubicom_support.patch
 file
@@ -60,17 +230,17 @@ kaloz
 
 303633
 
-301-missing-execinfo_h.patch
+920-specs_nonfatal_getenv.patch
 file
 
 
 
 
 2012-11-13T03:41:47.552277Z
-ebfa923c5f3739ae7382c4f003441fb0
-2011-01-28T12:34:32.804697Z
-25195
-kaloz
+e62980eb38498c1fb21da0d5e9eba63f
+2012-04-27T12:05:34.830365Z
+31489
+jow
 
 
 
@@ -92,7 +262,7 @@ kaloz
 
 
 
-422
+442
 
 999-coldfire.patch
 file
@@ -128,17 +298,17 @@ mirko
 
 301
 
-920-specs_nonfatal_getenv.patch
+301-missing-execinfo_h.patch
 file
 
 
 
 
 2012-11-13T03:41:47.552277Z
-e62980eb38498c1fb21da0d5e9eba63f
-2012-04-27T12:05:34.830365Z
-31489
-jow
+ebfa923c5f3739ae7382c4f003441fb0
+2011-01-28T12:34:32.804697Z
+25195
+kaloz
 
 
 
@@ -160,7 +330,7 @@ jow
 
 
 
-442
+422
 
 100-uclibc-conf.patch
 file
@@ -298,40 +468,6 @@ kaloz
 
 473
 
-850-use_shared_libgcc.patch
-file
-
-
-
-
-2012-11-13T03:41:47.556277Z
-47d6f1e119b0043d87f692ff1e902b56
-2011-07-01T08:10:12.691795Z
-27326
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2078
-
 200-ppc_include_config_linux_h.patch
 file
 
@@ -366,6 +502,40 @@ hauke
 
 545
 
+850-use_shared_libgcc.patch
+file
+
+
+
+
+2012-11-13T03:41:47.556277Z
+47d6f1e119b0043d87f692ff1e902b56
+2011-07-01T08:10:12.691795Z
+27326
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2078
+
 840-armv4_pass_fix-v4bx_to_ld.patch
 file
 
@@ -399,174 +569,4 @@ kaloz
 
 
 726
-
-810-arm-softfloat-libgcc.patch
-file
-
-
-
-
-2012-11-13T03:41:47.544277Z
-f82f4fdbf2dc667800ab12c7cfbefd85
-2011-02-02T20:06:12.571878Z
-25325
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-901
-
-910-mbsd_multi.patch
-file
-
-
-
-
-2012-11-13T03:41:47.544277Z
-99d327bd7e0b314cc86a789ed7fe39a8
-2011-06-07T00:13:56.912698Z
-27118
-mirko
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-8064
-
-995-fa526.patch
-file
-
-
-
-
-2012-11-13T03:41:47.548277Z
-ed5fee53a684f52526c4907c979aa12f
-2011-07-01T08:10:12.691795Z
-27326
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-10658
-
-305-libmudflap-susv3-legacy.patch
-file
-
-
-
-
-2012-11-13T03:41:47.544277Z
-a5c9ae79773846ff1d61488b491722c9
-2011-01-28T12:34:32.804697Z
-25195
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1405
-
-302-c99-snprintf.patch
-file
-
-
-
-
-2012-11-13T03:41:47.544277Z
-c913e2f73ab9f60b5e83b511262882a5
-2011-01-28T12:34:32.804697Z
-25195
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-265
 

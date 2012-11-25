@@ -1,7 +1,7 @@
 10
 
 dir
-34303
+34325
 svn://svn.openwrt.org/openwrt/trunk/package/base-files/files/etc
 svn://svn.openwrt.org/openwrt
 
@@ -97,39 +97,8 @@ jow
 hotplug.d
 dir
 
-sysctl.conf
-file
-
-
-
-
-2012-11-13T03:45:34.936269Z
-a3be9e2ebb0e4492a9c14d2676f7acd0
-2012-09-24T15:24:01.845566Z
-33532
-nbd
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-803
+config
+dir
 
 banner
 file
@@ -165,20 +134,18 @@ has-props
 
 629
 
-config
-dir
-
-sysupgrade.conf
+sysctl.conf
 file
 
 
 
 
 2012-11-13T03:45:34.936269Z
-f91aef484370cefee501d64b5725c1d2
-2010-10-05T19:24:12.942023Z
-23258
-jow
+a3be9e2ebb0e4492a9c14d2676f7acd0
+2012-09-24T15:24:01.845566Z
+33532
+nbd
+has-props
 
 
 
@@ -199,8 +166,7 @@ jow
 
 
 
-
-128
+803
 
 preinit
 file
@@ -235,6 +201,40 @@ has-props
 
 
 888
+
+sysupgrade.conf
+file
+
+
+
+
+2012-11-13T03:45:34.936269Z
+f91aef484370cefee501d64b5725c1d2
+2010-10-05T19:24:12.942023Z
+23258
+jow
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+128
 
 diag.sh
 file
@@ -304,40 +304,6 @@ svn:special
 
 19
 
-hotplug2-common.rules
-file
-
-
-
-
-2012-11-13T03:45:34.940269Z
-a06e84d10bca4a31ac97c00a6236bfd9
-2012-07-14T19:59:44.241616Z
-32711
-acinonyx
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-833
-
 services
 file
 
@@ -371,6 +337,40 @@ jow
 
 
 3017
+
+hotplug2-common.rules
+file
+
+
+
+
+2012-11-13T03:45:34.940269Z
+a06e84d10bca4a31ac97c00a6236bfd9
+2012-07-14T19:59:44.241616Z
+32711
+acinonyx
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+833
 
 protocols
 file
@@ -406,10 +406,10 @@ has-props
 
 2478
 
-init.d
+uci-defaults
 dir
 
-uci-defaults
+init.d
 dir
 
 shadow

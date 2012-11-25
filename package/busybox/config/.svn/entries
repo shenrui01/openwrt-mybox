@@ -1,7 +1,7 @@
 10
 
 dir
-34303
+34325
 svn://svn.openwrt.org/openwrt/trunk/package/busybox/config
 svn://svn.openwrt.org/openwrt
 
@@ -26,16 +26,55 @@ nbd
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
 
-coreutils
+networking
+dir
+
+selinux
+dir
+
+loginutils
+dir
+
+archival
+dir
+
+sysklogd
+dir
+
+console-tools
+dir
+
+modutils
+dir
+
+findutils
+dir
+
+runit
+dir
+
+debianutils
+dir
+
+init
+dir
+
+mailutils
+dir
+
+procps
+dir
+
+shell
 dir
 
 editors
 dir
 
-e2fsprogs
+coreutils
 dir
 
-util-linux
+libbb
 dir
 
 Config.in
@@ -72,54 +111,15 @@ has-props
 
 27483
 
-libbb
+util-linux
+dir
+
+e2fsprogs
 dir
 
 miscutils
 dir
 
 printutils
-dir
-
-selinux
-dir
-
-networking
-dir
-
-archival
-dir
-
-loginutils
-dir
-
-sysklogd
-dir
-
-modutils
-dir
-
-console-tools
-dir
-
-findutils
-dir
-
-runit
-dir
-
-debianutils
-dir
-
-init
-dir
-
-mailutils
-dir
-
-procps
-dir
-
-shell
 dir
 

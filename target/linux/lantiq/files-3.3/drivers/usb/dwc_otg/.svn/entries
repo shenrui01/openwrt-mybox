@@ -1,7 +1,7 @@
 10
 
 dir
-34303
+34325
 svn://svn.openwrt.org/openwrt/trunk/target/linux/lantiq/files-3.3/drivers/usb/dwc_otg
 svn://svn.openwrt.org/openwrt
 
@@ -25,6 +25,142 @@ blogic
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
+
+dwc_otg_driver.c
+file
+
+
+
+
+2012-11-13T03:44:28.012271Z
+7bbe448967755c6fc6725fcf46848cb5
+2012-11-02T20:07:02.252236Z
+34060
+blogic
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+48680
+
+dwc_otg_ifx.h
+file
+
+
+
+
+2012-11-13T03:44:28.012271Z
+28a5d874ad4f4add06726f8a34345b6c
+2012-11-02T20:07:02.252236Z
+34060
+blogic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2720
+
+dwc_otg_hcd.c
+file
+
+
+
+
+2012-11-13T03:44:28.016271Z
+455c2915f018cb35c44cdf758d7a4fff
+2012-11-02T20:07:02.252236Z
+34060
+blogic
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+88869
+
+dwc_otg_driver.h
+file
+
+
+
+
+2012-11-13T03:44:27.996271Z
+cabf5d277a6eaae7fa71019b34289a4d
+2012-11-02T20:07:02.252236Z
+34060
+blogic
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3261
 
 dwc_otg_hcd_queue.c
 file
@@ -60,40 +196,6 @@ blogic
 
 22444
 
-dwc_otg_cil_intr.c
-file
-
-
-
-
-2012-11-13T03:44:27.996271Z
-a5f25bcbe1f6e72d09e138871a6f5221
-2012-11-02T20:07:02.252236Z
-34060
-blogic
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-26798
-
 dwc_otg_hcd.h
 file
 
@@ -128,14 +230,14 @@ has-props
 
 22487
 
-dwc_otg_plat.h
+dwc_otg_cil_intr.c
 file
 
 
 
 
-2012-11-13T03:44:28.004271Z
-851add753d4cd906a1c3407919499f7f
+2012-11-13T03:44:27.996271Z
+a5f25bcbe1f6e72d09e138871a6f5221
 2012-11-02T20:07:02.252236Z
 34060
 blogic
@@ -160,7 +262,7 @@ has-props
 
 
 
-7677
+26798
 
 dwc_otg_regs.h
 file
@@ -195,6 +297,40 @@ blogic
 
 
 59079
+
+dwc_otg_plat.h
+file
+
+
+
+
+2012-11-13T03:44:28.004271Z
+851add753d4cd906a1c3407919499f7f
+2012-11-02T20:07:02.252236Z
+34060
+blogic
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7677
 
 dwc_otg_cil.c
 file
@@ -366,40 +502,6 @@ blogic
 
 2490
 
-dwc_otg_ifx.c
-file
-
-
-
-
-2012-11-13T03:44:28.008271Z
-c550da2119c8738cf17a4c990eee0288
-2012-11-02T20:07:02.252236Z
-34060
-blogic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4265
-
 Makefile
 file
 
@@ -433,6 +535,40 @@ blogic
 
 
 1303
+
+dwc_otg_ifx.c
+file
+
+
+
+
+2012-11-13T03:44:28.008271Z
+c550da2119c8738cf17a4c990eee0288
+2012-11-02T20:07:02.252236Z
+34060
+blogic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4265
 
 Kconfig
 file
@@ -501,140 +637,4 @@ has-props
 
 
 58573
-
-dwc_otg_driver.c
-file
-
-
-
-
-2012-11-13T03:44:28.012271Z
-7bbe448967755c6fc6725fcf46848cb5
-2012-11-02T20:07:02.252236Z
-34060
-blogic
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-48680
-
-dwc_otg_ifx.h
-file
-
-
-
-
-2012-11-13T03:44:28.012271Z
-28a5d874ad4f4add06726f8a34345b6c
-2012-11-02T20:07:02.252236Z
-34060
-blogic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2720
-
-dwc_otg_hcd.c
-file
-
-
-
-
-2012-11-13T03:44:28.016271Z
-455c2915f018cb35c44cdf758d7a4fff
-2012-11-02T20:07:02.252236Z
-34060
-blogic
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-88869
-
-dwc_otg_driver.h
-file
-
-
-
-
-2012-11-13T03:44:27.996271Z
-cabf5d277a6eaae7fa71019b34289a4d
-2012-11-02T20:07:02.252236Z
-34060
-blogic
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3261
 

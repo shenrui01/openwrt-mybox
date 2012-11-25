@@ -1,14 +1,14 @@
 10
 
 dir
-34303
+34325
 svn://svn.openwrt.org/openwrt/trunk/target/linux/brcm63xx
 svn://svn.openwrt.org/openwrt
 
 
 
-2012-11-19T12:38:26.274478Z
-34255
+2012-11-24T14:19:22.982252Z
+34322
 jogo
 
 
@@ -25,6 +25,43 @@ jogo
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
+
+patches-3.6
+dir
+
+Makefile
+file
+
+
+
+
+2012-11-18T12:02:09.813473Z
+bc143d14bc3f196cc18530def3be44f8
+2012-11-18T08:41:31.122102Z
+34227
+juhosg
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+705
 
 modules.mk
 file
@@ -176,41 +213,4 @@ florian
 
 base-files
 dir
-
-patches-3.6
-dir
-
-Makefile
-file
-
-
-
-
-2012-11-18T12:02:09.813473Z
-bc143d14bc3f196cc18530def3be44f8
-2012-11-18T08:41:31.122102Z
-34227
-juhosg
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-705
 

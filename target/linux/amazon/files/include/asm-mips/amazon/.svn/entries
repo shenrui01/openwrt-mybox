@@ -1,7 +1,7 @@
 10
 
 dir
-34303
+34325
 svn://svn.openwrt.org/openwrt/trunk/target/linux/amazon/files/include/asm-mips/amazon
 svn://svn.openwrt.org/openwrt
 
@@ -25,210 +25,6 @@ hauke
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
-
-ifx_peripheral_definitions.h
-file
-
-
-
-
-2012-11-13T03:43:52.480271Z
-c62c701ccd11e3a531bc3d39e588ef8c
-2007-07-23T22:10:11.386635Z
-8137
-blogic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4610
-
-amazon_tpe.h
-file
-
-
-
-
-2012-11-13T03:43:52.480271Z
-cafc36dbe8a2e149592cbfc76d9ceda9
-2007-07-23T22:10:11.386635Z
-8137
-blogic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-7621
-
-ifx_ssc.h
-file
-
-
-
-
-2012-11-13T03:43:52.480271Z
-d6eb61317d01430711267e253b345771
-2007-07-23T22:10:11.386635Z
-8137
-blogic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-9184
-
-amazon_sw.h
-file
-
-
-
-
-2012-11-13T03:43:52.480271Z
-66ca0abbd52c3fd1f29d722a482d5593
-2009-11-28T22:09:18.214172Z
-18588
-hauke
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4043
-
-adm6996.h
-file
-
-
-
-
-2012-11-13T03:43:52.484271Z
-c2acc4e3ee4ba9a08a3c0541bd93a016
-2007-07-23T22:10:11.386635Z
-8137
-blogic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-8275
-
-model.h
-file
-
-
-
-
-2012-11-13T03:43:52.484271Z
-ae1362cd401bf2f90e495aec5e61a438
-2007-07-23T22:10:11.386635Z
-8137
-blogic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1690
 
 amazon_wdt.h
 file
@@ -332,40 +128,6 @@ blogic
 
 3496
 
-amazon_mei_ioctl.h
-file
-
-
-
-
-2012-11-13T03:43:52.488272Z
-5f856de3a301b79431278aeb5d94e1ec
-2007-07-23T22:10:11.386635Z
-8137
-blogic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-29833
-
 amazon_mei_app_ioctl.h
 file
 
@@ -399,6 +161,40 @@ blogic
 
 
 47545
+
+amazon_mei_ioctl.h
+file
+
+
+
+
+2012-11-13T03:43:52.488272Z
+5f856de3a301b79431278aeb5d94e1ec
+2007-07-23T22:10:11.386635Z
+8137
+blogic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+29833
 
 atm_defines.h
 file
@@ -434,14 +230,14 @@ blogic
 
 27385
 
-amazon_mei_app.h
+serial.h
 file
 
 
 
 
 2012-11-13T03:43:52.488272Z
-38351bd2e0cd324badee99e7ced9bd14
+6ab9fb8a80b87efd5c0a464f4da3097e
 2007-07-23T22:10:11.386635Z
 8137
 blogic
@@ -466,7 +262,7 @@ blogic
 
 
 
-1644
+4712
 
 amazon_mei.h
 file
@@ -502,14 +298,14 @@ blogic
 
 6771
 
-serial.h
+amazon_mei_app.h
 file
 
 
 
 
 2012-11-13T03:43:52.488272Z
-6ab9fb8a80b87efd5c0a464f4da3097e
+38351bd2e0cd324badee99e7ced9bd14
 2007-07-23T22:10:11.386635Z
 8137
 blogic
@@ -534,7 +330,7 @@ blogic
 
 
 
-4712
+1644
 
 port.h
 file
@@ -671,4 +467,208 @@ blogic
 
 
 9394
+
+ifx_peripheral_definitions.h
+file
+
+
+
+
+2012-11-13T03:43:52.480271Z
+c62c701ccd11e3a531bc3d39e588ef8c
+2007-07-23T22:10:11.386635Z
+8137
+blogic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4610
+
+amazon_tpe.h
+file
+
+
+
+
+2012-11-13T03:43:52.480271Z
+cafc36dbe8a2e149592cbfc76d9ceda9
+2007-07-23T22:10:11.386635Z
+8137
+blogic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7621
+
+amazon_sw.h
+file
+
+
+
+
+2012-11-13T03:43:52.480271Z
+66ca0abbd52c3fd1f29d722a482d5593
+2009-11-28T22:09:18.214172Z
+18588
+hauke
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4043
+
+ifx_ssc.h
+file
+
+
+
+
+2012-11-13T03:43:52.480271Z
+d6eb61317d01430711267e253b345771
+2007-07-23T22:10:11.386635Z
+8137
+blogic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9184
+
+adm6996.h
+file
+
+
+
+
+2012-11-13T03:43:52.484271Z
+c2acc4e3ee4ba9a08a3c0541bd93a016
+2007-07-23T22:10:11.386635Z
+8137
+blogic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8275
+
+model.h
+file
+
+
+
+
+2012-11-13T03:43:52.484271Z
+ae1362cd401bf2f90e495aec5e61a438
+2007-07-23T22:10:11.386635Z
+8137
+blogic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1690
 

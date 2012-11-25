@@ -1,7 +1,7 @@
 10
 
 dir
-34303
+34325
 svn://svn.openwrt.org/openwrt/trunk/target/linux/generic/patches-3.6
 svn://svn.openwrt.org/openwrt
 
@@ -26,17 +26,17 @@ juhosg
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
 
-722-phy_mvswitch.patch
+643-bridge_remove_ipv6_dependency.patch
 file
 
 
 
 
-2012-11-13T03:42:50.680272Z
-922676d92ec36c354e29e24768b335ab
-2012-10-24T13:05:22.930421Z
-33911
-florian
+2012-11-13T03:42:50.692273Z
+5a98fbf4490baf9f4a33025e761fcae4
+2012-10-28T18:59:39.181229Z
+33982
+juhosg
 
 
 
@@ -58,19 +58,19 @@ florian
 
 
 
-812
+3266
 
-301-mips_image_cmdline_hack.patch
+256-crypto_add_kconfig_prompts.patch
 file
 
 
 
 
-2012-11-13T03:42:50.744275Z
-ce4b8e364765dfd5f5bdb95dec84687a
-2012-10-24T13:05:22.930421Z
-33911
-florian
+2012-11-13T03:42:50.716275Z
+98a633c9139d26cbabe610fafdd1b565
+2012-02-02T08:23:54.955046Z
+29986
+jogo
 
 
 
@@ -92,392 +92,18 @@ florian
 
 
 
-575
+889
 
-060-tcp-ecn-dont-delay-ACKS-after-CE.patch
+020-ssb_update.patch
 file
 
 
 
 
 2012-11-13T03:42:50.720275Z
-849dc60badfb3d47e7c86aa7c435e3b3
-2012-10-24T13:05:22.930421Z
-33911
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2077
-
-500-yaffs-Kbuild-integration.patch
-file
-
-
-
-
-2012-11-13T03:42:50.724275Z
-6941ecf24333758c7d5c663ba1094119
-2012-10-30T21:16:21.553350Z
-34019
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-447
-
-334-mips-fix-compiling-failure-of-relocate_kernel.patch
-file
-
-
-
-
-2012-11-13T03:42:50.732275Z
-34bd07c103a097fcda8fe5331a220edf
-2012-02-02T08:23:54.955046Z
-29986
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2624
-
-831-ledtrig_netdev.patch
-file
-
-
-
-
-2012-11-13T03:42:50.704274Z
-5da4667e9ef282f1cac1d7ed571bfb5c
-2012-10-24T13:05:22.930421Z
-33911
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1674
-
-729-phy-rtl8367b.patch
-file
-
-
-
-
-2012-11-13T03:42:50.684273Z
-61d4a836ff26182708ce0724f9bb63ae
-2012-10-24T13:05:22.930421Z
-33911
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-719
-
-440-block2mtd_init.patch
-file
-
-
-
-
-2012-11-13T03:42:50.708274Z
-17e31df4553f6edda44644949f8e56f8
-2012-10-24T13:05:22.930421Z
-33911
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3570
-
-911-kobject_add_broadcast_uevent.patch
-file
-
-
-
-
-2012-11-13T03:42:50.684273Z
-5418aa9d8206c9de84ffddc582f9f5ee
-2012-10-24T13:05:22.930421Z
-33911
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2106
-
-863-gpiommc.patch
-file
-
-
-
-
-2012-11-13T03:42:50.676272Z
-fc26b7e2ce453c879d2dd50fcad8b18c
-2012-10-24T13:05:22.930421Z
-33911
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-23000
-
-810-pci_disable_common_quirks.patch
-file
-
-
-
-
-2012-11-13T03:42:50.696274Z
-307dd7343bb4f42922357e3a39d9b6a1
-2012-10-24T13:05:22.930421Z
-33911
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1650
-
-511-yaffs-3.5-use-clear_inode.patch
-file
-
-
-
-
-2012-11-13T03:42:50.696274Z
-68526014e20216436c6558c64e1cc656
-2012-11-01T11:07:23.694465Z
-34054
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-418
-
-940-ocf_kbuild_integration.patch
-file
-
-
-
-
-2012-11-13T03:42:50.708274Z
-c80712c493157ff78f88d1908f8a719c
-2012-10-24T13:05:22.930421Z
-33911
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-482
-
-021-ssb-add-PCI-ID-0x4350.patch
-file
-
-
-
-
-2012-11-13T03:42:50.736275Z
-b784f97b6f0b339f9ae757bdd945a867
-2012-10-25T15:50:47.334637Z
-33929
+f861d4dada6f1399221dd14670508c37
+2012-10-25T14:33:47.308160Z
+33920
 hauke
 
 
@@ -500,1163 +126,7 @@ hauke
 
 
 
-390
-
-307-mips_oprofile_fix.patch
-file
-
-
-
-
-2012-11-13T03:42:50.700274Z
-2365cdc88dd47a6a662ff2425a975997
-2012-10-24T13:05:22.930421Z
-33911
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1037
-
-062-mips_decompressor_build_fix.patch
-file
-
-
-
-
-2012-11-15T15:23:33.183022Z
-0a6a0930ffe4e598cbeabf0c5105324d
-2012-11-13T20:57:13.778187Z
-34194
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2100
-
-450-mtd_plat_nand_chip_fixup.patch
-file
-
-
-
-
-2012-11-13T03:42:50.728275Z
-580bc80409f724506c9d7c109cb050af
-2012-10-24T13:05:22.930421Z
-33911
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-925
-
-476-mtd-m25p80-allow-to-disable-small-sector-erase.patch
-file
-
-
-
-
-2012-11-13T03:42:50.708274Z
-34bbc1bf294c8deaaf7a4884229f2f62
-2012-10-24T13:05:22.930421Z
-33911
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1240
-
-502-yaffs-Switch-from-semaphores-to-mutexes.patch
-file
-
-
-
-
-2012-11-13T03:42:50.676272Z
-972e7cadfcdbc6846557ae093f83a2c5
-2012-10-30T21:16:24.235389Z
-34021
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4459
-
-022-ssb-handle-BCM43222-in-pmu-code.patch
-file
-
-
-
-
-2012-11-13T03:42:50.676272Z
-bc9d3db964762537bbc276103b44ceb9
-2012-10-25T15:50:47.334637Z
-33929
-hauke
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-538
-
-430-mtd_myloader_partition_parser.patch
-file
-
-
-
-
-2012-11-13T03:42:50.736275Z
-c8fee1357de5d38d12a06797c768dbfe
-2012-02-02T08:23:54.955046Z
-29986
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1351
-
-820-usb_add_usb_find_device_by_name.patch
-file
-
-
-
-
-2012-11-13T03:42:50.676272Z
-efcac886818649395d97663ec874aba4
-2012-10-24T13:05:22.930421Z
-33911
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2549
-
-473-mtd_m25p80_add_w25q128.patch
-file
-
-
-
-
-2012-11-13T03:42:50.708274Z
-21a0fb0cf83a808a0c683bd7e6a30d7f
-2012-10-24T13:05:22.930421Z
-33911
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-469
-
-652-atm_header_changes.patch
-file
-
-
-
-
-2012-11-13T03:42:50.744275Z
-254d0d09a625c63ce9bdfa891daa10e6
-2012-02-02T08:23:54.955046Z
-29986
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-562
-
-321-powerpc_crtsavres_prereq.patch
-file
-
-
-
-
-2012-11-13T03:42:50.728275Z
-e6c62a8c8729262668b3239bd841ede9
-2012-10-24T13:05:22.930421Z
-33911
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-356
-
-475-mtd_cfi_cmdset_0002-add-buffer-write-cmd-timeout.patch
-file
-
-
-
-
-2012-11-13T03:42:50.728275Z
-2982df3d30d276fc4800dc7814c6fcab
-2012-10-24T13:05:22.930421Z
-33911
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-556
-
-653-disable_netlink_trim.patch
-file
-
-
-
-
-2012-11-18T12:02:07.717473Z
-93099e66b638d33264cc52654e2c762d
-2012-11-18T08:41:31.122102Z
-34227
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-574
-
-335-mips-kexec-cleanup-kexec-tools-parameter-handling.patch
-file
-
-
-
-
-2012-11-13T03:42:50.704274Z
-20587b44379cae993a263839597e896f
-2012-04-18T15:36:30.273991Z
-31344
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4967
-
-303-mips_fix_kexec.patch
-file
-
-
-
-
-2012-11-13T03:42:50.712275Z
-55d5cf2907f164470ef5c5f27544dfd8
-2012-02-02T08:23:54.955046Z
-29986
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-409
-
-541-ubifs-xz-decompression-support.patch
-file
-
-
-
-
-2012-11-13T03:42:50.712275Z
-d0ae80f0b8aa4a269b96e7cce54d12c1
-2012-10-24T13:05:22.930421Z
-33911
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2253
-
-602-netfilter_layer7_match.patch
-file
-
-
-
-
-2012-11-13T03:42:50.712275Z
-e5a53063930b359add808c2d97efd067
-2012-02-02T08:23:54.955046Z
-29986
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1587
-
-477-mtd-m25p80-add-support-for-the-EON-EN25Q64-chip.patch
-file
-
-
-
-
-2012-11-13T03:42:50.684273Z
-a034790d075428fb1b47e1c921cd6e8e
-2012-10-24T13:05:22.930421Z
-33911
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-431
-
-723-phy_ip175c.patch
-file
-
-
-
-
-2012-11-13T03:42:50.744275Z
-f5112e44ac2ce12692f0c2028036eac9
-2012-10-24T13:05:22.930421Z
-33911
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-775
-
-401-partial_eraseblock_write.patch
-file
-
-
-
-
-2012-11-13T03:42:50.732275Z
-3bf943d650677e98448de8de1ad18da3
-2012-10-24T13:05:22.930421Z
-33911
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4432
-
-644-bridge_optimize_netfilter_hooks.patch
-file
-
-
-
-
-2012-11-13T03:42:50.684273Z
-fb10fbb5436d8b889b85edc1f8ce0b45
-2012-10-24T13:05:22.930421Z
-33911
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4478
-
-540-crypto-xz-decompression-support.patch
-file
-
-
-
-
-2012-11-13T03:42:50.684273Z
-3eaf4712b831142d8af784ecc23d66d9
-2012-10-24T13:05:22.930421Z
-33911
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3556
-
-420-redboot_space.patch
-file
-
-
-
-
-2012-11-13T03:42:50.740275Z
-5843f6904857341ada5ddfb31027be71
-2012-10-24T13:05:22.930421Z
-33911
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-968
-
-724-phy_ar8216.patch
-file
-
-
-
-
-2012-11-13T03:42:50.676272Z
-40121f49a916b0a5c68279f16d972774
-2012-10-24T13:05:22.930421Z
-33911
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-796
-
-910-kobject_uevent.patch
-file
-
-
-
-
-2012-11-13T03:42:50.716275Z
-58eb554f3e9d7cc9f7ecf8da26862f69
-2012-10-24T13:05:22.930421Z
-33911
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-427
-
-309-mips_fuse_workaround.patch
-file
-
-
-
-
-2012-11-13T03:42:50.700274Z
-41aacd84f222bec757aca531a61f045e
-2012-06-16T21:06:33.498535Z
-32395
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-924
-
-920-unable_to_open_console.patch
-file
-
-
-
-
-2012-11-13T03:42:50.716275Z
-8fc4c8ff6036551f2775a6cf6aff03af
-2012-10-31T20:09:39.422665Z
-34042
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-425
-
-700-swconfig.patch
-file
-
-
-
-
-2012-11-13T03:42:50.736275Z
-efbfb5a9d8363146672f490fe284013b
-2012-10-24T13:05:22.930421Z
-33911
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-771
-
-255-lib80211_kconfig_hacks.patch
-file
-
-
-
-
-2012-11-13T03:42:50.716275Z
-a082996b9fec5eda7909df6df212f206
-2012-10-24T13:05:22.930421Z
-33911
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-416
-
-729-phy-tantos.patch
-file
-
-
-
-
-2012-11-13T03:42:50.676272Z
-ac140a764f60a64abe1c63b197436f58
-2012-10-24T13:05:22.930421Z
-33911
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-741
-
-252-mv_cesa_depends.patch
-file
-
-
-
-
-2012-11-13T03:42:50.692273Z
-d3d174d5335342f897584168494fef1f
-2012-10-24T13:05:22.930421Z
-33911
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-248
-
-201-extra_optimization.patch
-file
-
-
-
-
-2012-11-13T03:42:50.676272Z
-7a69e6fa103084748d3e9fb257e47a0b
-2012-10-24T13:05:22.930421Z
-33911
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-675
-
-880-gateworks_system_controller.patch
-file
-
-
-
-
-2012-11-13T03:42:50.728275Z
-9f7670bd069414fe0d4a4c7df4a0f6a1
-2012-10-24T13:05:22.930421Z
-33911
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-10774
-
-340-module_alloc_size_check.patch
-file
-
-
-
-
-2012-11-13T03:42:50.692273Z
-b66b149b1576dcb211e11d07eb02ff1b
-2012-10-24T13:05:22.930421Z
-33911
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-449
+2595
 
 308-mips-show-correct-cpu-name-for-24KEc.patch
 file
@@ -1726,116 +196,14 @@ florian
 
 327
 
-505-yaffs-3.2-use-MTD_OPS_AUTO_OOB.patch
+301-mips_image_cmdline_hack.patch
 file
 
 
 
 
-2012-11-13T03:42:50.720275Z
-05e2f052e8aacff38404f4d9d6a6af83
-2012-10-31T19:33:12.973442Z
-34041
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1722
-
-333-mips-kexec-get-kernel-parameters-from-kexec-tools.patch
-file
-
-
-
-
-2012-11-13T03:42:50.712275Z
-376afac713906b0484bc1b7b1e380481
-2012-02-02T08:23:54.955046Z
-29986
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2724
-
-921-use_preinit_as_init.patch
-file
-
-
-
-
-2012-11-13T03:42:50.732275Z
-fb2e96349b3904203c5abda5d61bdbe7
-2012-10-31T20:09:39.422665Z
-34042
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-489
-
-100-overlayfs.patch
-file
-
-
-
-
-2012-11-13T03:42:50.716275Z
-19c946732ae1a4e4b08ffaaf88d6ca1a
+2012-11-13T03:42:50.744275Z
+ce4b8e364765dfd5f5bdb95dec84687a
 2012-10-24T13:05:22.930421Z
 33911
 florian
@@ -1860,7 +228,143 @@ florian
 
 
 
-81053
+575
+
+509-yaffs-3.4-add-underscore-to-mtd-internal-names.patch
+file
+
+
+
+
+2012-11-13T03:42:50.684273Z
+bf2c840ce227e56cf5bd0d9b71530854
+2012-11-01T11:07:23.694465Z
+34054
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2663
+
+202-reduce_module_size.patch
+file
+
+
+
+
+2012-11-13T03:42:50.724275Z
+c694983fa3287881fb8381994a3552d4
+2012-10-24T13:05:22.930421Z
+33911
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+487
+
+830-ledtrig_morse.patch
+file
+
+
+
+
+2012-11-13T03:42:50.696274Z
+d3c7c30b25d9d455a99788f7d7d4f5c5
+2012-10-24T13:05:22.930421Z
+33911
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+878
+
+863-gpiommc.patch
+file
+
+
+
+
+2012-11-13T03:42:50.676272Z
+fc26b7e2ce453c879d2dd50fcad8b18c
+2012-10-24T13:05:22.930421Z
+33911
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+23000
 
 611-netfilter_match_bypass_default_table.patch
 file
@@ -1896,14 +400,14 @@ florian
 
 2446
 
-621-sched_act_connmark.patch
+102-ehci_hcd_ignore_oc.patch
 file
 
 
 
 
-2012-11-13T03:42:50.688273Z
-93d71c3111ed3a12ca19936c5aa7f434
+2012-11-13T03:42:50.724275Z
+80642dc527c7d42258a7c7e529ef16b3
 2012-10-24T13:05:22.930421Z
 33911
 florian
@@ -1928,7 +432,41 @@ florian
 
 
 
-4765
+1529
+
+870-hifn795x_byteswap.patch
+file
+
+
+
+
+2012-11-13T03:42:50.732275Z
+723f63b588c4efe08438f3abad2f90e0
+2012-02-02T08:23:54.955046Z
+29986
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+539
 
 993-mpcore_wdt_fix_wdioc_setoptions_handling.patch
 file
@@ -1964,6 +502,108 @@ florian
 
 1090
 
+211-stddef_include.patch
+file
+
+
+
+
+2012-11-13T03:42:50.688273Z
+a547d7263d1223fed0553b0539269172
+2012-10-24T13:05:22.930421Z
+33911
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+322
+
+601-netfilter_layer7_pktmatch.patch
+file
+
+
+
+
+2012-11-13T03:42:50.736275Z
+2858e248f8cf8c296fcfe1d414d8a038
+2012-02-02T08:23:54.955046Z
+29986
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3865
+
+061-arm_xz_decompressor_build_fix.patch
+file
+
+
+
+
+2012-11-13T03:42:50.700274Z
+ee9500a170811249efe6172817810e8c
+2012-10-24T15:57:31.189305Z
+33915
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+313
+
 503-yaffs-Replace-yaffs_dir_llseek-with-Linux-generic-ll.patch
 file
 
@@ -1998,14 +638,14 @@ juhosg
 
 1864
 
-442-block2mtd_probe.patch
+610-netfilter_match_bypass_default_checks.patch
 file
 
 
 
 
 2012-11-13T03:42:50.700274Z
-eccfc04e69bc55b6d72d04b6d4c895b7
+7fb4a1b6fed229df284b9039eaeffee1
 2012-10-24T13:05:22.930421Z
 33911
 florian
@@ -2030,155 +670,19 @@ florian
 
 
 
-376
+2555
 
-950-vm_exports.patch
-file
-
-
-
-
-2012-11-13T03:42:50.688273Z
-d667892120b822fc27648924c751a7ba
-2012-10-24T13:05:22.930421Z
-33911
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3180
-
-258-netfilter_netlink_kconfig_hack.patch
-file
-
-
-
-
-2012-11-13T03:42:50.724275Z
-31f797c3286306ad971009f3e74b1cc4
-2012-03-12T00:09:23.724835Z
-30894
-jow
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-315
-
-322-ppc4xx-crypto-compile-fix.patch
-file
-
-
-
-
-2012-11-13T03:42:50.716275Z
-d0789a636be99fb3112af8e67c2515fe
-2012-04-21T10:47:04.541249Z
-31394
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-257
-
-726-phy_rtl8366.patch
-file
-
-
-
-
-2012-11-13T03:42:50.736275Z
-06cad72a26c5013cce140cabba696bb7
-2012-10-24T13:05:22.930421Z
-33911
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1354
-
-306-mips_mem_functions_performance.patch
+702-phy_add_aneg_done_function.patch
 file
 
 
 
 
 2012-11-13T03:42:50.728275Z
-891ec2beb877f4eb994e4ed657d59842
-2012-10-23T12:21:34.160173Z
-33897
-kaloz
+1d3bc95adc8bf074089a7b1993bc9314
+2012-10-24T13:05:22.930421Z
+33911
+florian
 
 
 
@@ -2200,7 +704,41 @@ kaloz
 
 
 
-2220
+1184
+
+212-byteshift_portability.patch
+file
+
+
+
+
+2012-11-13T03:42:50.700274Z
+4e2907d7785f994e50d10b65cb60a185
+2012-11-04T17:01:15.706773Z
+34068
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1084
 
 900-slab_maxsize.patch
 file
@@ -2236,6 +774,74 @@ florian
 
 562
 
+062-mips_decompressor_build_fix.patch
+file
+
+
+
+
+2012-11-15T15:23:33.183022Z
+0a6a0930ffe4e598cbeabf0c5105324d
+2012-11-13T20:57:13.778187Z
+34194
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2100
+
+510-yaffs-3.4-use-d_make_root.patch
+file
+
+
+
+
+2012-11-13T03:42:50.736275Z
+09e1f880cb650e36af18372c879ac6a1
+2012-11-01T11:07:23.694465Z
+34054
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+402
+
 400-rootfs_split.patch
 file
 
@@ -2270,17 +876,17 @@ jogo
 
 9207
 
-980-arm_openwrt_machtypes.patch
+022-ssb-handle-BCM43222-in-pmu-code.patch
 file
 
 
 
 
 2012-11-13T03:42:50.676272Z
-7e9e601f67e9c02325e1b4eab1753f23
-2012-11-11T21:04:30.981243Z
-34165
-kaloz
+bc9d3db964762537bbc276103b44ceb9
+2012-10-25T15:50:47.334637Z
+33929
+hauke
 
 
 
@@ -2302,18 +908,18 @@ kaloz
 
 
 
-1326
+538
 
-507-yaffs-3.3_fix.patch
+502-yaffs-Switch-from-semaphores-to-mutexes.patch
 file
 
 
 
 
 2012-11-13T03:42:50.676272Z
-376cfdfa1a6bc49b7370ec87bda8d3b6
-2012-10-31T19:33:12.973442Z
-34041
+972e7cadfcdbc6846557ae093f83a2c5
+2012-10-30T21:16:24.235389Z
+34021
 juhosg
 
 
@@ -2336,7 +942,41 @@ juhosg
 
 
 
-2709
+4459
+
+820-usb_add_usb_find_device_by_name.patch
+file
+
+
+
+
+2012-11-13T03:42:50.676272Z
+efcac886818649395d97663ec874aba4
+2012-10-24T13:05:22.930421Z
+33911
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2549
 
 254-textsearch_kconfig_hacks.patch
 file
@@ -2372,14 +1012,14 @@ florian
 
 401
 
-251-sound_kconfig.patch
+210-darwin_scripts_include.patch
 file
 
 
 
 
-2012-11-13T03:42:50.680272Z
-98bb580342da5b3106494678c77ef752
+2012-11-13T03:42:50.692273Z
+172b3ac4409c5e9570c72a00bcf4ec79
 2012-02-02T08:23:54.955046Z
 29986
 jogo
@@ -2404,152 +1044,16 @@ jogo
 
 
 
-200
+2318
 
-441-block2mtd_refresh.patch
-file
-
-
-
-
-2012-11-13T03:42:50.724275Z
-f9f89ee7c74a4a7181920c08cb35cb24
-2012-10-24T13:05:22.930421Z
-33911
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-6406
-
-305-mips_module_reloc.patch
-file
-
-
-
-
-2012-11-13T03:42:50.724275Z
-93359057c8b942801c581d0f943e53d4
-2012-10-24T13:05:22.930421Z
-33911
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-9518
-
-992-mpcore_wdt_fix_watchdog_counter_loading.patch
-file
-
-
-
-
-2012-11-13T03:42:50.704274Z
-f44dc60208f613fc65ae6d38fbcf7d48
-2012-10-24T13:05:22.930421Z
-33911
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2513
-
-253-ssb_b43_default_on.patch
+750-hostap_txpower.patch
 file
 
 
 
 
 2012-11-13T03:42:50.696274Z
-4ac05649904639dbbcdbb13549051124
-2012-02-02T08:23:54.955046Z
-29986
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-524
-
-603-netfilter_layer7_2.6.36_fix.patch
-file
-
-
-
-
-2012-11-13T03:42:50.740275Z
-265aa84c052bc46e9523cac46c106052
+c33740a11342655d1e2353318e82e13e
 2012-10-24T13:05:22.930421Z
 33911
 florian
@@ -2574,18 +1078,86 @@ florian
 
 
 
-2029
+5257
 
-260-move_bcm963xx_tag.patch
+477-mtd-m25p80-add-support-for-the-EON-EN25Q64-chip.patch
 file
 
 
 
 
-2012-11-20T11:05:36.520468Z
-2d63abd71763bbcd8289c417ecd5f09e
-2012-11-19T12:38:26.274478Z
-34255
+2012-11-13T03:42:50.684273Z
+a034790d075428fb1b47e1c921cd6e8e
+2012-10-24T13:05:22.930421Z
+33911
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+431
+
+250-netfilter_depends.patch
+file
+
+
+
+
+2012-11-13T03:42:50.740275Z
+2931e0a461fd49eaa2526480e02966d8
+2012-10-24T13:05:22.930421Z
+33911
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+582
+
+410-mtd_info_move_forward_decl.patch
+file
+
+
+
+
+2012-11-13T03:42:50.732275Z
+f0857e6b2997263b789abe929843117f
+2012-02-02T08:23:54.955046Z
+29986
 jogo
 
 
@@ -2608,7 +1180,177 @@ jogo
 
 
 
-7989
+403
+
+850-glamo_headers.patch
+file
+
+
+
+
+2012-11-19T05:45:52.054390Z
+73cc3d37c68cb0d78a93a5cf444627dc
+2012-11-18T21:40:30.684674Z
+34253
+hauke
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+837
+
+644-bridge_optimize_netfilter_hooks.patch
+file
+
+
+
+
+2012-11-13T03:42:50.684273Z
+fb10fbb5436d8b889b85edc1f8ce0b45
+2012-10-24T13:05:22.930421Z
+33911
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4478
+
+540-crypto-xz-decompression-support.patch
+file
+
+
+
+
+2012-11-13T03:42:50.684273Z
+3eaf4712b831142d8af784ecc23d66d9
+2012-10-24T13:05:22.930421Z
+33911
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3556
+
+620-sched_esfq.patch
+file
+
+
+
+
+2012-11-13T03:42:50.732275Z
+dec656d2fbea43fdb212ba9a216b142a
+2012-10-24T13:05:22.930421Z
+33911
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+21053
+
+220-module_exports.patch
+file
+
+
+
+
+2012-11-13T03:42:50.696274Z
+bc885dda2cf562f0798a1eebfbd25317
+2012-10-24T13:05:22.930421Z
+33911
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2496
 
 612-netfilter_match_reduce_memory_access.patch
 file
@@ -2644,48 +1386,48 @@ jogo
 
 607
 
-643-bridge_remove_ipv6_dependency.patch
+512-yaffs-3.5-convert-to-use-kuid_t-kgid_t.patch
+file
+
+
+
+
+2012-11-20T18:13:40.863740Z
+e448f9b8c4446a4b1eda394b59af7d3f
+2012-11-20T17:45:24.654026Z
+34280
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+15561
+
+252-mv_cesa_depends.patch
 file
 
 
 
 
 2012-11-13T03:42:50.692273Z
-5a98fbf4490baf9f4a33025e761fcae4
-2012-10-28T18:59:39.181229Z
-33982
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3266
-
-630-packet_socket_type.patch
-file
-
-
-
-
-2012-11-13T03:42:50.700274Z
-9ce39668db49630162fe790c5724c788
+d3d174d5335342f897584168494fef1f
 2012-10-24T13:05:22.930421Z
 33911
 florian
@@ -2710,50 +1452,16 @@ florian
 
 
 
-3659
+248
 
-310-arm_module_unresolved_weak_sym.patch
+728-phy-micrel.patch
 file
 
 
 
 
 2012-11-13T03:42:50.736275Z
-db64b575845041d2bf68fb876246de0c
-2012-02-02T08:23:54.955046Z
-29986
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-354
-
-470-mtd_m25p80_add_pm25lv_flash_support.patch
-file
-
-
-
-
-2012-11-13T03:42:50.744275Z
-8ca5743f9a421651a04aec485def4655
+e5655e2aa9f79f56fb54ab0b0862ba73
 2012-10-24T13:05:22.930421Z
 33911
 florian
@@ -2778,19 +1486,19 @@ florian
 
 
 
-1588
+812
 
-060-hso_devices.patch
+880-gateworks_system_controller.patch
 file
 
 
 
 
-2012-11-13T03:42:50.744275Z
-c3bb4d137067032d08c86cf8f66858f2
-2012-10-31T20:09:39.422665Z
-34042
-juhosg
+2012-11-13T03:42:50.728275Z
+9f7670bd069414fe0d4a4c7df4a0f6a1
+2012-10-24T13:05:22.930421Z
+33911
+florian
 
 
 
@@ -2812,7 +1520,75 @@ juhosg
 
 
 
-1134
+10774
+
+340-module_alloc_size_check.patch
+file
+
+
+
+
+2012-11-13T03:42:50.692273Z
+b66b149b1576dcb211e11d07eb02ff1b
+2012-10-24T13:05:22.930421Z
+33911
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+449
+
+025-bcma_backport.patch
+file
+
+
+
+
+2012-11-19T05:45:52.054390Z
+8d7a3aabf841afdd0008278446361afd
+2012-11-18T21:27:00.359060Z
+34252
+hauke
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+34639
 
 941-ocf_20120127.patch
 file
@@ -2882,50 +1658,16 @@ florian
 
 397
 
-830-ledtrig_morse.patch
+921-use_preinit_as_init.patch
 file
 
 
 
 
-2012-11-13T03:42:50.696274Z
-d3c7c30b25d9d455a99788f7d7d4f5c5
-2012-10-24T13:05:22.930421Z
-33911
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-878
-
-a02-swconfig-revert-portid-snd_portid-usage.patch
-file
-
-
-
-
-2012-11-22T00:16:34.107515Z
-5148d237feb32282850b5316983d5388
-2012-11-21T17:38:11.702804Z
-34288
+2012-11-13T03:42:50.732275Z
+fb2e96349b3904203c5abda5d61bdbe7
+2012-10-31T20:09:39.422665Z
+34042
 juhosg
 
 
@@ -2948,50 +1690,16 @@ juhosg
 
 
 
-1002
+489
 
-870-hifn795x_byteswap.patch
+831-ledtrig_netdev.patch
 file
 
 
 
 
-2012-11-13T03:42:50.732275Z
-723f63b588c4efe08438f3abad2f90e0
-2012-02-02T08:23:54.955046Z
-29986
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-539
-
-832-ledtrig_usbdev.patch
-file
-
-
-
-
-2012-11-13T03:42:50.740275Z
-1c24150e5c7d5b38b710334708a88c1e
+2012-11-13T03:42:50.704274Z
+5da4667e9ef282f1cac1d7ed571bfb5c
 2012-10-24T13:05:22.930421Z
 33911
 florian
@@ -3016,18 +1724,18 @@ florian
 
 
 
-1034
+1674
 
-061-arm_xz_decompressor_build_fix.patch
+440-block2mtd_init.patch
 file
 
 
 
 
-2012-11-13T03:42:50.700274Z
-ee9500a170811249efe6172817810e8c
-2012-10-24T15:57:31.189305Z
-33915
+2012-11-13T03:42:50.708274Z
+17e31df4553f6edda44644949f8e56f8
+2012-10-24T13:05:22.930421Z
+33911
 florian
 
 
@@ -3050,19 +1758,19 @@ florian
 
 
 
-313
+3570
 
-601-netfilter_layer7_pktmatch.patch
+940-ocf_kbuild_integration.patch
 file
 
 
 
 
-2012-11-13T03:42:50.736275Z
-2858e248f8cf8c296fcfe1d414d8a038
-2012-02-02T08:23:54.955046Z
-29986
-jogo
+2012-11-13T03:42:50.708274Z
+c80712c493157ff78f88d1908f8a719c
+2012-10-24T13:05:22.930421Z
+33911
+florian
 
 
 
@@ -3084,7 +1792,41 @@ jogo
 
 
 
-3865
+482
+
+442-block2mtd_probe.patch
+file
+
+
+
+
+2012-11-13T03:42:50.700274Z
+eccfc04e69bc55b6d72d04b6d4c895b7
+2012-10-24T13:05:22.930421Z
+33911
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+376
 
 970-remove-unsane-filenames-from-deps_initramfs-list.patch
 file
@@ -3120,14 +1862,14 @@ juhosg
 
 1209
 
-610-netfilter_match_bypass_default_checks.patch
+726-phy_rtl8366.patch
 file
 
 
 
 
-2012-11-13T03:42:50.700274Z
-7fb4a1b6fed229df284b9039eaeffee1
+2012-11-13T03:42:50.736275Z
+06cad72a26c5013cce140cabba696bb7
 2012-10-24T13:05:22.930421Z
 33911
 florian
@@ -3152,75 +1894,7 @@ florian
 
 
 
-2555
-
-332-mips-kexec-init-the-arguments-for-the-new-kernel-image.patch
-file
-
-
-
-
-2012-11-13T03:42:50.744275Z
-12edb190ae3ca039093c1dd32598aaf2
-2012-02-02T08:23:54.955046Z
-29986
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1574
-
-212-byteshift_portability.patch
-file
-
-
-
-
-2012-11-13T03:42:50.700274Z
-4e2907d7785f994e50d10b65cb60a185
-2012-11-04T17:01:15.706773Z
-34068
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1084
+1354
 
 330-mips-add-crash-and-kdump-support.patch
 file
@@ -3256,82 +1930,14 @@ florian
 
 15864
 
-504-yaffs-Mods-for-Linux-3.0-and-fix-a-typo.patch
+476-mtd-m25p80-allow-to-disable-small-sector-erase.patch
 file
 
 
 
 
-2012-11-13T03:42:50.720275Z
-e434636d5a075567f14598a4dd30d864
-2012-10-31T15:12:45.706176Z
-34032
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4104
-
-510-yaffs-3.4-use-d_make_root.patch
-file
-
-
-
-
-2012-11-13T03:42:50.736275Z
-09e1f880cb650e36af18372c879ac6a1
-2012-11-01T11:07:23.694465Z
-34054
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-402
-
-642-bridge_port_isolate.patch
-file
-
-
-
-
-2012-11-13T03:42:50.676272Z
-10c22d98e38ed54c7ec61edd14bc31cb
+2012-11-13T03:42:50.708274Z
+34bbc1bf294c8deaaf7a4884229f2f62
 2012-10-24T13:05:22.930421Z
 33911
 florian
@@ -3356,16 +1962,16 @@ florian
 
 
 
-3261
+1240
 
-230-openwrt_lzma_options.patch
+652-atm_header_changes.patch
 file
 
 
 
 
-2012-11-13T03:42:50.728275Z
-6b79bd428f3810162bee03f8ae3e13a2
+2012-11-13T03:42:50.744275Z
+254d0d09a625c63ce9bdfa891daa10e6
 2012-02-02T08:23:54.955046Z
 29986
 jogo
@@ -3390,19 +1996,19 @@ jogo
 
 
 
-2055
+562
 
-508-yaffs-3.3-use-mtd_-helpers.patch
+473-mtd_m25p80_add_w25q128.patch
 file
 
 
 
 
-2012-11-13T03:42:50.712275Z
-f575626a37beded8b52cc7c22ec437b9
-2012-10-31T21:17:30.050143Z
-34046
-juhosg
+2012-11-13T03:42:50.708274Z
+21a0fb0cf83a808a0c683bd7e6a30d7f
+2012-10-24T13:05:22.930421Z
+33911
+florian
 
 
 
@@ -3424,7 +2030,7 @@ juhosg
 
 
 
-4840
+469
 
 864-gpiommc_configfs_locking.patch
 file
@@ -3460,17 +2066,17 @@ jogo
 
 1388
 
-250-netfilter_depends.patch
+230-openwrt_lzma_options.patch
 file
 
 
 
 
-2012-11-13T03:42:50.740275Z
-2931e0a461fd49eaa2526480e02966d8
-2012-10-24T13:05:22.930421Z
-33911
-florian
+2012-11-13T03:42:50.728275Z
+6b79bd428f3810162bee03f8ae3e13a2
+2012-02-02T08:23:54.955046Z
+29986
+jogo
 
 
 
@@ -3492,16 +2098,16 @@ florian
 
 
 
-582
+2055
 
-532-jffs2_eofdetect.patch
+530-jffs2_make_lzma_available.patch
 file
 
 
 
 
-2012-11-13T03:42:50.724275Z
-3fc0cc972354dd5c1613d90d1e91cbfb
+2012-11-13T03:42:50.684273Z
+630dd223102b4480f7cd35e8949be611
 2012-11-01T11:07:16.389251Z
 34053
 juhosg
@@ -3526,19 +2132,19 @@ juhosg
 
 
 
-1650
+143914
 
-850-glamo_headers.patch
+514-yaffs-3.6-use-delayed-work-instead-of-write_super.patch
 file
 
 
 
 
-2012-11-19T05:45:52.054390Z
-73cc3d37c68cb0d78a93a5cf444627dc
-2012-11-18T21:40:30.684674Z
-34253
-hauke
+2012-11-20T18:13:40.867740Z
+67a93e3bbe12208dac466aad6ff473f3
+2012-11-20T17:45:24.654026Z
+34280
+juhosg
 
 
 
@@ -3560,7 +2166,347 @@ hauke
 
 
 
-837
+5021
+
+602-netfilter_layer7_match.patch
+file
+
+
+
+
+2012-11-13T03:42:50.712275Z
+e5a53063930b359add808c2d97efd067
+2012-02-02T08:23:54.955046Z
+29986
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1587
+
+541-ubifs-xz-decompression-support.patch
+file
+
+
+
+
+2012-11-13T03:42:50.712275Z
+d0ae80f0b8aa4a269b96e7cce54d12c1
+2012-10-24T13:05:22.930421Z
+33911
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2253
+
+303-mips_fix_kexec.patch
+file
+
+
+
+
+2012-11-13T03:42:50.712275Z
+55d5cf2907f164470ef5c5f27544dfd8
+2012-02-02T08:23:54.955046Z
+29986
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+409
+
+723-phy_ip175c.patch
+file
+
+
+
+
+2012-11-13T03:42:50.744275Z
+f5112e44ac2ce12692f0c2028036eac9
+2012-10-24T13:05:22.930421Z
+33911
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+775
+
+701-phy_extension.patch
+file
+
+
+
+
+2012-11-13T03:42:50.720275Z
+0e4c2a65dff477a8182a80b3b3eeff8a
+2012-10-24T13:05:22.930421Z
+33911
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1999
+
+478-mtd-partial_eraseblock_unlock.patch
+file
+
+
+
+
+2012-11-13T03:42:50.720275Z
+9ea2429d94ebe97ef08730b60428ece0
+2012-10-24T13:05:22.930421Z
+33911
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+699
+
+451-mtd_fix_nand_correct_data_return_code.patch
+file
+
+
+
+
+2012-11-13T03:42:50.724275Z
+184b800ec2c872aece60cc30aba97d7c
+2012-02-02T08:23:54.955046Z
+29986
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+371
+
+992-mpcore_wdt_fix_watchdog_counter_loading.patch
+file
+
+
+
+
+2012-11-13T03:42:50.704274Z
+f44dc60208f613fc65ae6d38fbcf7d48
+2012-10-24T13:05:22.930421Z
+33911
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2513
+
+603-netfilter_layer7_2.6.36_fix.patch
+file
+
+
+
+
+2012-11-13T03:42:50.740275Z
+265aa84c052bc46e9523cac46c106052
+2012-10-24T13:05:22.930421Z
+33911
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2029
+
+640-bridge_no_eap_forward.patch
+file
+
+
+
+
+2012-11-13T03:42:50.724275Z
+19beeb438df57bfa53158549cee38604
+2012-02-02T08:23:54.955046Z
+29986
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+420
 
 304-mips_disable_fpu.patch
 file
@@ -3664,14 +2610,14 @@ jogo
 
 423
 
-604-netfilter_cisco_794x_iphone.patch
+724-phy_ar8216.patch
 file
 
 
 
 
-2012-11-13T03:42:50.688273Z
-6baaf13d803419943dac0bdd3d323d6e
+2012-11-13T03:42:50.676272Z
+40121f49a916b0a5c68279f16d972774
 2012-10-24T13:05:22.930421Z
 33911
 florian
@@ -3696,16 +2642,50 @@ florian
 
 
 
-4654
+796
 
-256-crypto_add_kconfig_prompts.patch
+910-kobject_uevent.patch
 file
 
 
 
 
 2012-11-13T03:42:50.716275Z
-98a633c9139d26cbabe610fafdd1b565
+58eb554f3e9d7cc9f7ecf8da26862f69
+2012-10-24T13:05:22.930421Z
+33911
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+427
+
+257-wireless_ext_kconfig_hack.patch
+file
+
+
+
+
+2012-11-13T03:42:50.688273Z
+27dba7a60b5bb2bf5e534802bb92937c
 2012-02-02T08:23:54.955046Z
 29986
 jogo
@@ -3730,7 +2710,177 @@ jogo
 
 
 
-889
+380
+
+920-unable_to_open_console.patch
+file
+
+
+
+
+2012-11-13T03:42:50.716275Z
+8fc4c8ff6036551f2775a6cf6aff03af
+2012-10-31T20:09:39.422665Z
+34042
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+425
+
+255-lib80211_kconfig_hacks.patch
+file
+
+
+
+
+2012-11-13T03:42:50.716275Z
+a082996b9fec5eda7909df6df212f206
+2012-10-24T13:05:22.930421Z
+33911
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+416
+
+811-pci_disable_usb_common_quirks.patch
+file
+
+
+
+
+2012-11-13T03:42:50.728275Z
+4a51ec56560fcb5fbafd406aa2042a8e
+2012-10-31T20:09:39.422665Z
+34042
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+473
+
+729-phy-tantos.patch
+file
+
+
+
+
+2012-11-13T03:42:50.676272Z
+ac140a764f60a64abe1c63b197436f58
+2012-10-24T13:05:22.930421Z
+33911
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+741
+
+600-netfilter_layer7_2.22.patch
+file
+
+
+
+
+2012-11-13T03:42:50.728275Z
+4fb508805b453aceb8319072bd61a7f9
+2012-10-24T13:05:22.930421Z
+33911
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+58384
 
 300-mips_expose_boot_raw.patch
 file
@@ -3766,17 +2916,153 @@ florian
 
 884
 
-020-ssb_update.patch
+201-extra_optimization.patch
+file
+
+
+
+
+2012-11-13T03:42:50.676272Z
+7a69e6fa103084748d3e9fb257e47a0b
+2012-10-24T13:05:22.930421Z
+33911
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+675
+
+470-mtd_m25p80_add_pm25lv_flash_support.patch
+file
+
+
+
+
+2012-11-13T03:42:50.744275Z
+8ca5743f9a421651a04aec485def4655
+2012-10-24T13:05:22.930421Z
+33911
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1588
+
+060-hso_devices.patch
+file
+
+
+
+
+2012-11-13T03:42:50.744275Z
+c3bb4d137067032d08c86cf8f66858f2
+2012-10-31T20:09:39.422665Z
+34042
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1134
+
+531-debloat_lzma.patch
+file
+
+
+
+
+2012-11-13T03:42:50.740275Z
+db19a5cd0cfaf331b09fc045fa161fd4
+2012-11-01T11:07:16.389251Z
+34053
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+16924
+
+505-yaffs-3.2-use-MTD_OPS_AUTO_OOB.patch
 file
 
 
 
 
 2012-11-13T03:42:50.720275Z
-f861d4dada6f1399221dd14670508c37
-2012-10-25T14:33:47.308160Z
-33920
-hauke
+05e2f052e8aacff38404f4d9d6a6af83
+2012-10-31T19:33:12.973442Z
+34041
+juhosg
 
 
 
@@ -3798,18 +3084,256 @@ hauke
 
 
 
-2595
+1722
 
-025-bcma_backport.patch
+334-mips-fix-compiling-failure-of-relocate_kernel.patch
 file
 
 
 
 
-2012-11-19T05:45:52.054390Z
-8d7a3aabf841afdd0008278446361afd
-2012-11-18T21:27:00.359060Z
-34252
+2012-11-13T03:42:50.732275Z
+34bd07c103a097fcda8fe5331a220edf
+2012-02-02T08:23:54.955046Z
+29986
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2624
+
+710-phy-add-mdio_register_board_info.patch
+file
+
+
+
+
+2012-11-13T03:42:50.704274Z
+798ca5858f4a6ee11314d5375b37e378
+2012-10-24T13:05:22.930421Z
+33911
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5009
+
+a02-swconfig-revert-portid-snd_portid-usage.patch
+file
+
+
+
+
+2012-11-22T00:16:34.107515Z
+5148d237feb32282850b5316983d5388
+2012-11-21T17:38:11.702804Z
+34288
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1002
+
+810-pci_disable_common_quirks.patch
+file
+
+
+
+
+2012-11-13T03:42:50.696274Z
+307dd7343bb4f42922357e3a39d9b6a1
+2012-10-24T13:05:22.930421Z
+33911
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1650
+
+511-yaffs-3.5-use-clear_inode.patch
+file
+
+
+
+
+2012-11-13T03:42:50.696274Z
+68526014e20216436c6558c64e1cc656
+2012-11-01T11:07:23.694465Z
+34054
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+418
+
+621-sched_act_connmark.patch
+file
+
+
+
+
+2012-11-13T03:42:50.688273Z
+93d71c3111ed3a12ca19936c5aa7f434
+2012-10-24T13:05:22.930421Z
+33911
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4765
+
+841-rtc_pt7c4338.patch
+file
+
+
+
+
+2012-11-13T03:42:50.744275Z
+4d1795bea5ac3ecf48cdd8117112c935
+2012-10-24T13:05:22.930421Z
+33911
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7095
+
+021-ssb-add-PCI-ID-0x4350.patch
+file
+
+
+
+
+2012-11-13T03:42:50.736275Z
+b784f97b6f0b339f9ae757bdd945a867
+2012-10-25T15:50:47.334637Z
+33929
 hauke
 
 
@@ -3832,7 +3356,687 @@ hauke
 
 
 
-34639
+390
+
+950-vm_exports.patch
+file
+
+
+
+
+2012-11-13T03:42:50.688273Z
+d667892120b822fc27648924c751a7ba
+2012-10-24T13:05:22.930421Z
+33911
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3180
+
+258-netfilter_netlink_kconfig_hack.patch
+file
+
+
+
+
+2012-11-13T03:42:50.724275Z
+31f797c3286306ad971009f3e74b1cc4
+2012-03-12T00:09:23.724835Z
+30894
+jow
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+315
+
+307-mips_oprofile_fix.patch
+file
+
+
+
+
+2012-11-13T03:42:50.700274Z
+2365cdc88dd47a6a662ff2425a975997
+2012-10-24T13:05:22.930421Z
+33911
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1037
+
+306-mips_mem_functions_performance.patch
+file
+
+
+
+
+2012-11-13T03:42:50.728275Z
+891ec2beb877f4eb994e4ed657d59842
+2012-10-23T12:21:34.160173Z
+33897
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2220
+
+504-yaffs-Mods-for-Linux-3.0-and-fix-a-typo.patch
+file
+
+
+
+
+2012-11-13T03:42:50.720275Z
+e434636d5a075567f14598a4dd30d864
+2012-10-31T15:12:45.706176Z
+34032
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4104
+
+641-bridge_always_accept_eap.patch
+file
+
+
+
+
+2012-11-13T03:42:50.708274Z
+e6b77e129bd030bab92dc6555c21f8ec
+2012-02-02T08:23:54.955046Z
+29986
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+337
+
+642-bridge_port_isolate.patch
+file
+
+
+
+
+2012-11-13T03:42:50.676272Z
+10c22d98e38ed54c7ec61edd14bc31cb
+2012-10-24T13:05:22.930421Z
+33911
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3261
+
+430-mtd_myloader_partition_parser.patch
+file
+
+
+
+
+2012-11-13T03:42:50.736275Z
+c8fee1357de5d38d12a06797c768dbfe
+2012-02-02T08:23:54.955046Z
+29986
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1351
+
+335-mips-kexec-cleanup-kexec-tools-parameter-handling.patch
+file
+
+
+
+
+2012-11-13T03:42:50.704274Z
+20587b44379cae993a263839597e896f
+2012-04-18T15:36:30.273991Z
+31344
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4967
+
+532-jffs2_eofdetect.patch
+file
+
+
+
+
+2012-11-13T03:42:50.724275Z
+3fc0cc972354dd5c1613d90d1e91cbfb
+2012-11-01T11:07:16.389251Z
+34053
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1650
+
+253-ssb_b43_default_on.patch
+file
+
+
+
+
+2012-11-13T03:42:50.696274Z
+4ac05649904639dbbcdbb13549051124
+2012-02-02T08:23:54.955046Z
+29986
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+524
+
+520-squashfs_update_xz_comp_opts.patch
+file
+
+
+
+
+2012-11-13T03:42:50.672272Z
+13a7284ba20aefeaa92b207416b8ee4e
+2012-02-02T08:23:54.955046Z
+29986
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+697
+
+501-yaffs-Fix-directory-unlinking-in-yaffs1-mode.patch
+file
+
+
+
+
+2012-11-13T03:42:50.676272Z
+e8d47f7243cc81cec5d87cc7daef4d8e
+2012-10-30T21:16:23.177937Z
+34020
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1040
+
+420-redboot_space.patch
+file
+
+
+
+
+2012-11-13T03:42:50.740275Z
+5843f6904857341ada5ddfb31027be71
+2012-10-24T13:05:22.930421Z
+33911
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+968
+
+604-netfilter_cisco_794x_iphone.patch
+file
+
+
+
+
+2012-11-13T03:42:50.688273Z
+6baaf13d803419943dac0bdd3d323d6e
+2012-10-24T13:05:22.930421Z
+33911
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4654
+
+460-cfi_cmdset_0002_no_erase_suspend.patch
+file
+
+
+
+
+2012-11-13T03:42:50.716275Z
+e4ece5797b77dc045742256b38a0bdbf
+2012-10-24T13:05:22.930421Z
+33911
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+432
+
+630-packet_socket_type.patch
+file
+
+
+
+
+2012-11-13T03:42:50.700274Z
+9ce39668db49630162fe790c5724c788
+2012-10-24T13:05:22.930421Z
+33911
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3659
+
+650-pppoe_header_pad.patch
+file
+
+
+
+
+2012-11-13T03:42:50.716275Z
+a82bba9587e04b3c6a1392624bdc5637
+2012-10-24T13:05:22.930421Z
+33911
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+590
+
+655-increase_skb_pad.patch
+file
+
+
+
+
+2012-11-13T03:42:50.720275Z
+c5df4b28896b0718a10ca3a6244b7ca2
+2012-10-28T18:59:39.181229Z
+33982
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+384
+
+310-arm_module_unresolved_weak_sym.patch
+file
+
+
+
+
+2012-11-13T03:42:50.736275Z
+db64b575845041d2bf68fb876246de0c
+2012-02-02T08:23:54.955046Z
+29986
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+354
 
 110-fix_mtd_include.patch
 file
@@ -3868,17 +4072,17 @@ jogo
 
 232
 
-509-yaffs-3.4-add-underscore-to-mtd-internal-names.patch
+722-phy_mvswitch.patch
 file
 
 
 
 
-2012-11-13T03:42:50.684273Z
-bf2c840ce227e56cf5bd0d9b71530854
-2012-11-01T11:07:23.694465Z
-34054
-juhosg
+2012-11-13T03:42:50.680272Z
+922676d92ec36c354e29e24768b335ab
+2012-10-24T13:05:22.930421Z
+33911
+florian
 
 
 
@@ -3900,7 +4104,41 @@ juhosg
 
 
 
-2663
+812
+
+060-tcp-ecn-dont-delay-ACKS-after-CE.patch
+file
+
+
+
+
+2012-11-13T03:42:50.720275Z
+849dc60badfb3d47e7c86aa7c435e3b3
+2012-10-24T13:05:22.930421Z
+33911
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2077
 
 862-gpio_spi_driver.patch
 file
@@ -3970,16 +4208,16 @@ juhosg
 
 1050
 
-531-debloat_lzma.patch
+500-yaffs-Kbuild-integration.patch
 file
 
 
 
 
-2012-11-13T03:42:50.740275Z
-db19a5cd0cfaf331b09fc045fa161fd4
-2012-11-01T11:07:16.389251Z
-34053
+2012-11-13T03:42:50.724275Z
+6941ecf24333758c7d5c663ba1094119
+2012-10-30T21:16:21.553350Z
+34019
 juhosg
 
 
@@ -4002,19 +4240,19 @@ juhosg
 
 
 
-16924
+447
 
-202-reduce_module_size.patch
+333-mips-kexec-get-kernel-parameters-from-kexec-tools.patch
 file
 
 
 
 
-2012-11-13T03:42:50.724275Z
-c694983fa3287881fb8381994a3552d4
-2012-10-24T13:05:22.930421Z
-33911
-florian
+2012-11-13T03:42:50.712275Z
+376afac713906b0484bc1b7b1e380481
+2012-02-02T08:23:54.955046Z
+29986
+jogo
 
 
 
@@ -4036,41 +4274,7 @@ florian
 
 
 
-487
-
-710-phy-add-mdio_register_board_info.patch
-file
-
-
-
-
-2012-11-13T03:42:50.704274Z
-798ca5858f4a6ee11314d5375b37e378
-2012-10-24T13:05:22.930421Z
-33911
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5009
+2724
 
 331-mips-kexec-enhanche-the-support.patch
 file
@@ -4106,14 +4310,14 @@ florian
 
 5363
 
-102-ehci_hcd_ignore_oc.patch
+729-phy-rtl8367b.patch
 file
 
 
 
 
-2012-11-13T03:42:50.724275Z
-80642dc527c7d42258a7c7e529ef16b3
+2012-11-13T03:42:50.684273Z
+61d4a836ff26182708ce0724f9bb63ae
 2012-10-24T13:05:22.930421Z
 33911
 florian
@@ -4138,7 +4342,75 @@ florian
 
 
 
-1529
+719
+
+100-overlayfs.patch
+file
+
+
+
+
+2012-11-13T03:42:50.716275Z
+19c946732ae1a4e4b08ffaaf88d6ca1a
+2012-10-24T13:05:22.930421Z
+33911
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+81053
+
+911-kobject_add_broadcast_uevent.patch
+file
+
+
+
+
+2012-11-13T03:42:50.684273Z
+5418aa9d8206c9de84ffddc582f9f5ee
+2012-10-24T13:05:22.930421Z
+33911
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2106
 
 840-rtc7301.patch
 file
@@ -4174,14 +4446,14 @@ florian
 
 6403
 
-211-stddef_include.patch
+832-ledtrig_usbdev.patch
 file
 
 
 
 
-2012-11-13T03:42:50.688273Z
-a547d7263d1223fed0553b0539269172
+2012-11-13T03:42:50.740275Z
+1c24150e5c7d5b38b710334708a88c1e
 2012-10-24T13:05:22.930421Z
 33911
 florian
@@ -4206,7 +4478,7 @@ florian
 
 
 
-322
+1034
 
 725-phy_rtl8306.patch
 file
@@ -4276,17 +4548,51 @@ juhosg
 
 4819
 
-841-rtc_pt7c4338.patch
+322-ppc4xx-crypto-compile-fix.patch
+file
+
+
+
+
+2012-11-13T03:42:50.716275Z
+d0789a636be99fb3112af8e67c2515fe
+2012-04-21T10:47:04.541249Z
+31394
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+257
+
+332-mips-kexec-init-the-arguments-for-the-new-kernel-image.patch
 file
 
 
 
 
 2012-11-13T03:42:50.744275Z
-4d1795bea5ac3ecf48cdd8117112c935
-2012-10-24T13:05:22.930421Z
-33911
-florian
+12edb190ae3ca039093c1dd32598aaf2
+2012-02-02T08:23:54.955046Z
+29986
+jogo
 
 
 
@@ -4308,41 +4614,7 @@ florian
 
 
 
-7095
-
-702-phy_add_aneg_done_function.patch
-file
-
-
-
-
-2012-11-13T03:42:50.728275Z
-1d3bc95adc8bf074089a7b1993bc9314
-2012-10-24T13:05:22.930421Z
-33911
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1184
+1574
 
 720-phy_adm6996.patch
 file
@@ -4378,17 +4650,17 @@ florian
 
 862
 
-641-bridge_always_accept_eap.patch
+507-yaffs-3.3_fix.patch
 file
 
 
 
 
-2012-11-13T03:42:50.708274Z
-e6b77e129bd030bab92dc6555c21f8ec
-2012-02-02T08:23:54.955046Z
-29986
-jogo
+2012-11-13T03:42:50.676272Z
+376cfdfa1a6bc49b7370ec87bda8d3b6
+2012-10-31T19:33:12.973442Z
+34041
+juhosg
 
 
 
@@ -4410,7 +4682,75 @@ jogo
 
 
 
-337
+2709
+
+980-arm_openwrt_machtypes.patch
+file
+
+
+
+
+2012-11-13T03:42:50.676272Z
+7e9e601f67e9c02325e1b4eab1753f23
+2012-11-11T21:04:30.981243Z
+34165
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1326
+
+450-mtd_plat_nand_chip_fixup.patch
+file
+
+
+
+
+2012-11-13T03:42:50.728275Z
+580bc80409f724506c9d7c109cb050af
+2012-10-24T13:05:22.930421Z
+33911
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+925
 
 861-04_spi_gpio_implement_spi_delay.patch
 file
@@ -4446,14 +4786,82 @@ jogo
 
 1754
 
-210-darwin_scripts_include.patch
+475-mtd_cfi_cmdset_0002-add-buffer-write-cmd-timeout.patch
 file
 
 
 
 
-2012-11-13T03:42:50.692273Z
-172b3ac4409c5e9570c72a00bcf4ec79
+2012-11-13T03:42:50.728275Z
+2982df3d30d276fc4800dc7814c6fcab
+2012-10-24T13:05:22.930421Z
+33911
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+556
+
+321-powerpc_crtsavres_prereq.patch
+file
+
+
+
+
+2012-11-13T03:42:50.728275Z
+e6c62a8c8729262668b3239bd841ede9
+2012-10-24T13:05:22.930421Z
+33911
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+356
+
+251-sound_kconfig.patch
+file
+
+
+
+
+2012-11-13T03:42:50.680272Z
+98bb580342da5b3106494678c77ef752
 2012-02-02T08:23:54.955046Z
 29986
 jogo
@@ -4478,7 +4886,75 @@ jogo
 
 
 
-2318
+200
+
+653-disable_netlink_trim.patch
+file
+
+
+
+
+2012-11-18T12:02:07.717473Z
+93099e66b638d33264cc52654e2c762d
+2012-11-18T08:41:31.122102Z
+34227
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+574
+
+508-yaffs-3.3-use-mtd_-helpers.patch
+file
+
+
+
+
+2012-11-13T03:42:50.712275Z
+f575626a37beded8b52cc7c22ec437b9
+2012-10-31T21:17:30.050143Z
+34046
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4840
 
 320-ppc4xx_optimization.patch
 file
@@ -4548,153 +5024,17 @@ juhosg
 
 2532
 
-530-jffs2_make_lzma_available.patch
-file
-
-
-
-
-2012-11-13T03:42:50.684273Z
-630dd223102b4480f7cd35e8949be611
-2012-11-01T11:07:16.389251Z
-34053
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-143914
-
-514-yaffs-3.6-use-delayed-work-instead-of-write_super.patch
-file
-
-
-
-
-2012-11-20T18:13:40.867740Z
-67a93e3bbe12208dac466aad6ff473f3
-2012-11-20T17:45:24.654026Z
-34280
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5021
-
-750-hostap_txpower.patch
-file
-
-
-
-
-2012-11-13T03:42:50.696274Z
-c33740a11342655d1e2353318e82e13e
-2012-10-24T13:05:22.930421Z
-33911
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5257
-
-701-phy_extension.patch
-file
-
-
-
-
-2012-11-13T03:42:50.720275Z
-0e4c2a65dff477a8182a80b3b3eeff8a
-2012-10-24T13:05:22.930421Z
-33911
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1999
-
-410-mtd_info_move_forward_decl.patch
+401-partial_eraseblock_write.patch
 file
 
 
 
 
 2012-11-13T03:42:50.732275Z
-f0857e6b2997263b789abe929843117f
-2012-02-02T08:23:54.955046Z
-29986
-jogo
+3bf943d650677e98448de8de1ad18da3
+2012-10-24T13:05:22.930421Z
+33911
+florian
 
 
 
@@ -4716,7 +5056,7 @@ jogo
 
 
 
-403
+4432
 
 865-gpiopwm.patch
 file
@@ -4752,74 +5092,6 @@ florian
 
 500
 
-478-mtd-partial_eraseblock_unlock.patch
-file
-
-
-
-
-2012-11-13T03:42:50.720275Z
-9ea2429d94ebe97ef08730b60428ece0
-2012-10-24T13:05:22.930421Z
-33911
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-699
-
-451-mtd_fix_nand_correct_data_return_code.patch
-file
-
-
-
-
-2012-11-13T03:42:50.724275Z
-184b800ec2c872aece60cc30aba97d7c
-2012-02-02T08:23:54.955046Z
-29986
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-371
-
 727-phy-rtl8367.patch
 file
 
@@ -4854,82 +5126,14 @@ florian
 
 726
 
-520-squashfs_update_xz_comp_opts.patch
-file
-
-
-
-
-2012-11-13T03:42:50.672272Z
-13a7284ba20aefeaa92b207416b8ee4e
-2012-02-02T08:23:54.955046Z
-29986
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-697
-
-640-bridge_no_eap_forward.patch
+441-block2mtd_refresh.patch
 file
 
 
 
 
 2012-11-13T03:42:50.724275Z
-19beeb438df57bfa53158549cee38604
-2012-02-02T08:23:54.955046Z
-29986
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-420
-
-620-sched_esfq.patch
-file
-
-
-
-
-2012-11-13T03:42:50.732275Z
-dec656d2fbea43fdb212ba9a216b142a
+f9f89ee7c74a4a7181920c08cb35cb24
 2012-10-24T13:05:22.930421Z
 33911
 florian
@@ -4954,7 +5158,75 @@ florian
 
 
 
-21053
+6406
+
+305-mips_module_reloc.patch
+file
+
+
+
+
+2012-11-13T03:42:50.724275Z
+93359057c8b942801c581d0f943e53d4
+2012-10-24T13:05:22.930421Z
+33911
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9518
+
+260-move_bcm963xx_tag.patch
+file
+
+
+
+
+2012-11-20T11:05:36.520468Z
+2d63abd71763bbcd8289c417ecd5f09e
+2012-11-19T12:38:26.274478Z
+34255
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7989
 
 506-yaffs-3.2-dont-use-i_nlink-directly.patch
 file
@@ -4990,74 +5262,6 @@ juhosg
 
 2236
 
-501-yaffs-Fix-directory-unlinking-in-yaffs1-mode.patch
-file
-
-
-
-
-2012-11-13T03:42:50.676272Z
-e8d47f7243cc81cec5d87cc7daef4d8e
-2012-10-30T21:16:23.177937Z
-34020
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1040
-
-220-module_exports.patch
-file
-
-
-
-
-2012-11-13T03:42:50.696274Z
-bc885dda2cf562f0798a1eebfbd25317
-2012-10-24T13:05:22.930421Z
-33911
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2496
-
 550-ubifs-symlink-xattr-support.patch
 file
 
@@ -5092,17 +5296,17 @@ florian
 
 2098
 
-257-wireless_ext_kconfig_hack.patch
+309-mips_fuse_workaround.patch
 file
 
 
 
 
-2012-11-13T03:42:50.688273Z
-27dba7a60b5bb2bf5e534802bb92937c
-2012-02-02T08:23:54.955046Z
-29986
-jogo
+2012-11-13T03:42:50.700274Z
+41aacd84f222bec757aca531a61f045e
+2012-06-16T21:06:33.498535Z
+32395
+nbd
 
 
 
@@ -5124,7 +5328,7 @@ jogo
 
 
 
-380
+924
 
 994-mpcore_wdt_fix_timer_mode_setup.patch
 file
@@ -5160,184 +5364,14 @@ florian
 
 1885
 
-811-pci_disable_usb_common_quirks.patch
-file
-
-
-
-
-2012-11-13T03:42:50.728275Z
-4a51ec56560fcb5fbafd406aa2042a8e
-2012-10-31T20:09:39.422665Z
-34042
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-473
-
-460-cfi_cmdset_0002_no_erase_suspend.patch
-file
-
-
-
-
-2012-11-13T03:42:50.716275Z
-e4ece5797b77dc045742256b38a0bdbf
-2012-10-24T13:05:22.930421Z
-33911
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-432
-
-512-yaffs-3.5-convert-to-use-kuid_t-kgid_t.patch
-file
-
-
-
-
-2012-11-20T18:13:40.863740Z
-e448f9b8c4446a4b1eda394b59af7d3f
-2012-11-20T17:45:24.654026Z
-34280
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-15561
-
-600-netfilter_layer7_2.22.patch
-file
-
-
-
-
-2012-11-13T03:42:50.728275Z
-4fb508805b453aceb8319072bd61a7f9
-2012-10-24T13:05:22.930421Z
-33911
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-58384
-
-650-pppoe_header_pad.patch
-file
-
-
-
-
-2012-11-13T03:42:50.716275Z
-a82bba9587e04b3c6a1392624bdc5637
-2012-10-24T13:05:22.930421Z
-33911
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-590
-
-728-phy-micrel.patch
+700-swconfig.patch
 file
 
 
 
 
 2012-11-13T03:42:50.736275Z
-e5655e2aa9f79f56fb54ab0b0862ba73
+efbfb5a9d8363146672f490fe284013b
 2012-10-24T13:05:22.930421Z
 33911
 florian
@@ -5362,39 +5396,5 @@ florian
 
 
 
-812
-
-655-increase_skb_pad.patch
-file
-
-
-
-
-2012-11-13T03:42:50.720275Z
-c5df4b28896b0718a10ca3a6244b7ca2
-2012-10-28T18:59:39.181229Z
-33982
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-384
+771
 

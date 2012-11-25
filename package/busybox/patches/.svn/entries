@@ -1,15 +1,15 @@
 10
 
 dir
-34303
+34325
 svn://svn.openwrt.org/openwrt/trunk/package/busybox/patches
 svn://svn.openwrt.org/openwrt
 
 
 
-2012-10-08T12:31:33.719661Z
-33662
-nbd
+2012-11-23T20:02:14.109107Z
+34311
+florian
 
 
 
@@ -26,51 +26,17 @@ nbd
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
 
-250-ash_export-n.patch
+350-httpd_redir.patch
 file
 
 
 
 
 2012-11-13T03:45:27.156274Z
-36fda96ca7ee186bda44052c1650b808
-2011-10-21T23:08:45.031764Z
-28513
+0a28a335f6497305d42e78192a85f3bc
+2011-11-23T19:41:36.301696Z
+29299
 nico
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-766
-
-803-id_getgrouplist.patch
-file
-
-
-
-
-2012-11-13T03:45:27.168273Z
-c5e5b1fef18ec5b2e0c1c95f3ac8867d
-2012-10-08T12:31:27.948633Z
-33661
-nbd
 
 
 
@@ -92,7 +58,7 @@ nbd
 
 
 
-1573
+3276
 
 700-hexdump_segfault_fix.patch
 file
@@ -128,6 +94,108 @@ jow
 
 309
 
+310-passwd_access.patch
+file
+
+
+
+
+2012-11-13T03:45:27.160274Z
+d36032d0bdd3fd861e360bae59018a61
+2012-10-08T12:31:27.948633Z
+33661
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1228
+
+480-mount_union.patch
+file
+
+
+
+
+2012-11-13T03:45:27.160274Z
+c337c1a922575e70db79f09d62557852
+2011-10-21T23:08:45.031764Z
+28513
+nico
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+715
+
+911-date-k-flag.patch
+file
+
+
+
+
+2012-11-25T00:45:28.733324Z
+094f036e3defb6719c7f961492a084dd
+2012-11-23T20:01:58.142973Z
+34307
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2670
+
 007-upstream_mkfs_ext2_fixes.patch
 file
 
@@ -162,14 +230,48 @@ nbd
 
 49731
 
-470-insmod_search.patch
+999-musl-fixes.patch
 file
 
 
 
 
-2012-11-13T03:45:27.168273Z
-44e70282532d9d83d297b8d911641994
+2012-11-25T00:45:28.761324Z
+93471e3618f39f464509ae9fa6a763fd
+2012-11-23T20:02:06.412595Z
+34309
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+563
+
+510-awk_include.patch
+file
+
+
+
+
+2012-11-13T03:45:27.160274Z
+7d598691f7c99b5c8d914491e880c7a9
 2011-10-21T23:08:45.031764Z
 28513
 nico
@@ -194,75 +296,7 @@ nico
 
 
 
-3544
-
-244-udhcpc_add_6rd_option.patch
-file
-
-
-
-
-2012-11-13T03:45:27.168273Z
-6a9f4ffc5d4eefe30414b12d5ac35248
-2012-10-08T12:31:27.948633Z
-33661
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5277
-
-340-lock_util.patch
-file
-
-
-
-
-2012-11-13T03:45:27.168273Z
-1fa3e720d5cc816c3f030b94b581b782
-2012-10-08T12:31:27.948633Z
-33661
-nbd
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3734
+4896
 
 150-no_static_libgcc.patch
 file
@@ -297,6 +331,74 @@ nbd
 
 
 585
+
+001-init_avoid_loop_opening_tty.patch
+file
+
+
+
+
+2012-11-13T03:45:27.160274Z
+01f181b060c2eea4d8b3f4208210d35d
+2011-10-21T23:08:45.031764Z
+28513
+nico
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+346
+
+490-mount_disable_check.patch
+file
+
+
+
+
+2012-11-13T03:45:27.160274Z
+6285eb49d3cc6a1bca3c20277ef827b7
+2011-10-21T23:08:45.031764Z
+28513
+nico
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+447
 
 241-udhcpc-oversized_packets.patch
 file
@@ -400,17 +502,17 @@ has-props
 
 2597
 
-440-httpd_chdir.patch
+110-wget_getopt_fix.patch
 file
 
 
 
 
-2012-11-13T03:45:27.172273Z
-2da361b9214f7b9e0018025fa5c44b19
-2011-11-23T19:41:36.301696Z
-29299
-nico
+2012-11-13T03:45:27.164274Z
+121ddbeecd91b58ade7511c8dcd61473
+2012-03-18T19:46:52.688247Z
+30985
+jow
 has-props
 
 
@@ -432,20 +534,19 @@ has-props
 
 
 
-312
+446
 
-410-httpd_cgi_headers.patch
+802-brctl_linux24.patch
 file
 
 
 
 
-2012-11-13T03:45:27.172273Z
-53c478810cc354d3ca13058c9de01b5b
-2011-11-23T19:41:36.301696Z
-29299
+2012-11-13T03:45:27.164274Z
+11e915db54580b98059b91ebe638bd8a
+2011-10-21T23:08:45.031764Z
+28513
 nico
-has-props
 
 
 
@@ -466,7 +567,8 @@ has-props
 
 
 
-684
+
+2123
 
 251-ash_fix-redir-substitution.patch
 file
@@ -502,17 +604,17 @@ jow
 
 460
 
-242-udhcpc_msgs.patch
+910-insmod-q-flag.patch
 file
 
 
 
 
-2012-11-13T03:45:27.172273Z
-5da871ef242168e8dd89464e9064091a
-2012-10-08T12:31:27.948633Z
-33661
-nbd
+2012-11-13T03:45:27.164274Z
+8363897ba1177f261ae977d7a06a01e3
+2011-10-21T23:08:45.031764Z
+28513
+nico
 
 
 
@@ -534,7 +636,7 @@ nbd
 
 
 
-564
+896
 
 240-udhcpc_retries.patch
 file
@@ -604,50 +706,16 @@ nbd
 
 209
 
-920-portability.patch
+003-brctl_show_fix.patch
 file
 
 
 
 
-2012-11-13T03:45:27.156274Z
-5198ed6f32007b582f61292c84e0099b
-2011-10-25T13:03:18.363450Z
-28578
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-217
-
-002-passwd_use_md5_hash_by_default_like_it_used_to_be.patch
-file
-
-
-
-
-2012-11-13T03:45:27.156274Z
-dd6b204adca559fe947fc6c0c86e3779
-2011-11-09T17:32:23.264841Z
-28885
+2012-11-13T03:45:27.168273Z
+380a6a19f0ba622a45b5db4a905fb2ed
+2011-10-21T23:08:45.031764Z
+28513
 nico
 
 
@@ -670,7 +738,7 @@ nico
 
 
 
-574
+1100
 
 006-upstream_CVE-2011-2716_fixes.patch
 file
@@ -706,17 +774,17 @@ florian
 
 6744
 
-003-brctl_show_fix.patch
+803-id_getgrouplist.patch
 file
 
 
 
 
 2012-11-13T03:45:27.168273Z
-380a6a19f0ba622a45b5db4a905fb2ed
-2011-10-21T23:08:45.031764Z
-28513
-nico
+c5e5b1fef18ec5b2e0c1c95f3ac8867d
+2012-10-08T12:31:27.948633Z
+33661
+nbd
 
 
 
@@ -738,41 +806,7 @@ nico
 
 
 
-1100
-
-350-httpd_redir.patch
-file
-
-
-
-
-2012-11-13T03:45:27.156274Z
-0a28a335f6497305d42e78192a85f3bc
-2011-11-23T19:41:36.301696Z
-29299
-nico
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3276
+1573
 
 524-udhcpc_renew.patch
 file
@@ -808,14 +842,14 @@ nbd
 
 327
 
-480-mount_union.patch
+470-insmod_search.patch
 file
 
 
 
 
-2012-11-13T03:45:27.160274Z
-c337c1a922575e70db79f09d62557852
+2012-11-13T03:45:27.168273Z
+44e70282532d9d83d297b8d911641994
 2011-10-21T23:08:45.031764Z
 28513
 nico
@@ -840,16 +874,50 @@ nico
 
 
 
-715
+3544
 
-310-passwd_access.patch
+998-arping_missing_includes.patch
 file
 
 
 
 
-2012-11-13T03:45:27.160274Z
-d36032d0bdd3fd861e360bae59018a61
+2012-11-25T00:45:28.733324Z
+d7b052c6d0aa234cdb517fbc061858bb
+2012-11-23T20:02:14.109107Z
+34311
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+420
+
+244-udhcpc_add_6rd_option.patch
+file
+
+
+
+
+2012-11-13T03:45:27.168273Z
+6a9f4ffc5d4eefe30414b12d5ac35248
 2012-10-08T12:31:27.948633Z
 33661
 nbd
@@ -874,121 +942,19 @@ nbd
 
 
 
-1228
+5277
 
-911-date-k-flag.patch
-file
-
-
-
-
-2012-11-13T03:45:27.160274Z
-f91deb869c1f31625d9684da3295b857
-2011-11-17T01:11:56.150471Z
-29203
-jow
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2535
-
-510-awk_include.patch
-file
-
-
-
-
-2012-11-13T03:45:27.160274Z
-7d598691f7c99b5c8d914491e880c7a9
-2011-10-21T23:08:45.031764Z
-28513
-nico
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4896
-
-001-init_avoid_loop_opening_tty.patch
-file
-
-
-
-
-2012-11-13T03:45:27.160274Z
-01f181b060c2eea4d8b3f4208210d35d
-2011-10-21T23:08:45.031764Z
-28513
-nico
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-346
-
-140-trylink_bash.patch
+340-lock_util.patch
 file
 
 
 
 
 2012-11-13T03:45:27.168273Z
-dba1f389b9cd0f08439137b3fde931e6
-2008-08-20T14:00:34.479660Z
-12348
-kaloz
+1fa3e720d5cc816c3f030b94b581b782
+2012-10-08T12:31:27.948633Z
+33661
+nbd
 has-props
 
 
@@ -1010,7 +976,7 @@ has-props
 
 
 
-109
+3734
 
 243-udhcpc_changed_ifindex.patch
 file
@@ -1046,51 +1012,17 @@ nbd
 
 680
 
-490-mount_disable_check.patch
+140-trylink_bash.patch
 file
 
 
 
 
-2012-11-13T03:45:27.160274Z
-6285eb49d3cc6a1bca3c20277ef827b7
-2011-10-21T23:08:45.031764Z
-28513
-nico
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-447
-
-110-wget_getopt_fix.patch
-file
-
-
-
-
-2012-11-13T03:45:27.164274Z
-121ddbeecd91b58ade7511c8dcd61473
-2012-03-18T19:46:52.688247Z
-30985
-jow
+2012-11-13T03:45:27.168273Z
+dba1f389b9cd0f08439137b3fde931e6
+2008-08-20T14:00:34.479660Z
+12348
+kaloz
 has-props
 
 
@@ -1112,7 +1044,7 @@ has-props
 
 
 
-446
+109
 
 610-ntpd_delayed_resolve.patch
 file
@@ -1148,17 +1080,18 @@ jow
 
 1459
 
-802-brctl_linux24.patch
+440-httpd_chdir.patch
 file
 
 
 
 
-2012-11-13T03:45:27.164274Z
-11e915db54580b98059b91ebe638bd8a
-2011-10-21T23:08:45.031764Z
-28513
+2012-11-13T03:45:27.172273Z
+2da361b9214f7b9e0018025fa5c44b19
+2011-11-23T19:41:36.301696Z
+29299
 nico
+has-props
 
 
 
@@ -1179,8 +1112,41 @@ nico
 
 
 
+312
+
+410-httpd_cgi_headers.patch
+file
 
-2123
+
+
+
+2012-11-13T03:45:27.172273Z
+53c478810cc354d3ca13058c9de01b5b
+2011-11-23T19:41:36.301696Z
+29299
+nico
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+684
 
 005-resource_h_include.patch
 file
@@ -1250,17 +1216,17 @@ nico
 
 244
 
-910-insmod-q-flag.patch
+242-udhcpc_msgs.patch
 file
 
 
 
 
-2012-11-13T03:45:27.164274Z
-8363897ba1177f261ae977d7a06a01e3
-2011-10-21T23:08:45.031764Z
-28513
-nico
+2012-11-13T03:45:27.172273Z
+5da871ef242168e8dd89464e9064091a
+2012-10-08T12:31:27.948633Z
+33661
+nbd
 
 
 
@@ -1282,7 +1248,7 @@ nico
 
 
 
-896
+564
 
 200-etc_crontabs.patch
 file
@@ -1351,4 +1317,106 @@ nbd
 
 
 2455
+
+002-passwd_use_md5_hash_by_default_like_it_used_to_be.patch
+file
+
+
+
+
+2012-11-13T03:45:27.156274Z
+dd6b204adca559fe947fc6c0c86e3779
+2011-11-09T17:32:23.264841Z
+28885
+nico
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+574
+
+920-portability.patch
+file
+
+
+
+
+2012-11-13T03:45:27.156274Z
+5198ed6f32007b582f61292c84e0099b
+2011-10-25T13:03:18.363450Z
+28578
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+217
+
+250-ash_export-n.patch
+file
+
+
+
+
+2012-11-13T03:45:27.156274Z
+36fda96ca7ee186bda44052c1650b808
+2011-10-21T23:08:45.031764Z
+28513
+nico
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+766
 

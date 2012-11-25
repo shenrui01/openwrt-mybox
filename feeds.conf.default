@@ -1,6 +1,7 @@
-src-svn packages svn://svn.openwrt.org/openwrt/packages
+src-git packages git://github.com/shenrui01/packages.git
 src-git mybox git://github.com/shenrui01/mybox.git
-src-svn luci http://svn.luci.subsignal.org/luci/trunk/contrib/package
+src-git luci git://github.com/shenrui01/luci.git
+src-svn mwan svn://213.136.13.52/var/svn/mwan
 #src-svn phone svn://svn.openwrt.org/openwrt/feeds/phone
 #src-svn efl svn://svn.openwrt.org/openwrt/feeds/efl
 #src-svn xorg svn://svn.openwrt.org/openwrt/feeds/xorg

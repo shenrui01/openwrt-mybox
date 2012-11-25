@@ -1,7 +1,7 @@
 10
 
 dir
-34303
+34325
 svn://svn.openwrt.org/openwrt/trunk/package/kernel/modules
 svn://svn.openwrt.org/openwrt
 
@@ -26,17 +26,51 @@ jogo
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
 
-crypto.mk
+firewire.mk
 file
 
 
 
 
-2012-11-23T02:26:46.419396Z
-a7c1a75b762eef7981247cd3bafdaca5
-2012-11-22T11:55:18.799745Z
-34298
-jogo
+2012-11-13T03:46:25.672255Z
+db11e55ca920746799ad21ea8e96371e
+2012-05-06T20:43:17.377831Z
+31634
+hauke
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1952
+
+i2c.mk
+file
+
+
+
+
+2012-11-13T03:46:25.672255Z
+6c54ff4de188cb517f1fc5e224aaf188
+2012-11-11T18:40:43.604680Z
+34152
+florian
 has-props
 
 
@@ -58,7 +92,7 @@ has-props
 
 
 
-12989
+7479
 
 001-depends.mk
 file
@@ -93,6 +127,40 @@ blogic
 
 
 795
+
+crypto.mk
+file
+
+
+
+
+2012-11-23T02:26:46.419396Z
+a7c1a75b762eef7981247cd3bafdaca5
+2012-11-22T11:55:18.799745Z
+34298
+jogo
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+12989
 
 other.mk
 file
@@ -196,40 +264,6 @@ blogic
 
 4351
 
-leds.mk
-file
-
-
-
-
-2012-11-13T03:46:25.676256Z
-274b9a6a340c19281af9587daa8588c6
-2012-11-05T07:10:35.685892Z
-34079
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4560
-
 w1.mk
 file
 
@@ -264,18 +298,17 @@ has-props
 
 3997
 
-hwmon.mk
+leds.mk
 file
 
 
 
 
 2012-11-13T03:46:25.676256Z
-aca0f7adf892dc54b063146a76bfa1b3
-2012-05-09T10:48:36.178287Z
-31657
+274b9a6a340c19281af9587daa8588c6
+2012-11-05T07:10:35.685892Z
+34079
 juhosg
-has-props
 
 
 
@@ -296,7 +329,8 @@ has-props
 
 
 
-4975
+
+4560
 
 sound.mk
 file
@@ -332,17 +366,18 @@ nbd
 
 5313
 
-netdevices.mk
+hwmon.mk
 file
 
 
 
 
-2012-11-13T03:46:25.680256Z
-926f0330ab8d2fb564586daa2fe7578c
-2012-07-25T15:50:36.080791Z
-32862
-florian
+2012-11-13T03:46:25.676256Z
+aca0f7adf892dc54b063146a76bfa1b3
+2012-05-09T10:48:36.178287Z
+31657
+juhosg
+has-props
 
 
 
@@ -363,8 +398,7 @@ florian
 
 
 
-
-18268
+4975
 
 usb.mk
 file
@@ -399,6 +433,40 @@ has-props
 
 
 23977
+
+netdevices.mk
+file
+
+
+
+
+2012-11-13T03:46:25.680256Z
+926f0330ab8d2fb564586daa2fe7578c
+2012-07-25T15:50:36.080791Z
+32862
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+18268
 
 block.mk
 file
@@ -468,40 +536,6 @@ has-props
 
 2349
 
-netfilter.mk
-file
-
-
-
-
-2012-11-13T03:46:25.684257Z
-c397171fa6db7bc3c91c9c30dc9397ad
-2012-10-24T13:05:01.072721Z
-33905
-florian
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-14593
-
 nls.mk
 file
 
@@ -535,6 +569,40 @@ has-props
 
 
 5703
+
+netfilter.mk
+file
+
+
+
+
+2012-11-13T03:46:25.684257Z
+c397171fa6db7bc3c91c9c30dc9397ad
+2012-10-24T13:05:01.072721Z
+33905
+florian
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+14593
 
 pcmcia.mk
 file
@@ -705,72 +773,4 @@ has-props
 
 
 7895
-
-firewire.mk
-file
-
-
-
-
-2012-11-13T03:46:25.672255Z
-db11e55ca920746799ad21ea8e96371e
-2012-05-06T20:43:17.377831Z
-31634
-hauke
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1952
-
-i2c.mk
-file
-
-
-
-
-2012-11-13T03:46:25.672255Z
-6c54ff4de188cb517f1fc5e224aaf188
-2012-11-11T18:40:43.604680Z
-34152
-florian
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-7479
 

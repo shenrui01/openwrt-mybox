@@ -1,15 +1,15 @@
 10
 
 dir
-34303
+34325
 svn://svn.openwrt.org/openwrt/trunk/package/linux-atm/patches
 svn://svn.openwrt.org/openwrt
 
 
 
-2011-02-01T18:58:48.381863Z
-25285
-nbd
+2012-11-23T20:02:19.217513Z
+34312
+florian
 
 
 
@@ -59,6 +59,40 @@ nbd
 
 
 1197
+
+400-portability_fixes.patch
+file
+
+
+
+
+2012-11-25T00:45:28.841323Z
+375708a430002b6f83514165847da9d8
+2012-11-23T20:02:19.217513Z
+34312
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2238
 
 200-no_libfl.patch
 file

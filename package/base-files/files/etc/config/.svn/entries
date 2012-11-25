@@ -1,7 +1,7 @@
 10
 
 dir
-34303
+34325
 svn://svn.openwrt.org/openwrt/trunk/package/base-files/files/etc/config
 svn://svn.openwrt.org/openwrt
 
@@ -25,40 +25,6 @@ jow
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
-
-system
-file
-
-
-
-
-2012-11-13T03:45:34.308269Z
-8195f0ae675038c41766a9ff46e6e22b
-2012-04-20T15:05:38.003118Z
-31374
-jow
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-251
 
 network
 file
@@ -93,4 +59,38 @@ has-props
 
 
 291
+
+system
+file
+
+
+
+
+2012-11-13T03:45:34.308269Z
+8195f0ae675038c41766a9ff46e6e22b
+2012-04-20T15:05:38.003118Z
+31374
+jow
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+251
 

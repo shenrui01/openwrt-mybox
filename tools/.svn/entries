@@ -1,7 +1,7 @@
 10
 
 dir
-34303
+34325
 svn://svn.openwrt.org/openwrt/trunk/tools
 svn://svn.openwrt.org/openwrt
 
@@ -83,25 +83,25 @@ dir
 squashfs
 dir
 
-flock
+flex
 dir
 
-flex
+flock
 dir
 
 upslug2
 dir
 
-lzma
-dir
-
 cloog
 dir
 
-mpfr
+lzma
 dir
 
 libtool
+dir
+
+mpfr
 dir
 
 ccache
@@ -111,9 +111,6 @@ mkimage
 dir
 
 sdcc
-dir
-
-mtools
 dir
 
 Makefile
@@ -149,6 +146,9 @@ has-props
 
 
 5242
+
+mtools
+dir
 
 autoconf
 dir
