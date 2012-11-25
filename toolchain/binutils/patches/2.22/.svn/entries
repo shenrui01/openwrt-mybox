@@ -1,7 +1,7 @@
 10
 
 dir
-34325
+34384
 svn://svn.openwrt.org/openwrt/trunk/toolchain/binutils/patches/2.22
 svn://svn.openwrt.org/openwrt
 
@@ -25,6 +25,40 @@ florian
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
+
+400-fix_arm_gc_sections.patch
+file
+
+
+
+
+2012-11-13T03:41:36.720262Z
+94f542ca7396ca24d95014ab470a7f0a
+2012-09-19T06:33:07.834489Z
+33461
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+377
 
 500-arm_ld_assert_fix.patch
 file
@@ -263,38 +297,4 @@ kaloz
 
 
 1424
-
-400-fix_arm_gc_sections.patch
-file
-
-
-
-
-2012-11-13T03:41:36.720262Z
-94f542ca7396ca24d95014ab470a7f0a
-2012-09-19T06:33:07.834489Z
-33461
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-377
 

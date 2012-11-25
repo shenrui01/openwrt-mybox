@@ -1,7 +1,7 @@
 10
 
 dir
-34325
+34384
 svn://svn.openwrt.org/openwrt/trunk/package/libs
 svn://svn.openwrt.org/openwrt
 
@@ -26,6 +26,15 @@ florian
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
 
+libreadline
+dir
+
+libpcap
+dir
+
+librpc
+dir
+
 libmnl
 dir
 
@@ -38,19 +47,19 @@ dir
 libnl-tiny
 dir
 
-ncurses
+popt
 dir
 
-popt
+ncurses
 dir
 
 openssl
 dir
 
-gettext-full
+gettext
 dir
 
-gettext
+gettext-full
 dir
 
 uclibc++
@@ -62,10 +71,10 @@ dir
 libevent2
 dir
 
-cyassl
+ocf-crypto-headers
 dir
 
-ocf-crypto-headers
+cyassl
 dir
 
 libbsd
@@ -90,14 +99,5 @@ libiconv-full
 dir
 
 libiconv
-dir
-
-libreadline
-dir
-
-libpcap
-dir
-
-librpc
 dir
 

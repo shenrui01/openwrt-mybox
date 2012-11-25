@@ -1,7 +1,7 @@
 10
 
 dir
-34325
+34384
 svn://svn.openwrt.org/openwrt/trunk/target/linux/omap35xx/gumstix
 svn://svn.openwrt.org/openwrt
 
@@ -25,6 +25,40 @@ blogic
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
+
+config-2.6.36
+file
+
+
+
+
+2012-11-13T03:43:44.496275Z
+c1f5dba1c522f6d7e2dcd8c9a2e834f7
+2012-05-15T10:58:52.399736Z
+31737
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11213
 
 profiles
 dir
@@ -201,38 +235,4 @@ hcg
 
 
 128
-
-config-2.6.36
-file
-
-
-
-
-2012-11-13T03:43:44.496275Z
-c1f5dba1c522f6d7e2dcd8c9a2e834f7
-2012-05-15T10:58:52.399736Z
-31737
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-11213
 

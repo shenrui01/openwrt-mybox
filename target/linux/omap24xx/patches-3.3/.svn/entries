@@ -1,7 +1,7 @@
 10
 
 dir
-34325
+34384
 svn://svn.openwrt.org/openwrt/trunk/target/linux/omap24xx/patches-3.3
 svn://svn.openwrt.org/openwrt
 
@@ -25,6 +25,108 @@ florian
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
+
+810-mmc-fixes.patch
+file
+
+
+
+
+2012-11-13T03:45:04.596267Z
+713e0add7ef58523e755be2daf2cc55f
+2012-05-18T20:22:32.268867Z
+31810
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1426
+
+250-cbus.patch
+file
+
+
+
+
+2012-11-13T03:45:04.596267Z
+1a80e9337bf6eab3ab4c06f509faee37
+2012-05-18T20:22:32.268867Z
+31810
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+87856
+
+315-n800-touchscreen-and-keypad-drivers.patch
+file
+
+
+
+
+2012-11-13T03:45:04.600268Z
+5374e6b93f5e008cc4ec55679dc3c01f
+2012-09-26T12:53:58.049405Z
+33558
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+78534
 
 597-cbus-tahvo-usb-platform.patch
 file
@@ -60,40 +162,6 @@ juhosg
 
 704
 
-330-n800-tsc2301-platform.patch
-file
-
-
-
-
-2012-11-13T03:45:04.600268Z
-bddb4638c3d306f82d9b833a71cdf67f
-2012-05-18T20:22:32.268867Z
-31810
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-6020
-
 254-cbus-retu-tahvo-irq-mask-init-fix.patch
 file
 
@@ -128,14 +196,14 @@ juhosg
 
 824
 
-850-musb-tusb-modular-fixes.patch
+330-n800-tsc2301-platform.patch
 file
 
 
 
 
 2012-11-13T03:45:04.600268Z
-4913c2727570270e446e7ad92362ac91
+bddb4638c3d306f82d9b833a71cdf67f
 2012-05-18T20:22:32.268867Z
 31810
 juhosg
@@ -160,7 +228,7 @@ juhosg
 
 
 
-4003
+6020
 
 309-omapfb-circular-mutex-workaround.patch
 file
@@ -196,6 +264,40 @@ juhosg
 
 1144
 
+850-musb-tusb-modular-fixes.patch
+file
+
+
+
+
+2012-11-13T03:45:04.600268Z
+4913c2727570270e446e7ad92362ac91
+2012-05-18T20:22:32.268867Z
+31810
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4003
+
 410-hci-h4p-fixes.patch
 file
 
@@ -229,40 +331,6 @@ juhosg
 
 
 1085
-
-312-no-hwmod-reset.patch
-file
-
-
-
-
-2012-11-13T03:45:04.604268Z
-37d9990ba15d70c1513a64daf91f9f2d
-2012-05-18T20:22:32.268867Z
-31810
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-895
 
 311-omapfb-clock-fixes.patch
 file
@@ -298,14 +366,14 @@ juhosg
 
 1087
 
-350-n8x0-gpioswitch-input.patch
+312-no-hwmod-reset.patch
 file
 
 
 
 
 2012-11-13T03:45:04.604268Z
-eda2ad5586d12260289fb2f39a5ec6fa
+37d9990ba15d70c1513a64daf91f9f2d
 2012-05-18T20:22:32.268867Z
 31810
 juhosg
@@ -330,7 +398,7 @@ juhosg
 
 
 
-2303
+895
 
 200-omap-platform.patch
 file
@@ -366,14 +434,14 @@ juhosg
 
 22763
 
-252-cbus-retu-tahvo-ack-fix.patch
+350-n8x0-gpioswitch-input.patch
 file
 
 
 
 
 2012-11-13T03:45:04.604268Z
-21c0fae7b84d5606beac29e587118319
+eda2ad5586d12260289fb2f39a5ec6fa
 2012-05-18T20:22:32.268867Z
 31810
 juhosg
@@ -398,7 +466,41 @@ juhosg
 
 
 
-3539
+2303
+
+300-cbus-platform.patch
+file
+
+
+
+
+2012-11-13T03:45:04.604268Z
+77875aea46358d558c484ab767192e5c
+2012-05-18T20:22:32.268867Z
+31810
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4226
 
 900-n810-battery-management.patch
 file
@@ -434,14 +536,14 @@ juhosg
 
 50204
 
-300-cbus-platform.patch
+252-cbus-retu-tahvo-ack-fix.patch
 file
 
 
 
 
 2012-11-13T03:45:04.604268Z
-77875aea46358d558c484ab767192e5c
+21c0fae7b84d5606beac29e587118319
 2012-05-18T20:22:32.268867Z
 31810
 juhosg
@@ -466,7 +568,7 @@ juhosg
 
 
 
-4226
+3539
 
 830-omap2-serial-fixes.patch
 file
@@ -739,106 +841,4 @@ juhosg
 
 
 923
-
-810-mmc-fixes.patch
-file
-
-
-
-
-2012-11-13T03:45:04.596267Z
-713e0add7ef58523e755be2daf2cc55f
-2012-05-18T20:22:32.268867Z
-31810
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1426
-
-250-cbus.patch
-file
-
-
-
-
-2012-11-13T03:45:04.596267Z
-1a80e9337bf6eab3ab4c06f509faee37
-2012-05-18T20:22:32.268867Z
-31810
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-87856
-
-315-n800-touchscreen-and-keypad-drivers.patch
-file
-
-
-
-
-2012-11-13T03:45:04.600268Z
-5374e6b93f5e008cc4ec55679dc3c01f
-2012-09-26T12:53:58.049405Z
-33558
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-78534
 

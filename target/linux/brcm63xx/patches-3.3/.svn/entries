@@ -1,7 +1,7 @@
 10
 
 dir
-34325
+34384
 svn://svn.openwrt.org/openwrt/trunk/target/linux/brcm63xx/patches-3.3
 svn://svn.openwrt.org/openwrt
 
@@ -26,14 +26,14 @@ jogo
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
 
-524-board_dsl_274xb_rev_f.patch
+525-board_96348w3.patch
 file
 
 
 
 
-2012-11-25T00:45:21.825431Z
-c199473c110bc141eec07a1a434749db
+2012-11-25T00:45:21.857432Z
+cec8c75905273f5290969229a9b43c3e
 2012-11-24T14:19:22.982252Z
 34322
 jogo
@@ -58,834 +58,18 @@ jogo
 
 
 
-2565
+1251
 
-022-MIPS-BCM63XX-Move-flash-registration-out-of-board_bc.patch
-file
-
-
-
-
-2012-11-13T03:42:55.424308Z
-a3d9d157cb2aff6423f10fc82b98c527
-2012-07-03T21:42:07.956236Z
-32591
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5657
-
-551-96348gw_a_leds.patch
-file
-
-
-
-
-2012-11-25T00:45:21.717436Z
-d3496a25e3e173e991b81ec7781b1905
-2012-11-24T14:19:22.982252Z
-34322
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-426
-
-411-bcm63xx_enet-implement-reset_autoneg-ethtool.patch
-file
-
-
-
-
-2012-11-13T03:42:55.424308Z
-ae213d7ec92561926202cd9e564a3672
-2012-03-28T20:42:20.622237Z
-31129
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1274
-
-429-MIPS-BCM63XX-export-PSI-size-from-nvram.patch
-file
-
-
-
-
-2012-11-13T03:42:55.368327Z
-a08b03515aa2adeae196601fa592af94
-2012-07-31T14:27:31.023670Z
-32921
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1254
-
-410-NET-bcm63xx_enet-move-phy_-dis-connect-into-probe-re.patch
-file
-
-
-
-
-2012-11-13T03:42:55.424308Z
-a46f038a9403c3b587eb59520c1c3107
-2012-03-28T20:42:20.622237Z
-31129
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4856
-
-304-boardid_fixup.patch
-file
-
-
-
-
-2012-11-13T03:42:55.384320Z
-595d22c5e72497b33e6bb091b847ec72
-2012-11-06T15:21:46.466031Z
-34103
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1725
-
-416-bcm63xx_enet-reset-port-link-state-in-bcm_enetsw_ope.patch
-file
-
-
-
-
-2012-11-13T03:42:55.424308Z
-1b0032e1d25f42f7266d0549ff345ffc
-2012-07-31T14:27:31.023670Z
-32921
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1020
-
-405-bcm963xx_real_rootfs_length.patch
+016-spi-bcm63xx-fix-bcm6348-38.patch
 file
 
 
 
 
 2012-11-13T03:42:55.400315Z
-7cbbd2b0bfe8be22260d315e2b14dd70
-2012-11-06T15:21:46.466031Z
-34103
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-905
-
-519_board_CPVA502plus.patch
-file
-
-
-
-
-2012-11-25T00:45:21.825431Z
-af5970e46c722689de18c7e15743ecdf
-2012-11-24T14:19:22.982252Z
-34322
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1025
-
-305-missing_ext_irq_bits.patch
-file
-
-
-
-
-2012-11-13T03:42:55.364328Z
-760de8e0ad9e8f1b6311cd7ed6571941
-2012-07-03T21:42:07.956236Z
-32591
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2771
-
-523-MIPS-BCM63XX-add-963281TAN-reference-board.patch
-file
-
-
-
-
-2012-11-25T00:45:21.717436Z
-f36a82a569efb78d27c75aaa1e6aabd6
-2012-11-24T14:19:22.982252Z
-34322
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1887
-
-007-MIPS-BCM63XX-remove-SPI2-register.patch
-file
-
-
-
-
-2012-11-13T03:42:55.416310Z
-a7d8a8150d68ee2ef110c7ebf3fa6a78
-2012-03-28T20:42:25.633708Z
-31130
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3455
-
-439-MIPS-BCM63XX-wire-up-the-HS-SPI-controller-for-BCM63.patch
-file
-
-
-
-
-2012-11-13T03:42:55.368327Z
-53e2a730e3526c73e4d613ade3adad96
-2012-07-31T14:27:42.940262Z
-32923
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1857
-
-531-board_96328A-1441N1.patch
-file
-
-
-
-
-2012-11-25T00:45:21.861433Z
-a694fe3d23871c8ac6882d2510b0b3bf
-2012-11-24T14:19:22.982252Z
-34322
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1778
-
-420-BCM63XX-allow-enetsw-without-tx-irq.patch
-file
-
-
-
-
-2012-11-13T03:42:55.404313Z
-2b66681e6afaeeb184cb2e7ecb61a476
-2012-07-31T14:27:31.023670Z
-32921
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2302
-
-001-MIPS-BCM63XX-fix-platform_devices-id.patch
-file
-
-
-
-
-2012-11-13T03:42:55.368327Z
-2580c94f77834cec3c496d3ea863434c
-2012-03-28T20:42:25.633708Z
-31130
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1165
-
-418-bcm63xx_enet-store-the-number-of-ports-instead-of-ha.patch
-file
-
-
-
-
-2012-11-13T03:42:55.368327Z
-0ebea5550b3567d90194b1a7612b5e41
-2012-07-31T14:27:31.023670Z
-32921
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3457
-
-500-board-D4PW.patch
-file
-
-
-
-
-2012-11-25T00:45:21.721435Z
-fa4fdf46c899304e5afeeb986a98357c
-2012-11-24T14:19:22.982252Z
-34322
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1179
-
-025-MIPS-BCM63XX-Add-basic-BCM6328-support.patch
-file
-
-
-
-
-2012-11-13T03:42:55.412311Z
-3c9430540be1e68de1430535ef72ff1d
-2012-07-03T21:42:07.956236Z
-32591
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-19677
-
-109-bcm63xx-fix-transfer-bits_per_words-check.patch
-file
-
-
-
-
-2012-11-25T00:45:21.825431Z
-0bddc38a6571bc34deeacdd739752eef
-2012-11-24T14:19:09.856447Z
-34320
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1007
-
-417-bcm63xx_enet-don-t-overwrite-settings-when-setting-d.patch
-file
-
-
-
-
-2012-11-13T03:42:55.368327Z
-091c46d9a15cb38ac254b4a1c6ba3e72
-2012-07-31T14:27:31.023670Z
-32921
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-697
-
-512-board_BTV2110.patch
-file
-
-
-
-
-2012-11-25T00:45:21.825431Z
-3f1a45eb449f5ccf78034f1d76764a33
-2012-11-24T14:19:22.982252Z
-34322
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1499
-
-532-board_96328a-1241N.patch
-file
-
-
-
-
-2012-11-25T00:45:21.721435Z
-182a8f38d094c4d614bb00e5bce880e3
-2012-11-24T14:19:22.982252Z
-34322
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1689
-
-550-alice_gate2_leds.patch
-file
-
-
-
-
-2012-11-25T00:45:21.853432Z
-b5f44e4849d2cac9f55d3b99f4c71034
-2012-11-24T14:19:22.982252Z
-34322
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1901
-
-301-led_count.patch
-file
-
-
-
-
-2012-11-13T03:42:55.424308Z
-bbcb635763acf64fc722ca583f68d715
-2012-08-13T09:55:10.080910Z
-33158
+aec8014eaac88d0205f908c762de5c7d
+2012-06-17T16:17:29.038279Z
+32409
 florian
 
 
@@ -908,143 +92,7 @@ florian
 
 
 
-1303
-
-023-MIPS-BCM63XX-Add-flash-type-detection.patch
-file
-
-
-
-
-2012-11-13T03:42:55.392318Z
-d3c20985eea52c371c137735b352fdb3
-2012-07-03T21:42:07.956236Z
-32591
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4386
-
-516-board_96348A-122.patch
-file
-
-
-
-
-2012-11-25T00:45:21.853432Z
-9ba154a7cb8607a25b8e3db844442059
-2012-11-24T14:19:22.982252Z
-34322
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1594
-
-445-BCM63XX-add-led-pin-for-ath9k.patch
-file
-
-
-
-
-2012-11-25T00:45:21.829431Z
-92f488137b051bc28b7123ca29b81b2a
-2012-11-24T14:19:16.240451Z
-34321
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1679
-
-017-MIPS-BCM63XX-fix-BCM6368-IPSec-clock-bit.patch
-file
-
-
-
-
-2012-11-13T03:42:55.400315Z
-056af3c83f65a9bf95a2c2cdbbfe280f
-2012-07-03T21:42:07.956236Z
-32591
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-863
+4187
 
 003-MIPS-BCM63XX-add-IRQ_SPI-and-CPU-specific-SPI-IRQ-va.patch
 file
@@ -1080,48 +128,14 @@ jogo
 
 2544
 
-310-board_leds_naming.patch
+519_board_CPVA502plus.patch
 file
 
 
 
 
-2012-11-13T03:42:55.364328Z
-4e357d80ed44901666604c23e9bfc5a8
-2012-07-03T21:42:07.956236Z
-32591
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5150
-
-508-board_hw553.patch
-file
-
-
-
-
-2012-11-25T00:45:21.717436Z
-72beb6d4933aa52382727d8e5f5889fc
+2012-11-25T00:45:21.825431Z
+af5970e46c722689de18c7e15743ecdf
 2012-11-24T14:19:22.982252Z
 34322
 jogo
@@ -1146,18 +160,52 @@ jogo
 
 
 
-1693
+1025
 
-515-board_DWV-S0_fixes.patch
+014-spi-bcm63xx-don-t-use-the-stopping-state.patch
 file
 
 
 
 
-2012-11-25T00:45:21.725435Z
-2801c76958494d6fdb7ac6ae069e1523
-2012-11-24T14:19:22.982252Z
-34322
+2012-11-13T03:42:55.372325Z
+0ee6d06100a45fff2e0552efcdbb086f
+2012-06-06T13:31:33.744515Z
+32078
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1988
+
+007-MIPS-BCM63XX-remove-SPI2-register.patch
+file
+
+
+
+
+2012-11-13T03:42:55.416310Z
+a7d8a8150d68ee2ef110c7ebf3fa6a78
+2012-03-28T20:42:25.633708Z
+31130
 jogo
 
 
@@ -1180,18 +228,18 @@ jogo
 
 
 
-448
+3455
 
-529-board_fast2604.patch
+300-reset_buttons.patch
 file
 
 
 
 
-2012-11-25T00:45:21.725435Z
-499fd787aa4d2712e5370b4cffd3a71a
-2012-11-24T14:19:22.982252Z
-34322
+2012-11-13T03:42:55.420309Z
+8d12faec1154c5c01bce988e7084410d
+2012-07-31T14:27:25.903108Z
+32920
 jogo
 
 
@@ -1214,41 +262,7 @@ jogo
 
 
 
-1408
-
-801-ssb_export_fallback_sprom.patch
-file
-
-
-
-
-2012-11-25T00:45:21.829431Z
-9f17edc82cb0012a0be073bbd51413e5
-2012-11-24T14:19:22.982252Z
-34322
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-814
+2866
 
 425-MIPS-BCM63XX-add-HS-SPI-platform-device-and-register.patch
 file
@@ -1284,16 +298,16 @@ jogo
 
 3768
 
-312-MIPS-BCM63XX-add-basic-BCM6362-support.patch
+109-bcm63xx-fix-transfer-bits_per_words-check.patch
 file
 
 
 
 
-2012-11-13T03:42:55.420309Z
-5076e7fe752885f4368a662149ded356
-2012-08-05T23:18:22.183250Z
-33005
+2012-11-25T00:45:21.825431Z
+0bddc38a6571bc34deeacdd739752eef
+2012-11-24T14:19:09.856447Z
+34320
 jogo
 
 
@@ -1316,84 +330,16 @@ jogo
 
 
 
-16964
+1007
 
-424-MIPS-BCM63XX-add-support-for-BCM6328-in-bcm_enetsw.patch
+551-96348gw_a_leds.patch
 file
 
 
 
 
-2012-11-13T03:42:55.388319Z
-7cd2a1ea0da98d93ab9854bef18ff26a
-2012-07-31T14:27:31.023670Z
-32921
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3100
-
-430-MTD-bcm63xxpart-use-nvram-for-PSI-size.patch
-file
-
-
-
-
-2012-11-13T03:42:55.420309Z
-16aa5bfbaec496a02fae9e4c8680e769
-2012-11-06T15:21:46.466031Z
-34103
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-907
-
-528-board_nb6.patch
-file
-
-
-
-
-2012-11-25T00:45:21.829431Z
-4f0255a5c6164307690784b5be7e7642
+2012-11-25T00:45:21.717436Z
+d3496a25e3e173e991b81ec7781b1905
 2012-11-24T14:19:22.982252Z
 34322
 jogo
@@ -1418,18 +364,52 @@ jogo
 
 
 
-3186
+426
 
-433-MTD-m25p80-allow-passing-pp_data.patch
+301-led_count.patch
 file
 
 
 
 
-2012-11-13T03:42:55.404313Z
-1cdd397b5c85d754f85cee32d99be023
-2012-09-09T11:54:56.801022Z
-33340
+2012-11-13T03:42:55.424308Z
+bbcb635763acf64fc722ca583f68d715
+2012-08-13T09:55:10.080910Z
+33158
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1303
+
+507-board-MAGIC.patch
+file
+
+
+
+
+2012-11-25T00:45:21.853432Z
+22a608983e14bd9b732fab70f3e345a4
+2012-11-24T14:19:22.982252Z
+34322
 jogo
 
 
@@ -1452,7 +432,41 @@ jogo
 
 
 
-1335
+1511
+
+503-board-CPVA642.patch
+file
+
+
+
+
+2012-11-25T00:45:21.861433Z
+9a2131ea70aeb8064f5b7a6ed9441184
+2012-11-24T14:19:22.982252Z
+34322
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2171
 
 105-MTD-bcm63xxpart-use-correct-printk-format-for-partit.patch
 file
@@ -1556,16 +570,16 @@ jogo
 
 1071
 
-441-MIPS-BCM63XX-enable-USB-for-BCM6362.patch
+435-BCM63XX-add-a-fixup-for-ath9k-devices.patch
 file
 
 
 
 
-2012-11-13T03:42:55.416310Z
-2e9f3b0dc1c0e64edb81746c721a60ad
-2012-07-31T14:27:42.940262Z
-32923
+2012-11-13T03:42:55.424308Z
+2982abb341d312f7f68acb246b247069
+2012-07-31T14:27:31.023670Z
+32921
 jogo
 
 
@@ -1588,7 +602,41 @@ jogo
 
 
 
-3066
+6049
+
+426-SPI-MIPS-BCM63XX-Add-HS-SPI-driver.patch
+file
+
+
+
+
+2012-11-13T03:42:55.404313Z
+4baf6535ebb954fcac215e14e5a0a645
+2012-07-31T14:27:31.023670Z
+32921
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+12630
 
 103-MTD-bcm63xxpart-make-fixed-part-length-calculation-m.patch
 file
@@ -1624,16 +672,16 @@ jogo
 
 1731
 
-552-board_96348gw-10_reset_button.patch
+110-spi-bcm63xx-fix-multi-transfer-messages.patch
 file
 
 
 
 
-2012-11-25T00:45:21.829431Z
-ceb1b0d52dd875a4dcbe73db8b7952b4
-2012-11-24T14:19:22.982252Z
-34322
+2012-11-25T00:45:21.721435Z
+48bb28833637416938c6e4c829d85389
+2012-11-24T14:19:09.856447Z
+34320
 jogo
 
 
@@ -1656,19 +704,19 @@ jogo
 
 
 
-451
+7521
 
-106-bcm63xx_watchdog_section_mismatch.patch
+310-board_leds_naming.patch
 file
 
 
 
 
-2012-11-13T03:42:55.368327Z
-2133269b72266a0a1fc4990f01d8b60c
-2012-06-29T09:07:54.558806Z
-32522
-florian
+2012-11-13T03:42:55.364328Z
+4e357d80ed44901666604c23e9bfc5a8
+2012-07-03T21:42:07.956236Z
+32591
+jogo
 
 
 
@@ -1690,7 +738,7 @@ florian
 
 
 
-643
+5150
 
 443-MIPS-BCM63XX-enable-enet-for-BCM6345.patch
 file
@@ -1726,16 +774,16 @@ florian
 
 27551
 
-011-spi-add-Broadcom-BCM63xx-SPI-controller-driver.patch
+408-6358-enet1-external-mii-clk.patch
 file
 
 
 
 
-2012-11-13T03:42:55.368327Z
-d5fddae3487525c7360d901a2614c0cc
-2012-06-27T22:14:50.218179Z
-32512
+2012-11-13T03:42:55.392318Z
+f6f2df5d51c2af6ffb9bf23e0f2cab3e
+2012-08-13T09:55:07.358851Z
+33157
 florian
 
 
@@ -1758,7 +806,75 @@ florian
 
 
 
-13979
+829
+
+801-ssb_export_fallback_sprom.patch
+file
+
+
+
+
+2012-11-25T00:45:21.829431Z
+9f17edc82cb0012a0be073bbd51413e5
+2012-11-24T14:19:22.982252Z
+34322
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+814
+
+030-MIPS-BCM63XX-Fix-BCM6345-clock-bits.patch
+file
+
+
+
+
+2012-11-13T03:42:55.392318Z
+6065d746b6dd679eb8556e1e3cd37f2c
+2012-10-22T12:57:14.811633Z
+33888
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1319
 
 428-MIPS-BCM63XX-move-nvram-related-functions-into-their.patch
 file
@@ -1794,14 +910,14 @@ jogo
 
 9302
 
-506-board_gw6200_gw6000.patch
+520-bcm63xx-add-support-for-96368MVWG-board.patch
 file
 
 
 
 
-2012-11-25T00:45:21.721435Z
-b300eafde3db625cc0391d2cef833853
+2012-11-25T00:45:21.825431Z
+c3166e4f194e7c73d7d3bb3b53935426
 2012-11-24T14:19:22.982252Z
 34322
 jogo
@@ -1826,18 +942,18 @@ jogo
 
 
 
-2244
+2607
 
-402-ehci-add-driver-for-bcm63xx-integrated-controller.patch
+025-MIPS-BCM63XX-Add-basic-BCM6328-support.patch
 file
 
 
 
 
-2012-11-13T03:42:55.372325Z
-274a7b3b9c8ade1d13082ee1ce0b87d0
-2012-06-11T22:24:58.457324Z
-32221
+2012-11-13T03:42:55.412311Z
+3c9430540be1e68de1430535ef72ff1d
+2012-07-03T21:42:07.956236Z
+32591
 jogo
 
 
@@ -1860,7 +976,143 @@ jogo
 
 
 
-6636
+19677
+
+107-MIPS-BCM63XX-Fix-USB-IRQ-definitions-for-6328.patch
+file
+
+
+
+
+2012-11-13T03:42:55.368327Z
+45662311c1cc092ed1891a2b94606c3c
+2012-08-05T23:18:22.183250Z
+33005
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1063
+
+414-bcm63xx_enet-split-dma-registers-access.patch
+file
+
+
+
+
+2012-11-13T03:42:55.396316Z
+ee43ef7d4fb03c703bfd19802b4d9afd
+2012-07-31T14:27:42.940262Z
+32923
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+12934
+
+528-board_nb6.patch
+file
+
+
+
+
+2012-11-25T00:45:21.829431Z
+4f0255a5c6164307690784b5be7e7642
+2012-11-24T14:19:22.982252Z
+34322
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3186
+
+432-BCM63XX-allow-providing-fixup-data-in-board-data.patch
+file
+
+
+
+
+2012-11-13T03:42:55.380322Z
+14980764a11d948190101e6d39431379
+2012-11-06T15:21:46.466031Z
+34103
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2395
 
 428-MIPS-BCM63XX-add-flash-detection-for-BCM6362.patch
 file
@@ -1896,14 +1148,48 @@ jogo
 
 1909
 
-521-bcm63xx-add-support-for-96368MVNgr-board.patch
+406_bcm63xx_enet_vlan_incoming_fixed.patch
 file
 
 
 
 
-2012-11-25T00:45:21.861433Z
-73817aa65881c6deaa2789ec2cb1b47d
+2012-11-13T03:42:55.384320Z
+d94f6ebe982b9bd76687c991f7e2282c
+2012-03-28T20:42:09.478646Z
+31127
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+381
+
+522-MIPS-BCM63XX-add-96328avng-reference-board.patch
+file
+
+
+
+
+2012-11-25T00:45:21.853432Z
+ec483a580bddd309153942ba7e31c177
 2012-11-24T14:19:22.982252Z
 34322
 jogo
@@ -1928,52 +1214,18 @@ jogo
 
 
 
-1718
+1999
 
-513-board_livebox.patch
+018-MIPS-BCM63XX-add-support-for-ipsec-clock.patch
 file
 
 
 
 
-2012-11-13T03:42:55.408312Z
-419b454ce4140b59bb4cb88202eb5454
-2012-07-11T09:15:26.380288Z
-32661
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-9018
-
-110-spi-bcm63xx-fix-multi-transfer-messages.patch
-file
-
-
-
-
-2012-11-25T00:45:21.721435Z
-48bb28833637416938c6e4c829d85389
-2012-11-24T14:19:09.856447Z
-34320
+2012-11-13T03:42:55.384320Z
+3c5d75223e6e5ccec40b22d9ec7c70da
+2012-07-03T21:42:07.956236Z
+32591
 jogo
 
 
@@ -1996,18 +1248,52 @@ jogo
 
 
 
-7521
+1290
 
-016-spi-bcm63xx-fix-bcm6348-38.patch
+514-board_ct536_ct5621.patch
 file
 
 
 
 
-2012-11-13T03:42:55.400315Z
-aec8014eaac88d0205f908c762de5c7d
-2012-06-17T16:17:29.038279Z
-32409
+2012-11-25T00:45:21.853432Z
+8e5041558b70a142305e2dabd75ee17f
+2012-11-24T14:19:22.982252Z
+34322
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1225
+
+106-bcm63xx_watchdog_section_mismatch.patch
+file
+
+
+
+
+2012-11-13T03:42:55.368327Z
+2133269b72266a0a1fc4990f01d8b60c
+2012-06-29T09:07:54.558806Z
+32522
 florian
 
 
@@ -2030,7 +1316,585 @@ florian
 
 
 
-4187
+643
+
+405-bcm963xx_real_rootfs_length.patch
+file
+
+
+
+
+2012-11-13T03:42:55.400315Z
+7cbbd2b0bfe8be22260d315e2b14dd70
+2012-11-06T15:21:46.466031Z
+34103
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+905
+
+529-board_fast2604.patch
+file
+
+
+
+
+2012-11-25T00:45:21.725435Z
+499fd787aa4d2712e5370b4cffd3a71a
+2012-11-24T14:19:22.982252Z
+34322
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1408
+
+420-BCM63XX-allow-enetsw-without-tx-irq.patch
+file
+
+
+
+
+2012-11-13T03:42:55.404313Z
+2b66681e6afaeeb184cb2e7ecb61a476
+2012-07-31T14:27:31.023670Z
+32921
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2302
+
+531-board_96328A-1441N1.patch
+file
+
+
+
+
+2012-11-25T00:45:21.861433Z
+a694fe3d23871c8ac6882d2510b0b3bf
+2012-11-24T14:19:22.982252Z
+34322
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1778
+
+312-MIPS-BCM63XX-add-basic-BCM6362-support.patch
+file
+
+
+
+
+2012-11-13T03:42:55.420309Z
+5076e7fe752885f4368a662149ded356
+2012-08-05T23:18:22.183250Z
+33005
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+16964
+
+102-MTD-bcm63xxpart-merge-sparelen-calculation.patch
+file
+
+
+
+
+2012-11-13T03:42:55.420309Z
+364b6628f9928495ad06b3c5874d4a56
+2012-05-27T13:22:37.900992Z
+31880
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1163
+
+311-cfe_version_mod.patch
+file
+
+
+
+
+2012-11-13T03:42:55.404313Z
+d9edf01816c6831e6f69a74eff8f42d7
+2012-07-31T14:27:25.903108Z
+32920
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+972
+
+430-MTD-bcm63xxpart-use-nvram-for-PSI-size.patch
+file
+
+
+
+
+2012-11-13T03:42:55.420309Z
+16aa5bfbaec496a02fae9e4c8680e769
+2012-11-06T15:21:46.466031Z
+34103
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+907
+
+437-MIPS-BCM63XX-pass-caldata-info-to-flash.patch
+file
+
+
+
+
+2012-11-13T03:42:55.404313Z
+fc72443f81b5b916414a668c3594de02
+2012-07-31T14:27:42.940262Z
+32923
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2589
+
+010-MIPS-BCM63XX-make-board-setup-code-register-the-spi-.patch
+file
+
+
+
+
+2012-11-13T03:42:55.388319Z
+5aa26d7c9fc2ea89df36f9a8f1e38eb4
+2012-03-28T20:42:25.633708Z
+31130
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+937
+
+800-wl_exports.patch
+file
+
+
+
+
+2012-11-13T03:42:55.424308Z
+7f539f044774399dbd7f664486ec8343
+2012-06-29T09:07:54.558806Z
+32522
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+873
+
+802-rtl8367r_fix_RGMII_support.patch
+file
+
+
+
+
+2012-11-13T03:42:55.424308Z
+134548ac819b1d4073044e05109137ec
+2012-07-31T14:27:47.270455Z
+32924
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1033
+
+402-ehci-add-driver-for-bcm63xx-integrated-controller.patch
+file
+
+
+
+
+2012-11-13T03:42:55.372325Z
+274a7b3b9c8ade1d13082ee1ce0b87d0
+2012-06-11T22:24:58.457324Z
+32221
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6636
+
+104-MTD-bcm63xxpart-move-the-last-curpart-to-its-correct.patch
+file
+
+
+
+
+2012-11-13T03:42:55.392318Z
+29d5c29e6dcf1a84768b61450d129778
+2012-05-27T13:22:37.900992Z
+31880
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+892
+
+423-bcm63xx_enet-fix-lockup-on-BCM6328.patch
+file
+
+
+
+
+2012-11-13T03:42:55.364328Z
+aa8a34ec3ffaadf9cb504e2c780ea968
+2012-07-31T14:27:31.023670Z
+32921
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3147
+
+108-BCM63XX-Add-register-definitions-for-USBD-depen.patch
+file
+
+
+
+
+2012-11-13T03:42:55.408312Z
+bfb649c90581147ff44c48c39c3e943d
+2012-08-05T23:18:22.183250Z
+33005
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2609
+
+005-MIPS-BCM63XX-add-BCM6368-SPI-clock-mask.patch
+file
+
+
+
+
+2012-11-13T03:42:55.408312Z
+7b6fca0b31a7e1085bf4943528903f52
+2012-03-28T20:42:25.633708Z
+31130
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+764
 
 203-MTD-DEVICES-m25p80-add-support-for-limiting-reads.patch
 file
@@ -2100,14 +1964,14 @@ jogo
 
 1898
 
-510-board_spw303v.patch
+508-board_hw553.patch
 file
 
 
 
 
-2012-11-25T00:45:21.853432Z
-14015d53724291fb74658810d1e5f18f
+2012-11-25T00:45:21.717436Z
+72beb6d4933aa52382727d8e5f5889fc
 2012-11-24T14:19:22.982252Z
 34322
 jogo
@@ -2132,16 +1996,50 @@ jogo
 
 
 
-1501
+1693
 
-504-board_dsl_274xb_rev_c.patch
+011-spi-add-Broadcom-BCM63xx-SPI-controller-driver.patch
 file
 
 
 
 
-2012-11-25T00:45:21.853432Z
-e7c3437da12b2f403d958923c0a4acdb
+2012-11-13T03:42:55.368327Z
+d5fddae3487525c7360d901a2614c0cc
+2012-06-27T22:14:50.218179Z
+32512
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+13979
+
+505-board_spw500v.patch
+file
+
+
+
+
+2012-11-25T00:45:21.825431Z
+68721bd60805dd8f69645a7676152869
 2012-11-24T14:19:22.982252Z
 34322
 jogo
@@ -2166,41 +2064,7 @@ jogo
 
 
 
-1434
-
-302-extended-platform-devices.patch
-file
-
-
-
-
-2012-11-13T03:42:55.380322Z
-bb4002fc6644be3251df8f9ed7a27552
-2012-07-31T14:27:25.903108Z
-32920
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-692
+1385
 
 028-MIPS-Expose-PCIe-drivers-for-MIPS.patch
 file
@@ -2236,14 +2100,48 @@ jogo
 
 975
 
-520-bcm63xx-add-support-for-96368MVWG-board.patch
+302-extended-platform-devices.patch
+file
+
+
+
+
+2012-11-13T03:42:55.380322Z
+bb4002fc6644be3251df8f9ed7a27552
+2012-07-31T14:27:25.903108Z
+32920
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+692
+
+524-board_dsl_274xb_rev_f.patch
 file
 
 
 
 
 2012-11-25T00:45:21.825431Z
-c3166e4f194e7c73d7d3bb3b53935426
+c199473c110bc141eec07a1a434749db
 2012-11-24T14:19:22.982252Z
 34322
 jogo
@@ -2268,721 +2166,7 @@ jogo
 
 
 
-2607
-
-414-bcm63xx_enet-split-dma-registers-access.patch
-file
-
-
-
-
-2012-11-13T03:42:55.396316Z
-ee43ef7d4fb03c703bfd19802b4d9afd
-2012-07-31T14:27:42.940262Z
-32923
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-12934
-
-421-BCM63XX-use-port-id-for-deciding-external-phy.patch
-file
-
-
-
-
-2012-11-13T03:42:55.412311Z
-138599f341b68d086c1160db1aa08ed6
-2012-07-31T14:27:31.023670Z
-32921
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3001
-
-010-MIPS-BCM63XX-make-board-setup-code-register-the-spi-.patch
-file
-
-
-
-
-2012-11-13T03:42:55.388319Z
-5aa26d7c9fc2ea89df36f9a8f1e38eb4
-2012-03-28T20:42:25.633708Z
-31130
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-937
-
-502-board-96338W2_E7T.patch
-file
-
-
-
-
-2012-11-25T00:45:21.857432Z
-ae088c161287abb43454cee7ce9998f9
-2012-11-24T14:19:22.982252Z
-34322
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-939
-
-101-MTD-bcm63xxpart-remove-unused-variable.patch
-file
-
-
-
-
-2012-11-13T03:42:55.372325Z
-8803954e358661b3a8f443553405b7f9
-2012-05-27T13:22:37.900992Z
-31880
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1139
-
-426-SPI-MIPS-BCM63XX-Add-HS-SPI-driver.patch
-file
-
-
-
-
-2012-11-13T03:42:55.404313Z
-4baf6535ebb954fcac215e14e5a0a645
-2012-07-31T14:27:31.023670Z
-32921
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-12630
-
-104-MTD-bcm63xxpart-move-the-last-curpart-to-its-correct.patch
-file
-
-
-
-
-2012-11-13T03:42:55.392318Z
-29d5c29e6dcf1a84768b61450d129778
-2012-05-27T13:22:37.900992Z
-31880
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-892
-
-525-board_96348w3.patch
-file
-
-
-
-
-2012-11-25T00:45:21.857432Z
-cec8c75905273f5290969229a9b43c3e
-2012-11-24T14:19:22.982252Z
-34322
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1251
-
-527-board_dva-g3810bn-tl-1.patch
-file
-
-
-
-
-2012-11-25T00:45:21.829431Z
-14150f5a43185066997c2a8d1da6fe6f
-2012-11-24T14:19:22.982252Z
-34322
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1431
-
-403-MIPS-BCM63XX-register-ehci-device.patch
-file
-
-
-
-
-2012-11-13T03:42:55.384320Z
-2179548c7e343a1b2dc0b300f05af3f9
-2012-11-06T15:21:46.466031Z
-34103
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3850
-
-100-MIPS-BCM63XX-add-missing-include-for-bcm63xx_gpio.h.patch
-file
-
-
-
-
-2012-11-13T03:42:55.372325Z
-df8950ea1c631490fbf957c546aacff2
-2012-03-28T20:42:09.478646Z
-31127
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2012
-
-021-hw_random-add-Broadcom-BCM63xx-RNG-driver.patch
-file
-
-
-
-
-2012-11-13T03:42:55.388319Z
-dc8115d057ebd0c638ff838230b11874
-2012-07-03T21:42:07.956236Z
-32591
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5876
-
-553-board_rta770bw.patch
-file
-
-
-
-
-2012-11-25T00:45:21.829431Z
-b9e5ae44ed345cbd185bcf2eea2494cf
-2012-11-24T14:19:22.982252Z
-34322
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1162
-
-300-reset_buttons.patch
-file
-
-
-
-
-2012-11-13T03:42:55.420309Z
-8d12faec1154c5c01bce988e7084410d
-2012-07-31T14:27:25.903108Z
-32920
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2866
-
-401-MIPS-BCM63XX-register-ohci-device.patch
-file
-
-
-
-
-2012-11-13T03:42:55.388319Z
-8828da5059821c30942c0a88a09879a1
-2012-11-06T15:21:46.466031Z
-34103
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4260
-
-006-MIPS-BCM63XX-define-SPI-register-sizes.patch
-file
-
-
-
-
-2012-11-13T03:42:55.380322Z
-a5239793a68e94a650d94f92263a6418
-2012-03-28T20:42:25.633708Z
-31130
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1007
-
-404-bcm963xx_flashmap.patch
-file
-
-
-
-
-2012-11-25T00:45:21.861433Z
-51b992e97833888efec912aed763be5f
-2012-11-24T14:19:09.856447Z
-34320
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1991
-
-311-cfe_version_mod.patch
-file
-
-
-
-
-2012-11-13T03:42:55.404313Z
-d9edf01816c6831e6f69a74eff8f42d7
-2012-07-31T14:27:25.903108Z
-32920
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-972
-
-446-BCM63XX-add-a-fixup-for-rt2x00-devices.patch
-file
-
-
-
-
-2012-11-25T00:45:21.853432Z
-f8ed167d951cc69dd41678c8d899b278
-2012-11-24T14:19:22.982252Z
-34322
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5148
-
-440-MIPS-BCM63XX-enable-SPI-controller-for-BCM6362.patch
-file
-
-
-
-
-2012-11-13T03:42:55.380322Z
-b68f85c351b017a468786f22dcb248eb
-2012-08-05T23:18:22.183250Z
-33005
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3485
-
-437-MIPS-BCM63XX-pass-caldata-info-to-flash.patch
-file
-
-
-
-
-2012-11-13T03:42:55.404313Z
-fc72443f81b5b916414a668c3594de02
-2012-07-31T14:27:42.940262Z
-32923
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2589
+2565
 
 511-board_V2500V.patch
 file
@@ -3018,82 +2202,14 @@ jogo
 
 3340
 
-020-MIPS-BCM63XX-add-RNG-driver-platform_device-stub.patch
+502-board-96338W2_E7T.patch
 file
 
 
 
 
-2012-11-13T03:42:55.368327Z
-391b0b54df2689d6a51bd40615b45b16
-2012-07-03T21:42:07.956236Z
-32591
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2192
-
-309-MIPS-BCM63XX-add-HSSPI-register-definitions.patch
-file
-
-
-
-
-2012-11-13T03:42:55.372325Z
-295505bcc8668d26d67c83fc4f246b76
-2012-08-05T23:18:22.183250Z
-33005
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-8301
-
-503-board-CPVA642.patch
-file
-
-
-
-
-2012-11-25T00:45:21.861433Z
-9a2131ea70aeb8064f5b7a6ed9441184
+2012-11-25T00:45:21.857432Z
+ae088c161287abb43454cee7ce9998f9
 2012-11-24T14:19:22.982252Z
 34322
 jogo
@@ -3118,16 +2234,16 @@ jogo
 
 
 
-2171
+939
 
-522-MIPS-BCM63XX-add-96328avng-reference-board.patch
+550-alice_gate2_leds.patch
 file
 
 
 
 
 2012-11-25T00:45:21.853432Z
-ec483a580bddd309153942ba7e31c177
+b5f44e4849d2cac9f55d3b99f4c71034
 2012-11-24T14:19:22.982252Z
 34322
 jogo
@@ -3152,18 +2268,18 @@ jogo
 
 
 
-1999
+1901
 
-435-BCM63XX-add-a-fixup-for-ath9k-devices.patch
+516-board_96348A-122.patch
 file
 
 
 
 
-2012-11-13T03:42:55.424308Z
-2982abb341d312f7f68acb246b247069
-2012-07-31T14:27:31.023670Z
-32921
+2012-11-25T00:45:21.853432Z
+9ba154a7cb8607a25b8e3db844442059
+2012-11-24T14:19:22.982252Z
+34322
 jogo
 
 
@@ -3186,7 +2302,7 @@ jogo
 
 
 
-6049
+1594
 
 009-MIPS-BCM63XX-add-stub-to-register-the-SPI-platform-d.patch
 file
@@ -3222,50 +2338,16 @@ jogo
 
 6699
 
-019-MIPS-BCM63XX-add-RNG-peripheral-definitions.patch
-file
-
-
-
-
-2012-11-13T03:42:55.376323Z
-841d6d518548e5ecc531ece07e8ba990
-2012-07-03T21:42:07.956236Z
-32591
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3810
-
-436-MTD-bcm63xxpart-allow-passing-a-caldata-offset.patch
+304-boardid_fixup.patch
 file
 
 
 
 
 2012-11-13T03:42:55.384320Z
-f8353ee62f3c43ac4f354534b8003421
-2012-07-31T14:27:31.023670Z
-32921
+595d22c5e72497b33e6bb091b847ec72
+2012-11-06T15:21:46.466031Z
+34103
 jogo
 
 
@@ -3288,118 +2370,16 @@ jogo
 
 
 
-3672
+1725
 
-514-board_ct536_ct5621.patch
+017-MIPS-BCM63XX-fix-BCM6368-IPSec-clock-bit.patch
 file
 
 
 
 
-2012-11-25T00:45:21.853432Z
-8e5041558b70a142305e2dabd75ee17f
-2012-11-24T14:19:22.982252Z
-34322
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1225
-
-005-MIPS-BCM63XX-add-BCM6368-SPI-clock-mask.patch
-file
-
-
-
-
-2012-11-13T03:42:55.408312Z
-7b6fca0b31a7e1085bf4943528903f52
-2012-03-28T20:42:25.633708Z
-31130
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-764
-
-108-BCM63XX-Add-register-definitions-for-USBD-depen.patch
-file
-
-
-
-
-2012-11-13T03:42:55.408312Z
-bfb649c90581147ff44c48c39c3e943d
-2012-08-05T23:18:22.183250Z
-33005
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2609
-
-027-MIPS-BCM63XX-Add-PCIe-Support-for-BCM6328.patch
-file
-
-
-
-
-2012-11-13T03:42:55.392318Z
-4090b2626e0b5cbbab3413c0dd09eb72
+2012-11-13T03:42:55.400315Z
+056af3c83f65a9bf95a2c2cdbbfe280f
 2012-07-03T21:42:07.956236Z
 32591
 jogo
@@ -3424,118 +2404,16 @@ jogo
 
 
 
-13676
+863
 
-014-spi-bcm63xx-don-t-use-the-stopping-state.patch
+441-MIPS-BCM63XX-enable-USB-for-BCM6362.patch
 file
 
 
 
 
-2012-11-13T03:42:55.372325Z
-0ee6d06100a45fff2e0552efcdbb086f
-2012-06-06T13:31:33.744515Z
-32078
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1988
-
-438-MIPS-BCM63XX-enable-USB-for-BCM6328.patch
-file
-
-
-
-
-2012-11-13T03:42:55.380322Z
-80be85422bd02b57b527b04d15703f9a
-2012-07-31T14:27:34.854101Z
-32922
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2208
-
-307-MIPS-BCM63XX-allow-second-UART-on-BCM6328.patch
-file
-
-
-
-
-2012-11-13T03:42:55.392318Z
-59422bbdda5b93e1e9fdc8f41701ac63
-2012-07-03T21:42:07.956236Z
-32591
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-745
-
-442-MIPS-BCM63XX-enable-enetsw-for-BCM6362.patch
-file
-
-
-
-
-2012-11-13T03:42:55.388319Z
-05bd9ea5d29724eafa08ac686f16b0a9
+2012-11-13T03:42:55.416310Z
+2e9f3b0dc1c0e64edb81746c721a60ad
 2012-07-31T14:27:42.940262Z
 32923
 jogo
@@ -3560,18 +2438,18 @@ jogo
 
 
 
-2601
+3066
 
-102-MTD-bcm63xxpart-merge-sparelen-calculation.patch
+403-MIPS-BCM63XX-register-ehci-device.patch
 file
 
 
 
 
-2012-11-13T03:42:55.420309Z
-364b6628f9928495ad06b3c5874d4a56
-2012-05-27T13:22:37.900992Z
-31880
+2012-11-13T03:42:55.384320Z
+2179548c7e343a1b2dc0b300f05af3f9
+2012-11-06T15:21:46.466031Z
+34103
 jogo
 
 
@@ -3594,16 +2472,16 @@ jogo
 
 
 
-1163
+3850
 
-107-MIPS-BCM63XX-Fix-USB-IRQ-definitions-for-6328.patch
+427-MIPS-BCM63XX-Register-SPI-flash-if-present.patch
 file
 
 
 
 
-2012-11-13T03:42:55.368327Z
-45662311c1cc092ed1891a2b94606c3c
+2012-11-13T03:42:55.372325Z
+b627a2d2c0a47203dfc6b2e6324fcd37
 2012-08-05T23:18:22.183250Z
 33005
 jogo
@@ -3628,7 +2506,279 @@ jogo
 
 
 
-1063
+3364
+
+021-hw_random-add-Broadcom-BCM63xx-RNG-driver.patch
+file
+
+
+
+
+2012-11-13T03:42:55.388319Z
+dc8115d057ebd0c638ff838230b11874
+2012-07-03T21:42:07.956236Z
+32591
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5876
+
+012-mtd-bcm63xxpart-handle-Broadcom-partition-order.patch
+file
+
+
+
+
+2012-11-13T03:42:55.420309Z
+bb06e33aa10e825bb9929f7937d77d38
+2012-05-27T13:22:37.900992Z
+31880
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3514
+
+401-MIPS-BCM63XX-register-ohci-device.patch
+file
+
+
+
+
+2012-11-13T03:42:55.388319Z
+8828da5059821c30942c0a88a09879a1
+2012-11-06T15:21:46.466031Z
+34103
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4260
+
+444-BCM63XX-add-endian-check-for-ath9k.patch
+file
+
+
+
+
+2012-11-13T03:42:55.372325Z
+6c4674211995b465700c9617d30fc314
+2012-11-07T09:01:03.359303Z
+34105
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1701
+
+404-bcm963xx_flashmap.patch
+file
+
+
+
+
+2012-11-25T00:45:21.861433Z
+51b992e97833888efec912aed763be5f
+2012-11-24T14:19:09.856447Z
+34320
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1991
+
+015-spi-bcm63xx-set-master-driver-mode_bits.patch
+file
+
+
+
+
+2012-11-13T03:42:55.420309Z
+cfcdd1bf6cd661d302860891d793ebd8
+2012-06-06T13:31:33.744515Z
+32078
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1002
+
+506-board_gw6200_gw6000.patch
+file
+
+
+
+
+2012-11-25T00:45:21.721435Z
+b300eafde3db625cc0391d2cef833853
+2012-11-24T14:19:22.982252Z
+34322
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2244
+
+433-MTD-m25p80-allow-passing-pp_data.patch
+file
+
+
+
+
+2012-11-13T03:42:55.404313Z
+1cdd397b5c85d754f85cee32d99be023
+2012-09-09T11:54:56.801022Z
+33340
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1335
 
 313-MIPS-BCM63XX-enable-pcie-for-BCM6362.patch
 file
@@ -3664,14 +2814,14 @@ jogo
 
 3221
 
-530-board_963281T_TEF.patch
+512-board_BTV2110.patch
 file
 
 
 
 
-2012-11-25T00:45:21.717436Z
-4bdab69774db46680eb5d1b5bc3f9e54
+2012-11-25T00:45:21.825431Z
+3f1a45eb449f5ccf78034f1d76764a33
 2012-11-24T14:19:22.982252Z
 34322
 jogo
@@ -3696,143 +2846,7 @@ jogo
 
 
 
-2599
-
-802-rtl8367r_fix_RGMII_support.patch
-file
-
-
-
-
-2012-11-13T03:42:55.424308Z
-134548ac819b1d4073044e05109137ec
-2012-07-31T14:27:47.270455Z
-32924
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1033
-
-800-wl_exports.patch
-file
-
-
-
-
-2012-11-13T03:42:55.424308Z
-7f539f044774399dbd7f664486ec8343
-2012-06-29T09:07:54.558806Z
-32522
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-873
-
-501-board-NB4.patch
-file
-
-
-
-
-2012-11-25T00:45:21.717436Z
-d2ff0e8c1359c5628516876f4a8e8a0d
-2012-11-24T14:19:22.982252Z
-34322
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-12665
-
-026-MIPS-BCM63XX-Move-the-PCI-initialization-into-its-ow.patch
-file
-
-
-
-
-2012-11-13T03:42:55.404313Z
-57bd6c85d11d21287285f1b4d3d6e6a7
-2012-07-03T21:42:07.956236Z
-32591
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1693
+1499
 
 002-MIPS-BCM63XX-be-consistent-in-clock-bits-enable-nami.patch
 file
@@ -3868,6 +2882,142 @@ jogo
 
 3282
 
+026-MIPS-BCM63XX-Move-the-PCI-initialization-into-its-ow.patch
+file
+
+
+
+
+2012-11-13T03:42:55.404313Z
+57bd6c85d11d21287285f1b4d3d6e6a7
+2012-07-03T21:42:07.956236Z
+32591
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1693
+
+023-MIPS-BCM63XX-Add-flash-type-detection.patch
+file
+
+
+
+
+2012-11-13T03:42:55.392318Z
+d3c20985eea52c371c137735b352fdb3
+2012-07-03T21:42:07.956236Z
+32591
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4386
+
+101-MTD-bcm63xxpart-remove-unused-variable.patch
+file
+
+
+
+
+2012-11-13T03:42:55.372325Z
+8803954e358661b3a8f443553405b7f9
+2012-05-27T13:22:37.900992Z
+31880
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1139
+
+445-BCM63XX-add-led-pin-for-ath9k.patch
+file
+
+
+
+
+2012-11-25T00:45:21.829431Z
+92f488137b051bc28b7123ca29b81b2a
+2012-11-24T14:19:16.240451Z
+34321
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1679
+
 415-bcm63xx_enet-add-support-for-bcm6368-internal-ethern.patch
 file
 
@@ -3901,40 +3051,6 @@ jogo
 
 
 40535
-
-423-bcm63xx_enet-fix-lockup-on-BCM6328.patch
-file
-
-
-
-
-2012-11-13T03:42:55.364328Z
-aa8a34ec3ffaadf9cb504e2c780ea968
-2012-07-31T14:27:31.023670Z
-32921
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3147
 
 413-bcm63xx_enet-disable-clock-when-uninitializing-devic.patch
 file
@@ -4004,48 +3120,14 @@ jogo
 
 897
 
-431-MTD-physmap-allow-passing-pp_data.patch
+527-board_dva-g3810bn-tl-1.patch
 file
 
 
 
 
-2012-11-13T03:42:55.400315Z
-6f43996035563d1be3e1cacacad4826d
-2012-07-31T14:27:31.023670Z
-32921
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1359
-
-517-RTA1205W_16_uart_fixes.patch
-file
-
-
-
-
-2012-11-25T00:45:21.857432Z
-c164882c2f1ee528b511a60a3ff2dc0a
+2012-11-25T00:45:21.829431Z
+14150f5a43185066997c2a8d1da6fe6f
 2012-11-24T14:19:22.982252Z
 34322
 jogo
@@ -4070,7 +3152,75 @@ jogo
 
 
 
-295
+1431
+
+027-MIPS-BCM63XX-Add-PCIe-Support-for-BCM6328.patch
+file
+
+
+
+
+2012-11-13T03:42:55.392318Z
+4090b2626e0b5cbbab3413c0dd09eb72
+2012-07-03T21:42:07.956236Z
+32591
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+13676
+
+523-MIPS-BCM63XX-add-963281TAN-reference-board.patch
+file
+
+
+
+
+2012-11-25T00:45:21.717436Z
+f36a82a569efb78d27c75aaa1e6aabd6
+2012-11-24T14:19:22.982252Z
+34322
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1887
 
 008-MIPS-BCM63XX-define-internal-registers-offsets-of-th.patch
 file
@@ -4106,82 +3256,14 @@ jogo
 
 4605
 
-012-mtd-bcm63xxpart-handle-Broadcom-partition-order.patch
+553-board_rta770bw.patch
 file
 
 
 
 
-2012-11-13T03:42:55.420309Z
-bb06e33aa10e825bb9929f7937d77d38
-2012-05-27T13:22:37.900992Z
-31880
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3514
-
-015-spi-bcm63xx-set-master-driver-mode_bits.patch
-file
-
-
-
-
-2012-11-13T03:42:55.420309Z
-cfcdd1bf6cd661d302860891d793ebd8
-2012-06-06T13:31:33.744515Z
-32078
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1002
-
-526-board_CT6373-1.patch
-file
-
-
-
-
-2012-11-25T00:45:21.861433Z
-07e267db76d20fb04852df753e76dd2c
+2012-11-25T00:45:21.829431Z
+b9e5ae44ed345cbd185bcf2eea2494cf
 2012-11-24T14:19:22.982252Z
 34322
 jogo
@@ -4206,18 +3288,18 @@ jogo
 
 
 
-3024
+1162
 
-201-SPI-Allow-specifying-the-parsers-for-SPI-flash.patch
+307-MIPS-BCM63XX-allow-second-UART-on-BCM6328.patch
 file
 
 
 
 
-2012-11-13T03:42:55.396316Z
-33c7aeef0b53a9979e24414856c32828
-2012-05-27T13:22:33.370476Z
-31879
+2012-11-13T03:42:55.392318Z
+59422bbdda5b93e1e9fdc8f41701ac63
+2012-07-03T21:42:07.956236Z
+32591
 jogo
 
 
@@ -4240,7 +3322,143 @@ jogo
 
 
 
-1279
+745
+
+006-MIPS-BCM63XX-define-SPI-register-sizes.patch
+file
+
+
+
+
+2012-11-13T03:42:55.380322Z
+a5239793a68e94a650d94f92263a6418
+2012-03-28T20:42:25.633708Z
+31130
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1007
+
+446-BCM63XX-add-a-fixup-for-rt2x00-devices.patch
+file
+
+
+
+
+2012-11-25T00:45:21.853432Z
+f8ed167d951cc69dd41678c8d899b278
+2012-11-24T14:19:22.982252Z
+34322
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5148
+
+500-board-D4PW.patch
+file
+
+
+
+
+2012-11-25T00:45:21.721435Z
+fa4fdf46c899304e5afeeb986a98357c
+2012-11-24T14:19:22.982252Z
+34322
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1179
+
+440-MIPS-BCM63XX-enable-SPI-controller-for-BCM6362.patch
+file
+
+
+
+
+2012-11-13T03:42:55.380322Z
+b68f85c351b017a468786f22dcb248eb
+2012-08-05T23:18:22.183250Z
+33005
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3485
 
 306-Revert-MIPS-BCM63XX-Call-board_register_device-from-.patch
 file
@@ -4276,82 +3494,14 @@ jogo
 
 922
 
-432-BCM63XX-allow-providing-fixup-data-in-board-data.patch
+530-board_963281T_TEF.patch
 file
 
 
 
 
-2012-11-13T03:42:55.380322Z
-14980764a11d948190101e6d39431379
-2012-11-06T15:21:46.466031Z
-34103
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2395
-
-303-spi-board-info.patch
-file
-
-
-
-
-2012-11-13T03:42:55.396316Z
-afb6cdc2150fdb786d73a653c679fa14
-2012-07-31T14:27:25.903108Z
-32920
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-990
-
-507-board-MAGIC.patch
-file
-
-
-
-
-2012-11-25T00:45:21.853432Z
-22a608983e14bd9b732fab70f3e345a4
+2012-11-25T00:45:21.717436Z
+4bdab69774db46680eb5d1b5bc3f9e54
 2012-11-24T14:19:22.982252Z
 34322
 jogo
@@ -4376,7 +3526,143 @@ jogo
 
 
 
-1511
+2599
+
+501-board-NB4.patch
+file
+
+
+
+
+2012-11-25T00:45:21.717436Z
+d2ff0e8c1359c5628516876f4a8e8a0d
+2012-11-24T14:19:22.982252Z
+34322
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+12665
+
+532-board_96328a-1241N.patch
+file
+
+
+
+
+2012-11-25T00:45:21.721435Z
+182a8f38d094c4d614bb00e5bce880e3
+2012-11-24T14:19:22.982252Z
+34322
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1689
+
+429-MIPS-BCM63XX-export-PSI-size-from-nvram.patch
+file
+
+
+
+
+2012-11-13T03:42:55.368327Z
+a08b03515aa2adeae196601fa592af94
+2012-07-31T14:27:31.023670Z
+32921
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1254
+
+521-bcm63xx-add-support-for-96368MVNgr-board.patch
+file
+
+
+
+
+2012-11-25T00:45:21.861433Z
+73817aa65881c6deaa2789ec2cb1b47d
+2012-11-24T14:19:22.982252Z
+34322
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1718
 
 419-bcm63xx_enet-store-is_sw-in-a-variable-instead-of-ch.patch
 file
@@ -4412,16 +3698,16 @@ jogo
 
 2180
 
-406_bcm63xx_enet_vlan_incoming_fixed.patch
+436-MTD-bcm63xxpart-allow-passing-a-caldata-offset.patch
 file
 
 
 
 
 2012-11-13T03:42:55.384320Z
-d94f6ebe982b9bd76687c991f7e2282c
-2012-03-28T20:42:09.478646Z
-31127
+f8353ee62f3c43ac4f354534b8003421
+2012-07-31T14:27:31.023670Z
+32921
 jogo
 
 
@@ -4444,18 +3730,18 @@ jogo
 
 
 
-381
+3672
 
-412-bcm63xx_enet-use-resource_size.patch
+552-board_96348gw-10_reset_button.patch
 file
 
 
 
 
-2012-11-13T03:42:55.400315Z
-7fa04e8ca1b9ecb0b49102c7b0c69f2c
-2012-03-28T20:42:20.622237Z
-31129
+2012-11-25T00:45:21.829431Z
+ceb1b0d52dd875a4dcbe73db8b7952b4
+2012-11-24T14:19:22.982252Z
+34322
 jogo
 
 
@@ -4478,75 +3764,7 @@ jogo
 
 
 
-2248
-
-400-ohci-add-driver-for-bcm63xx-integrated-controller.patch
-file
-
-
-
-
-2012-11-13T03:42:55.408312Z
-6c810519bdca20a3b8e349a3f276068c
-2012-03-28T20:42:25.633708Z
-31130
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-6612
-
-018-MIPS-BCM63XX-add-support-for-ipsec-clock.patch
-file
-
-
-
-
-2012-11-13T03:42:55.384320Z
-3c5d75223e6e5ccec40b22d9ec7c70da
-2012-07-03T21:42:07.956236Z
-32591
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1290
+451
 
 013-spi-bcm63xx-convert-to-the-pump-message-infrastructu.patch
 file
@@ -4582,16 +3800,16 @@ florian
 
 8624
 
-427-MIPS-BCM63XX-Register-SPI-flash-if-present.patch
+431-MTD-physmap-allow-passing-pp_data.patch
 file
 
 
 
 
-2012-11-13T03:42:55.372325Z
-b627a2d2c0a47203dfc6b2e6324fcd37
-2012-08-05T23:18:22.183250Z
-33005
+2012-11-13T03:42:55.400315Z
+6f43996035563d1be3e1cacacad4826d
+2012-07-31T14:27:31.023670Z
+32921
 jogo
 
 
@@ -4614,19 +3832,19 @@ jogo
 
 
 
-3364
+1359
 
-408-6358-enet1-external-mii-clk.patch
+100-MIPS-BCM63XX-add-missing-include-for-bcm63xx_gpio.h.patch
 file
 
 
 
 
-2012-11-13T03:42:55.392318Z
-f6f2df5d51c2af6ffb9bf23e0f2cab3e
-2012-08-13T09:55:07.358851Z
-33157
-florian
+2012-11-13T03:42:55.372325Z
+df8950ea1c631490fbf957c546aacff2
+2012-03-28T20:42:09.478646Z
+31127
+jogo
 
 
 
@@ -4648,7 +3866,7 @@ florian
 
 
 
-829
+2012
 
 024-MIPS-BCM63XX-Use-the-Chip-ID-register-for-identifyin.patch
 file
@@ -4684,48 +3902,14 @@ jogo
 
 1778
 
-030-MIPS-BCM63XX-Fix-BCM6345-clock-bits.patch
+515-board_DWV-S0_fixes.patch
 file
 
 
 
 
-2012-11-13T03:42:55.392318Z
-6065d746b6dd679eb8556e1e3cd37f2c
-2012-10-22T12:57:14.811633Z
-33888
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1319
-
-509-board_rta1320_16m.patch
-file
-
-
-
-
-2012-11-25T00:45:21.825431Z
-2c7bfc79c09f05510aadf99101e94e15
+2012-11-25T00:45:21.725435Z
+2801c76958494d6fdb7ac6ae069e1523
 2012-11-24T14:19:22.982252Z
 34322
 jogo
@@ -4750,18 +3934,18 @@ jogo
 
 
 
-1030
+448
 
-505-board_spw500v.patch
+442-MIPS-BCM63XX-enable-enetsw-for-BCM6362.patch
 file
 
 
 
 
-2012-11-25T00:45:21.825431Z
-68721bd60805dd8f69645a7676152869
-2012-11-24T14:19:22.982252Z
-34322
+2012-11-13T03:42:55.388319Z
+05bd9ea5d29724eafa08ac686f16b0a9
+2012-07-31T14:27:42.940262Z
+32923
 jogo
 
 
@@ -4784,7 +3968,7 @@ jogo
 
 
 
-1385
+2601
 
 004-MIPS-BCM63XX-define-BCM6358-SPI-base-address.patch
 file
@@ -4820,16 +4004,16 @@ jogo
 
 885
 
-444-BCM63XX-add-endian-check-for-ath9k.patch
+424-MIPS-BCM63XX-add-support-for-BCM6328-in-bcm_enetsw.patch
 file
 
 
 
 
-2012-11-13T03:42:55.372325Z
-6c4674211995b465700c9617d30fc314
-2012-11-07T09:01:03.359303Z
-34105
+2012-11-13T03:42:55.388319Z
+7cd2a1ea0da98d93ab9854bef18ff26a
+2012-07-31T14:27:31.023670Z
+32921
 jogo
 
 
@@ -4852,5 +4036,821 @@ jogo
 
 
 
-1701
+3100
+
+022-MIPS-BCM63XX-Move-flash-registration-out-of-board_bc.patch
+file
+
+
+
+
+2012-11-13T03:42:55.424308Z
+a3d9d157cb2aff6423f10fc82b98c527
+2012-07-03T21:42:07.956236Z
+32591
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5657
+
+309-MIPS-BCM63XX-add-HSSPI-register-definitions.patch
+file
+
+
+
+
+2012-11-13T03:42:55.372325Z
+295505bcc8668d26d67c83fc4f246b76
+2012-08-05T23:18:22.183250Z
+33005
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8301
+
+411-bcm63xx_enet-implement-reset_autoneg-ethtool.patch
+file
+
+
+
+
+2012-11-13T03:42:55.424308Z
+ae213d7ec92561926202cd9e564a3672
+2012-03-28T20:42:20.622237Z
+31129
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1274
+
+410-NET-bcm63xx_enet-move-phy_-dis-connect-into-probe-re.patch
+file
+
+
+
+
+2012-11-13T03:42:55.424308Z
+a46f038a9403c3b587eb59520c1c3107
+2012-03-28T20:42:20.622237Z
+31129
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4856
+
+019-MIPS-BCM63XX-add-RNG-peripheral-definitions.patch
+file
+
+
+
+
+2012-11-13T03:42:55.376323Z
+841d6d518548e5ecc531ece07e8ba990
+2012-07-03T21:42:07.956236Z
+32591
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3810
+
+416-bcm63xx_enet-reset-port-link-state-in-bcm_enetsw_ope.patch
+file
+
+
+
+
+2012-11-13T03:42:55.424308Z
+1b0032e1d25f42f7266d0549ff345ffc
+2012-07-31T14:27:31.023670Z
+32921
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1020
+
+400-ohci-add-driver-for-bcm63xx-integrated-controller.patch
+file
+
+
+
+
+2012-11-13T03:42:55.408312Z
+6c810519bdca20a3b8e349a3f276068c
+2012-03-28T20:42:25.633708Z
+31130
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6612
+
+513-board_livebox.patch
+file
+
+
+
+
+2012-11-13T03:42:55.408312Z
+419b454ce4140b59bb4cb88202eb5454
+2012-07-11T09:15:26.380288Z
+32661
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9018
+
+305-missing_ext_irq_bits.patch
+file
+
+
+
+
+2012-11-13T03:42:55.364328Z
+760de8e0ad9e8f1b6311cd7ed6571941
+2012-07-03T21:42:07.956236Z
+32591
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2771
+
+438-MIPS-BCM63XX-enable-USB-for-BCM6328.patch
+file
+
+
+
+
+2012-11-13T03:42:55.380322Z
+80be85422bd02b57b527b04d15703f9a
+2012-07-31T14:27:34.854101Z
+32922
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2208
+
+517-RTA1205W_16_uart_fixes.patch
+file
+
+
+
+
+2012-11-25T00:45:21.857432Z
+c164882c2f1ee528b511a60a3ff2dc0a
+2012-11-24T14:19:22.982252Z
+34322
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+295
+
+439-MIPS-BCM63XX-wire-up-the-HS-SPI-controller-for-BCM63.patch
+file
+
+
+
+
+2012-11-13T03:42:55.368327Z
+53e2a730e3526c73e4d613ade3adad96
+2012-07-31T14:27:42.940262Z
+32923
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1857
+
+510-board_spw303v.patch
+file
+
+
+
+
+2012-11-25T00:45:21.853432Z
+14015d53724291fb74658810d1e5f18f
+2012-11-24T14:19:22.982252Z
+34322
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1501
+
+001-MIPS-BCM63XX-fix-platform_devices-id.patch
+file
+
+
+
+
+2012-11-13T03:42:55.368327Z
+2580c94f77834cec3c496d3ea863434c
+2012-03-28T20:42:25.633708Z
+31130
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1165
+
+418-bcm63xx_enet-store-the-number-of-ports-instead-of-ha.patch
+file
+
+
+
+
+2012-11-13T03:42:55.368327Z
+0ebea5550b3567d90194b1a7612b5e41
+2012-07-31T14:27:31.023670Z
+32921
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3457
+
+509-board_rta1320_16m.patch
+file
+
+
+
+
+2012-11-25T00:45:21.825431Z
+2c7bfc79c09f05510aadf99101e94e15
+2012-11-24T14:19:22.982252Z
+34322
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1030
+
+504-board_dsl_274xb_rev_c.patch
+file
+
+
+
+
+2012-11-25T00:45:21.853432Z
+e7c3437da12b2f403d958923c0a4acdb
+2012-11-24T14:19:22.982252Z
+34322
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1434
+
+201-SPI-Allow-specifying-the-parsers-for-SPI-flash.patch
+file
+
+
+
+
+2012-11-13T03:42:55.396316Z
+33c7aeef0b53a9979e24414856c32828
+2012-05-27T13:22:33.370476Z
+31879
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1279
+
+526-board_CT6373-1.patch
+file
+
+
+
+
+2012-11-25T00:45:21.861433Z
+07e267db76d20fb04852df753e76dd2c
+2012-11-24T14:19:22.982252Z
+34322
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3024
+
+421-BCM63XX-use-port-id-for-deciding-external-phy.patch
+file
+
+
+
+
+2012-11-13T03:42:55.412311Z
+138599f341b68d086c1160db1aa08ed6
+2012-07-31T14:27:31.023670Z
+32921
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3001
+
+417-bcm63xx_enet-don-t-overwrite-settings-when-setting-d.patch
+file
+
+
+
+
+2012-11-13T03:42:55.368327Z
+091c46d9a15cb38ac254b4a1c6ba3e72
+2012-07-31T14:27:31.023670Z
+32921
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+697
+
+303-spi-board-info.patch
+file
+
+
+
+
+2012-11-13T03:42:55.396316Z
+afb6cdc2150fdb786d73a653c679fa14
+2012-07-31T14:27:25.903108Z
+32920
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+990
+
+020-MIPS-BCM63XX-add-RNG-driver-platform_device-stub.patch
+file
+
+
+
+
+2012-11-13T03:42:55.368327Z
+391b0b54df2689d6a51bd40615b45b16
+2012-07-03T21:42:07.956236Z
+32591
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2192
+
+412-bcm63xx_enet-use-resource_size.patch
+file
+
+
+
+
+2012-11-13T03:42:55.400315Z
+7fa04e8ca1b9ecb0b49102c7b0c69f2c
+2012-03-28T20:42:20.622237Z
+31129
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2248
 

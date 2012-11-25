@@ -1,7 +1,7 @@
 10
 
 dir
-34325
+34384
 svn://svn.openwrt.org/openwrt/trunk/target/linux/generic/patches-3.7
 svn://svn.openwrt.org/openwrt
 
@@ -536,40 +536,6 @@ florian
 
 2446
 
-810-pci_disable_common_quirks.patch
-file
-
-
-
-
-2012-11-19T05:46:01.806392Z
-2b8e7316a12d8cb3eb68ec905e49281e
-2012-11-18T18:52:38.509028Z
-34247
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1650
-
 102-ehci_hcd_ignore_oc.patch
 file
 
@@ -604,17 +570,17 @@ florian
 
 1529
 
-993-mpcore_wdt_fix_wdioc_setoptions_handling.patch
+810-pci_disable_common_quirks.patch
 file
 
 
 
 
-2012-11-19T05:46:01.798393Z
-a88e4bdb71e55fbbdbe5e4ab0530f494
-2012-10-24T13:05:22.930421Z
-33911
-florian
+2012-11-19T05:46:01.806392Z
+2b8e7316a12d8cb3eb68ec905e49281e
+2012-11-18T18:52:38.509028Z
+34247
+kaloz
 
 
 
@@ -636,7 +602,7 @@ florian
 
 
 
-1090
+1650
 
 511-yaffs-3.5-use-clear_inode.patch
 file
@@ -671,6 +637,40 @@ juhosg
 
 
 418
+
+993-mpcore_wdt_fix_wdioc_setoptions_handling.patch
+file
+
+
+
+
+2012-11-19T05:46:01.798393Z
+a88e4bdb71e55fbbdbe5e4ab0530f494
+2012-10-24T13:05:22.930421Z
+33911
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1090
 
 503-yaffs-Replace-yaffs_dir_llseek-with-Linux-generic-ll.patch
 file
@@ -842,40 +842,6 @@ florian
 
 562
 
-504-yaffs-Mods-for-Linux-3.0-and-fix-a-typo.patch
-file
-
-
-
-
-2012-11-19T05:46:01.794394Z
-e434636d5a075567f14598a4dd30d864
-2012-10-31T15:12:45.706176Z
-34032
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4104
-
 400-rootfs_split.patch
 file
 
@@ -910,17 +876,17 @@ kaloz
 
 9217
 
-642-bridge_port_isolate.patch
+504-yaffs-Mods-for-Linux-3.0-and-fix-a-typo.patch
 file
 
 
 
 
-2012-11-19T05:46:01.826391Z
-10c22d98e38ed54c7ec61edd14bc31cb
-2012-10-24T13:05:22.930421Z
-33911
-florian
+2012-11-19T05:46:01.794394Z
+e434636d5a075567f14598a4dd30d864
+2012-10-31T15:12:45.706176Z
+34032
+juhosg
 
 
 
@@ -942,7 +908,7 @@ florian
 
 
 
-3261
+4104
 
 430-mtd_myloader_partition_parser.patch
 file
@@ -977,6 +943,40 @@ kaloz
 
 
 1355
+
+642-bridge_port_isolate.patch
+file
+
+
+
+
+2012-11-19T05:46:01.826391Z
+10c22d98e38ed54c7ec61edd14bc31cb
+2012-10-24T13:05:22.930421Z
+33911
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3261
 
 254-textsearch_kconfig_hacks.patch
 file
@@ -2134,14 +2134,14 @@ kaloz
 
 1240
 
-473-mtd_m25p80_add_w25q128.patch
+861-04_spi_gpio_implement_spi_delay.patch
 file
 
 
 
 
-2012-11-19T05:46:01.802393Z
-fca19667c488c3e34369296e68279d4e
+2012-11-19T05:46:01.810392Z
+cabff8b8d272fe75597bbc920a1b5e5f
 2012-11-18T18:52:38.509028Z
 34247
 kaloz
@@ -2166,7 +2166,7 @@ kaloz
 
 
 
-469
+1748
 
 652-atm_header_changes.patch
 file
@@ -2202,14 +2202,14 @@ kaloz
 
 572
 
-861-04_spi_gpio_implement_spi_delay.patch
+473-mtd_m25p80_add_w25q128.patch
 file
 
 
 
 
-2012-11-19T05:46:01.810392Z
-cabff8b8d272fe75597bbc920a1b5e5f
+2012-11-19T05:46:01.802393Z
+fca19667c488c3e34369296e68279d4e
 2012-11-18T18:52:38.509028Z
 34247
 kaloz
@@ -2234,7 +2234,7 @@ kaloz
 
 
 
-1748
+469
 
 251-sound_kconfig.patch
 file
@@ -2270,17 +2270,17 @@ jogo
 
 200
 
-230-openwrt_lzma_options.patch
+320-ppc4xx_optimization.patch
 file
 
 
 
 
-2012-11-19T05:46:01.850390Z
-2d2c78c9d0139b9b90afce6cac2bd539
-2012-11-18T18:52:38.509028Z
-34247
-kaloz
+2012-11-19T05:46:01.842390Z
+e9d9d3e011a987a355b61426cf541789
+2012-10-24T13:05:22.930421Z
+33911
+florian
 
 
 
@@ -2302,7 +2302,7 @@ kaloz
 
 
 
-2058
+1183
 
 864-gpiommc_configfs_locking.patch
 file
@@ -2338,17 +2338,17 @@ jogo
 
 1388
 
-320-ppc4xx_optimization.patch
+230-openwrt_lzma_options.patch
 file
 
 
 
 
-2012-11-19T05:46:01.842390Z
-e9d9d3e011a987a355b61426cf541789
-2012-10-24T13:05:22.930421Z
-33911
-florian
+2012-11-19T05:46:01.850390Z
+2d2c78c9d0139b9b90afce6cac2bd539
+2012-11-18T18:52:38.509028Z
+34247
+kaloz
 
 
 
@@ -2370,7 +2370,7 @@ florian
 
 
 
-1183
+2058
 
 513-yaffs-3.6-fix-dir_inode-ops.patch
 file
@@ -2406,14 +2406,14 @@ juhosg
 
 2532
 
-303-mips_fix_kexec.patch
+602-netfilter_layer7_match.patch
 file
 
 
 
 
 2012-11-19T05:46:01.802393Z
-55d5cf2907f164470ef5c5f27544dfd8
+e5a53063930b359add808c2d97efd067
 2012-02-02T08:23:54.955046Z
 29986
 jogo
@@ -2438,7 +2438,7 @@ jogo
 
 
 
-409
+1587
 
 541-ubifs-xz-decompression-support.patch
 file
@@ -2474,14 +2474,14 @@ kaloz
 
 2253
 
-602-netfilter_layer7_match.patch
+303-mips_fix_kexec.patch
 file
 
 
 
 
 2012-11-19T05:46:01.802393Z
-e5a53063930b359add808c2d97efd067
+55d5cf2907f164470ef5c5f27544dfd8
 2012-02-02T08:23:54.955046Z
 29986
 jogo
@@ -2506,7 +2506,7 @@ jogo
 
 
 
-1587
+409
 
 723-phy_ip175c.patch
 file
@@ -2746,17 +2746,17 @@ kaloz
 
 7057
 
-960-decompress_unlzo_fix.patch
+724-phy_ar8216.patch
 file
 
 
 
 
-2012-11-19T05:46:01.850390Z
-402f499ae030406a76ba48b0d7817f0b
-2012-02-02T08:23:54.955046Z
-29986
-jogo
+2012-11-19T05:46:01.838390Z
+5aa354b308b058f41b4b776060bcd887
+2012-11-18T18:52:38.509028Z
+34247
+kaloz
 
 
 
@@ -2778,7 +2778,7 @@ jogo
 
 
 
-423
+796
 
 550-ubifs-symlink-xattr-support.patch
 file
@@ -2814,17 +2814,17 @@ kaloz
 
 2098
 
-724-phy_ar8216.patch
+960-decompress_unlzo_fix.patch
 file
 
 
 
 
-2012-11-19T05:46:01.838390Z
-5aa354b308b058f41b4b776060bcd887
-2012-11-18T18:52:38.509028Z
-34247
-kaloz
+2012-11-19T05:46:01.850390Z
+402f499ae030406a76ba48b0d7817f0b
+2012-02-02T08:23:54.955046Z
+29986
+jogo
 
 
 
@@ -2846,7 +2846,7 @@ kaloz
 
 
 
-796
+423
 
 910-kobject_uevent.patch
 file
@@ -2984,40 +2984,6 @@ florian
 
 416
 
-643-bridge_remove_ipv6_dependency.patch
-file
-
-
-
-
-2012-11-19T05:46:01.802393Z
-18c5f356d60b0ff1747d88ed9328ed8b
-2012-11-18T18:52:38.509028Z
-34247
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3273
-
 729-phy-tantos.patch
 file
 
@@ -3051,6 +3017,40 @@ kaloz
 
 
 741
+
+643-bridge_remove_ipv6_dependency.patch
+file
+
+
+
+
+2012-11-19T05:46:01.802393Z
+18c5f356d60b0ff1747d88ed9328ed8b
+2012-11-18T18:52:38.509028Z
+34247
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3273
 
 300-mips_expose_boot_raw.patch
 file
@@ -3154,40 +3154,6 @@ kaloz
 
 577
 
-505-yaffs-3.2-use-MTD_OPS_AUTO_OOB.patch
-file
-
-
-
-
-2012-11-19T05:46:01.814392Z
-05e2f052e8aacff38404f4d9d6a6af83
-2012-10-31T19:33:12.973442Z
-34041
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1722
-
 531-debloat_lzma.patch
 file
 
@@ -3222,17 +3188,17 @@ juhosg
 
 16924
 
-830-ledtrig_morse.patch
+505-yaffs-3.2-use-MTD_OPS_AUTO_OOB.patch
 file
 
 
 
 
-2012-11-19T05:46:01.806392Z
-5d10d84b93f2effbde35cec177437c63
-2012-11-18T18:52:38.509028Z
-34247
-kaloz
+2012-11-19T05:46:01.814392Z
+05e2f052e8aacff38404f4d9d6a6af83
+2012-10-31T19:33:12.973442Z
+34041
+juhosg
 
 
 
@@ -3254,7 +3220,7 @@ kaloz
 
 
 
-877
+1722
 
 710-phy-add-mdio_register_board_info.patch
 file
@@ -3290,6 +3256,40 @@ kaloz
 
 5009
 
+830-ledtrig_morse.patch
+file
+
+
+
+
+2012-11-19T05:46:01.806392Z
+5d10d84b93f2effbde35cec177437c63
+2012-11-18T18:52:38.509028Z
+34247
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+877
+
 863-gpiommc.patch
 file
 
@@ -3323,40 +3323,6 @@ kaloz
 
 
 23000
-
-870-hifn795x_byteswap.patch
-file
-
-
-
-
-2012-11-19T05:46:01.834391Z
-723f63b588c4efe08438f3abad2f90e0
-2012-02-02T08:23:54.955046Z
-29986
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-539
 
 621-sched_act_connmark.patch
 file
@@ -3392,14 +3358,14 @@ florian
 
 4765
 
-601-netfilter_layer7_pktmatch.patch
+870-hifn795x_byteswap.patch
 file
 
 
 
 
-2012-11-19T05:46:01.838390Z
-2858e248f8cf8c296fcfe1d414d8a038
+2012-11-19T05:46:01.834391Z
+723f63b588c4efe08438f3abad2f90e0
 2012-02-02T08:23:54.955046Z
 29986
 jogo
@@ -3424,7 +3390,7 @@ jogo
 
 
 
-3865
+539
 
 061-arm_xz_decompressor_build_fix.patch
 file
@@ -3460,17 +3426,17 @@ kaloz
 
 327
 
-610-netfilter_match_bypass_default_checks.patch
+601-netfilter_layer7_pktmatch.patch
 file
 
 
 
 
-2012-11-19T05:46:01.810392Z
-bc75d150fcd70fe3060d51855f63029f
-2012-11-18T18:52:38.509028Z
-34247
-kaloz
+2012-11-19T05:46:01.838390Z
+2858e248f8cf8c296fcfe1d414d8a038
+2012-02-02T08:23:54.955046Z
+29986
+jogo
 
 
 
@@ -3492,41 +3458,7 @@ kaloz
 
 
 
-2565
-
-950-vm_exports.patch
-file
-
-
-
-
-2012-11-19T05:46:01.850390Z
-5e5f0aaa68ca71d0c75c0b4e6b4f46e2
-2012-11-18T18:52:38.509028Z
-34247
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3155
+3865
 
 841-rtc_pt7c4338.patch
 file
@@ -3562,6 +3494,74 @@ kaloz
 
 7095
 
+950-vm_exports.patch
+file
+
+
+
+
+2012-11-19T05:46:01.850390Z
+5e5f0aaa68ca71d0c75c0b4e6b4f46e2
+2012-11-18T18:52:38.509028Z
+34247
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3155
+
+610-netfilter_match_bypass_default_checks.patch
+file
+
+
+
+
+2012-11-19T05:46:01.810392Z
+bc75d150fcd70fe3060d51855f63029f
+2012-11-18T18:52:38.509028Z
+34247
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2565
+
 258-netfilter_netlink_kconfig_hack.patch
 file
 
@@ -3595,40 +3595,6 @@ jow
 
 
 315
-
-212-byteshift_portability.patch
-file
-
-
-
-
-2012-11-19T05:46:01.810392Z
-4e2907d7785f994e50d10b65cb60a185
-2012-11-04T17:01:15.706773Z
-34068
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1084
 
 306-mips_mem_functions_performance.patch
 file
@@ -3664,6 +3630,40 @@ kaloz
 
 2218
 
+212-byteshift_portability.patch
+file
+
+
+
+
+2012-11-19T05:46:01.810392Z
+4e2907d7785f994e50d10b65cb60a185
+2012-11-04T17:01:15.706773Z
+34068
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1084
+
 062-mips_decompressor_build_fix.patch
 file
 
@@ -3698,17 +3698,17 @@ juhosg
 
 2100
 
-510-yaffs-3.4-use-d_make_root.patch
+641-bridge_always_accept_eap.patch
 file
 
 
 
 
-2012-11-19T05:46:01.838390Z
-09e1f880cb650e36af18372c879ac6a1
-2012-11-01T11:07:23.694465Z
-34054
-juhosg
+2012-11-19T05:46:01.834391Z
+e6b77e129bd030bab92dc6555c21f8ec
+2012-02-02T08:23:54.955046Z
+29986
+jogo
 
 
 
@@ -3730,41 +3730,7 @@ juhosg
 
 
 
-402
-
-502-yaffs-Switch-from-semaphores-to-mutexes.patch
-file
-
-
-
-
-2012-11-19T05:46:01.822391Z
-972e7cadfcdbc6846557ae093f83a2c5
-2012-10-30T21:16:24.235389Z
-34021
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4459
+337
 
 022-ssb-handle-BCM43222-in-pmu-code.patch
 file
@@ -3800,17 +3766,17 @@ hauke
 
 538
 
-641-bridge_always_accept_eap.patch
+502-yaffs-Switch-from-semaphores-to-mutexes.patch
 file
 
 
 
 
-2012-11-19T05:46:01.834391Z
-e6b77e129bd030bab92dc6555c21f8ec
-2012-02-02T08:23:54.955046Z
-29986
-jogo
+2012-11-19T05:46:01.822391Z
+972e7cadfcdbc6846557ae093f83a2c5
+2012-10-30T21:16:24.235389Z
+34021
+juhosg
 
 
 
@@ -3832,7 +3798,41 @@ jogo
 
 
 
-337
+4459
+
+510-yaffs-3.4-use-d_make_root.patch
+file
+
+
+
+
+2012-11-19T05:46:01.838390Z
+09e1f880cb650e36af18372c879ac6a1
+2012-11-01T11:07:23.694465Z
+34054
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+402
 
 820-usb_add_usb_find_device_by_name.patch
 file
@@ -3936,40 +3936,6 @@ kaloz
 
 852
 
-253-ssb_b43_default_on.patch
-file
-
-
-
-
-2012-11-19T05:46:01.850390Z
-4ac05649904639dbbcdbb13549051124
-2012-02-02T08:23:54.955046Z
-29986
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-524
-
 644-bridge_optimize_netfilter_hooks.patch
 file
 
@@ -4004,14 +3970,14 @@ florian
 
 4478
 
-520-squashfs_update_xz_comp_opts.patch
+253-ssb_b43_default_on.patch
 file
 
 
 
 
-2012-11-19T05:46:01.806392Z
-13a7284ba20aefeaa92b207416b8ee4e
+2012-11-19T05:46:01.850390Z
+4ac05649904639dbbcdbb13549051124
 2012-02-02T08:23:54.955046Z
 29986
 jogo
@@ -4036,7 +4002,7 @@ jogo
 
 
 
-697
+524
 
 540-crypto-xz-decompression-support.patch
 file
@@ -4071,6 +4037,40 @@ kaloz
 
 
 3542
+
+520-squashfs_update_xz_comp_opts.patch
+file
+
+
+
+
+2012-11-19T05:46:01.806392Z
+13a7284ba20aefeaa92b207416b8ee4e
+2012-02-02T08:23:54.955046Z
+29986
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+697
 
 501-yaffs-Fix-directory-unlinking-in-yaffs1-mode.patch
 file
@@ -4276,40 +4276,6 @@ kaloz
 
 384
 
-310-arm_module_unresolved_weak_sym.patch
-file
-
-
-
-
-2012-11-19T05:46:01.826391Z
-db64b575845041d2bf68fb876246de0c
-2012-02-02T08:23:54.955046Z
-29986
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-354
-
 880-gateworks_system_controller.patch
 file
 
@@ -4343,6 +4309,40 @@ kaloz
 
 
 10774
+
+310-arm_module_unresolved_weak_sym.patch
+file
+
+
+
+
+2012-11-19T05:46:01.826391Z
+db64b575845041d2bf68fb876246de0c
+2012-02-02T08:23:54.955046Z
+29986
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+354
 
 340-module_alloc_size_check.patch
 file
